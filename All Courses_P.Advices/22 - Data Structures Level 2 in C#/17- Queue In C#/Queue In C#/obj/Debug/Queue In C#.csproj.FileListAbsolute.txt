@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\17- Queue In C#\Queue In C#\bin\Debug\Queue In C#.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\17- Queue In C#\Queue In C#\bin\Debug\Queue In C#.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\17- Queue In C#\Queue In C#\bin\Debug\Queue In C#.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\17- Queue In C#\Queue In C#\obj\Debug\Queue In C#.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\17- Queue In C#\Queue In C#\obj\Debug\Queue In C#.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\17- Queue In C#\Queue In C#\obj\Debug\Queue In C#.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\17- Queue In C#\Queue In C#\obj\Debug\Queue In C#.pdb

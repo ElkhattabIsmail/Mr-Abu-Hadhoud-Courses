@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Efficient Update Using T-SQL\bin\Debug\Efficient Update Using T-SQL.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Efficient Update Using T-SQL\bin\Debug\Efficient Update Using T-SQL.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Efficient Update Using T-SQL\bin\Debug\Efficient Update Using T-SQL.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Efficient Update Using T-SQL\obj\Debug\Efficient Update Using T-SQL.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Efficient Update Using T-SQL\obj\Debug\Efficient Update Using T-SQL.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Efficient Update Using T-SQL\obj\Debug\Efficient Update Using T-SQL.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Efficient Update Using T-SQL\obj\Debug\Efficient Update Using T-SQL.pdb

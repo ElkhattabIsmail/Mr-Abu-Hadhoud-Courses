@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\14-cSharp Level 01 And WindowsForm Applications\C# Advance Consepts\CSharp Model\bin\Debug\CSharp Model.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\14-cSharp Level 01 And WindowsForm Applications\C# Advance Consepts\CSharp Model\bin\Debug\CSharp Model.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\14-cSharp Level 01 And WindowsForm Applications\C# Advance Consepts\CSharp Model\bin\Debug\CSharp Model.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\14-cSharp Level 01 And WindowsForm Applications\C# Advance Consepts\CSharp Model\obj\Debug\CSharp Model.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\14-cSharp Level 01 And WindowsForm Applications\C# Advance Consepts\CSharp Model\obj\Debug\CSharp Model.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\14-cSharp Level 01 And WindowsForm Applications\C# Advance Consepts\CSharp Model\obj\Debug\CSharp Model.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\14-cSharp Level 01 And WindowsForm Applications\C# Advance Consepts\CSharp Model\obj\Debug\CSharp Model.pdb

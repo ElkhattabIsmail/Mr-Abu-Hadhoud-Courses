@@ -1,0 +1,18 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\ContactsBussinessLayer\bin\Debug\ContactsBussinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\ContactsBussinessLayer\bin\Debug\ContactsBussinessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\ContactsBussinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\ContactsBussinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\ContactsBussinessLayer\obj\Debug\ContactsBussinessLayer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\ContactsBussinessLayer\obj\Debug\ContactsBussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\ContactsBussinessLayer\obj\Debug\Contacts.F7E32F19.Up2Date
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\ContactsBussinessLayer\obj\Debug\ContactsBussinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\ContactsBussinessLayer\obj\Debug\ContactsBussinessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\ContactsBussinessLayer\bin\Debug\ContactsBussinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\ContactsBussinessLayer\bin\Debug\ContactsBussinessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\ContactsBussinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\ContactsBussinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\ContactsBussinessLayer\obj\Debug\ContactsBussinessLayer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\ContactsBussinessLayer\obj\Debug\ContactsBussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\ContactsBussinessLayer\obj\Debug\Contacts.F7E32F19.Up2Date
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\ContactsBussinessLayer\obj\Debug\ContactsBussinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\ContactsBussinessLayer\obj\Debug\ContactsBussinessLayer.pdb

@@ -1,0 +1,9 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesBussinessLayer\obj\Debug\EmployeesBussinessLayer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesBussinessLayer\obj\Debug\EmployeesBussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesBussinessLayer\bin\Debug\EmployeesBussinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesBussinessLayer\bin\Debug\EmployeesBussinessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesBussinessLayer\bin\Debug\EmployeesDataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesBussinessLayer\bin\Debug\EmployeesDataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesBussinessLayer\obj\Debug\Employee.E70C5B04.Up2Date
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesBussinessLayer\obj\Debug\EmployeesBussinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesBussinessLayer\obj\Debug\EmployeesBussinessLayer.pdb

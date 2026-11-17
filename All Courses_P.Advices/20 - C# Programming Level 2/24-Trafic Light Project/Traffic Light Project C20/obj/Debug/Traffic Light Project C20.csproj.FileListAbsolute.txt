@@ -1,0 +1,11 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\24-Trafic Light Project\Traffic Light Project C20\bin\Debug\Traffic Light Project C20.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\24-Trafic Light Project\Traffic Light Project C20\bin\Debug\Traffic Light Project C20.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\24-Trafic Light Project\Traffic Light Project C20\bin\Debug\Traffic Light Project C20.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\24-Trafic Light Project\Traffic Light Project C20\obj\Debug\Traffic Light Project C20.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\24-Trafic Light Project\Traffic Light Project C20\obj\Debug\Traffic_Light_Project_C20.CtrlTraficLight.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\24-Trafic Light Project\Traffic Light Project C20\obj\Debug\Traffic_Light_Project_C20.Form1.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\24-Trafic Light Project\Traffic Light Project C20\obj\Debug\Traffic_Light_Project_C20.Properties.Resources.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\24-Trafic Light Project\Traffic Light Project C20\obj\Debug\Traffic Light Project C20.csproj.GenerateResource.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\24-Trafic Light Project\Traffic Light Project C20\obj\Debug\Traffic Light Project C20.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\24-Trafic Light Project\Traffic Light Project C20\obj\Debug\Traffic Light Project C20.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\24-Trafic Light Project\Traffic Light Project C20\obj\Debug\Traffic Light Project C20.pdb

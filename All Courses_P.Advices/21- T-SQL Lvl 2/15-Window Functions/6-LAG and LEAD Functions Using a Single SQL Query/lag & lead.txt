@@ -1,0 +1,36 @@
+Exploring LAG and LEAD Functions Using a Single SQL Query
+Introduction
+In SQL, the LAG and LEAD functions are invaluable for comparing data across rows without complex joins. These window functions fetch data from preceding or following rows in the same result set. We will use a single query on the Students table to illustrate how both functions can be simultaneously applied.
+
+Scenario
+Using the Students table, we will compare each student's grade with the grades of the preceding and following students.
+
+SQL Concepts: LAG and LEAD Together
+LAG():Retrieves data from a preceding row in the result set.
+Used for comparing the current row with past data.
+LEAD():Retrieves data from a following row in the result set.
+Used for comparing the current row with future data.
+Using LAG and LEAD in One Query
+SELECT 
+    StudentID, 
+    Name,
+    LAG(Grade, 1) OVER (ORDER BY Grade DESC) AS PreviousGrade,
+    Grade,
+    LEAD(Grade, 1) OVER (ORDER BY Grade DESC) AS NextGrade
+FROM 
+    Students
+ORDER BY Grade DESC;
+
+In this query:
+
+We use LAG to fetch the grade of the student who has the next lower grade (PreviousGrade).
+We use LEAD to fetch the grade of the student who has the next higher grade (NextGrade).
+Both functions are applied over the dataset ordered by Grade DESC.
+Understanding the Output
+The PreviousGrade column shows the grade of the student ranked immediately lower.
+The NextGrade column shows the grade of the student ranked immediately higher.
+The dataset is ordered by Grade DESC, so the comparison is in the context of descending grades.
+Conclusion
+Combining LAG and LEAD in a single query allows for a comprehensive comparison within the dataset, revealing patterns and relationships that might not be immediately apparent.
+
+This lesson demonstrates the combined power of LAG and LEAD in SQL for analyzing ordered datasets, especially useful in scenarios requiring sequential data comparison.

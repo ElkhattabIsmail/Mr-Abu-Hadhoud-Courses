@@ -1,0 +1,71 @@
+﻿  clsBankClients.cpp
+  Utility Library With OOP.cpp
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsString.h(42,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsString.h(47,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsString.h(59,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsString.h(196,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsString.h(330,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsString.h(378,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsUtil.h(64,5): warning C4102: 'defualt': unreferenced label
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsUser.h(192,12): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+      P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsUser.h(24,12):
+      see declaration of 'clsUser::stLoginRegisterRecord'
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsBankClient.h(207,12): warning C4240: nonstandard extension used: access to 'clsBankClient::stTrnsferLogRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+      P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsBankClient.h(152,12):
+      see declaration of 'clsBankClient::stTrnsferLogRecord'
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsBankClient.h(28,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsBankClient.h(163,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsBankClient.h(164,48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsBankClient.h(165,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsBankClient.h(422,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsBankClient.h(435,32): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsTotalBalancesScreen.h(57,82): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsTransfirmationsScreen.h(37,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsAddNewUserScreen.h(116,17): warning C4129: 'S': unrecognized character escape sequence
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsUpdateUserScreen.h(117,17): warning C4129: 'S': unrecognized character escape sequence
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsCurrency.h(27,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Utility%20Library%20With%20OOP.cpp')
+  
+  Generating Code...
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsBankClient.h(377,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsBankClient.h(439,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
+P:\OOP Application\Utility Library With OOP\Utility Library With OOP\clsUser.h(351,1): warning C4715: 'clsUser::Save': not all control paths return a value
+  Utility Library With OOP.vcxproj -> P:\OOP Application\Utility Library With OOP\x64\Debug\Utility Library With OOP.exe

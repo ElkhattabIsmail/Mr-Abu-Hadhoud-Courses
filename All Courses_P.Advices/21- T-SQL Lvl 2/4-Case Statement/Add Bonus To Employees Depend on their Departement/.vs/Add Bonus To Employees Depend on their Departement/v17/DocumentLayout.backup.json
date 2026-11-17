@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course21- Database Level2 - Concepts \u0026 T-SQL\\4-Case Statement\\Add Bonus To Employees Depend on their Departement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F556C3CA-E54E-45B3-963E-6D841AD23508}|Add Bonus To Employees Depend on their Departement.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\course21- database level2 - concepts \u0026 t-sql\\4-case statement\\add bonus to employees depend on their departement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F556C3CA-E54E-45B3-963E-6D841AD23508}|Add Bonus To Employees Depend on their Departement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 39,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course21- Database Level2 - Concepts \u0026 T-SQL\\4-Case Statement\\Add Bonus To Employees Depend on their Departement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course21- Database Level2 - Concepts \u0026 T-SQL\\4-Case Statement\\Add Bonus To Employees Depend on their Departement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAIMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:35:17.144Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

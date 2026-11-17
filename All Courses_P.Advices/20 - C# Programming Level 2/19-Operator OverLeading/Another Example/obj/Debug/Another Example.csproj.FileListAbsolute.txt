@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\Another Example\bin\Debug\Another Example.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\Another Example\bin\Debug\Another Example.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\Another Example\bin\Debug\Another Example.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\Another Example\obj\Debug\Another Example.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\Another Example\obj\Debug\Another Example.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\Another Example\obj\Debug\Another Example.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\Another Example\obj\Debug\Another Example.pdb

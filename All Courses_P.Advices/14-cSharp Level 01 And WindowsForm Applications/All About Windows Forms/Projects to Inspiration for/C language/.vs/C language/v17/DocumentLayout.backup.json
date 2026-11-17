@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Projects to Inspiration for\\C language\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7916E44E-2C3F-43C8-B362-807EE427227C}|C language.vcxproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Projects to Inspiration for\\C language\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7916E44E-2C3F-43C8-B362-807EE427227C}|C language.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7916E44E-2C3F-43C8-B362-807EE427227C}|C language.vcxproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Projects to Inspiration for\\C language\\C language.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7916E44E-2C3F-43C8-B362-807EE427227C}|C language.vcxproj|solutionrelative:C language.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 39,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Projects to Inspiration for\\C language\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Projects to Inspiration for\\C language\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-20T21:38:53.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "C language.cpp",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Projects to Inspiration for\\C language\\C language.cpp",
+              "RelativeDocumentMoniker": "C language.cpp",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Projects to Inspiration for\\C language\\C language.cpp",
+              "RelativeToolTip": "C language.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-20T21:38:12.625Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

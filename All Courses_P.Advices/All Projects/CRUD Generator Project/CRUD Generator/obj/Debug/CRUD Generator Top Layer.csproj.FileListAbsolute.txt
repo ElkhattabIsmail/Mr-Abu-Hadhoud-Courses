@@ -1,0 +1,30 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\bin\Debug\CRUD Generator.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\bin\Debug\CRUD Generator.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\bin\Debug\CRUD Generator.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\obj\Debug\CRUD Generator Top Layer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\obj\Debug\CRUD_Generator.Properties.Resources.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\obj\Debug\CRUD Generator Top Layer.csproj.GenerateResource.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\obj\Debug\CRUD Generator Top Layer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\obj\Debug\CRUD Generator.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\obj\Debug\CRUD Generator.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\bin\Debug\CRUD_Gen_BessinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\bin\Debug\CRUD_Gen_DataAccess.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\bin\Debug\CRUD_Gen_BessinessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\bin\Debug\CRUD_Gen_DataAccess.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator\obj\Debug\CRUD Gen.EF3C8A79.Up2Date
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\bin\Debug\CRUD Generator.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\bin\Debug\CRUD Generator.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\bin\Debug\CRUD Generator.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\bin\Debug\CRUD_Gen_BessinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\bin\Debug\CRUD_Gen_DataAccess.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\bin\Debug\CRUD_Gen_BessinessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\bin\Debug\CRUD_Gen_DataAccess.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\obj\Debug\CRUD Generator Top Layer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\obj\Debug\CRUD_Generator.Properties.Resources.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\obj\Debug\CRUD Generator Top Layer.csproj.GenerateResource.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\obj\Debug\CRUD Generator Top Layer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\obj\Debug\CRUD Gen.EF3C8A79.Up2Date
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\obj\Debug\CRUD Generator.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\obj\Debug\CRUD Generator.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\obj\Debug\CRUD_Generator.frmSettings.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD Generator Project\CRUD Generator\obj\Debug\CRUD_Generator.MainForm.resources

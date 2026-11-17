@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\Algorithm Level 4\\Exercise For Costructor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0409FE-DFC9-44A0-9774-5116EAFFBE52}|Exercise For Costructor\\Exercise For Costructor.vcxproj|P:\\Algorithm Level 4\\Exercise For Costructor\\Exercise For Costructor\\Exercise For Costructor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C0409FE-DFC9-44A0-9774-5116EAFFBE52}|Exercise For Costructor\\Exercise For Costructor.vcxproj|solutionrelative:Exercise For Costructor\\Exercise For Costructor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Exercise For Costructor.cpp",
+              "DocumentMoniker": "P:\\Algorithm Level 4\\Exercise For Costructor\\Exercise For Costructor\\Exercise For Costructor.cpp",
+              "RelativeDocumentMoniker": "Exercise For Costructor\\Exercise For Costructor.cpp",
+              "ToolTip": "P:\\Algorithm Level 4\\Exercise For Costructor\\Exercise For Costructor\\Exercise For Costructor.cpp",
+              "RelativeToolTip": "Exercise For Costructor\\Exercise For Costructor.cpp",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAG4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-11T17:58:02.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

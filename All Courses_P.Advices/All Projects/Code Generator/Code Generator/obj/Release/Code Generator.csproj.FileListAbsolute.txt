@@ -1,0 +1,18 @@
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\bin\Release\Code Generator.exe.config
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\bin\Release\Code Generator.exe
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\bin\Release\Code Generator.pdb
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\bin\Release\BusinessLib.dll
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\bin\Release\DataAccessLib.dll
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\bin\Release\Global Classes.dll
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\bin\Release\BusinessLib.pdb
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\bin\Release\DataAccessLib.pdb
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\bin\Release\Global Classes.pdb
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\obj\Release\Code Generator.csproj.AssemblyReference.cache
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\obj\Release\Code_Generator.frmMain.resources
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\obj\Release\Code_Generator.frmSettings.resources
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\obj\Release\Code_Generator.Properties.Resources.resources
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\obj\Release\Code Generator.csproj.GenerateResource.cache
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\obj\Release\Code Generator.csproj.CoreCompileInputs.cache
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\obj\Release\Code Gen.0C0DDA72.Up2Date
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\obj\Release\Code Generator.exe
+C:\Users\HUSSAIN\source\repos\Code Generator\Code Generator\obj\Release\Code Generator.pdb

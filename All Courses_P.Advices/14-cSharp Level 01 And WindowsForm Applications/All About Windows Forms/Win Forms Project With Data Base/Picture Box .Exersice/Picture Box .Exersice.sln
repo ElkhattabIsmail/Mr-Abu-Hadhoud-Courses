@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picture Box .Exersice", "Picture Box .Exersice.csproj", "{D1EBC7AC-02B2-4D62-87C7-DDCE53FDEBC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1EBC7AC-02B2-4D62-87C7-DDCE53FDEBC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EBC7AC-02B2-4D62-87C7-DDCE53FDEBC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EBC7AC-02B2-4D62-87C7-DDCE53FDEBC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EBC7AC-02B2-4D62-87C7-DDCE53FDEBC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40D286E2-145A-4286-A420-FEAFFFC60CE6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Max Mettings Available In a Day\bin\Debug\Max Mettings Available In a Day.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Max Mettings Available In a Day\bin\Debug\Max Mettings Available In a Day.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Max Mettings Available In a Day\bin\Debug\Max Mettings Available In a Day.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Max Mettings Available In a Day\obj\Debug\Max Mettings Available In a Day.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Max Mettings Available In a Day\obj\Debug\Max Mettings Available In a Day.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Max Mettings Available In a Day\obj\Debug\Max Mettings Available In a Day.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Max Mettings Available In a Day\obj\Debug\Max Mettings Available In a Day.pdb

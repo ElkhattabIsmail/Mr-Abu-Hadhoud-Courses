@@ -1,0 +1,67 @@
+LIKE DICTIONARY BUT IS SORTD BY DEFAULT.
+
+Working with SortedList in C#
+In this lesson, we will explore the SortedList collection in C#.
+
+The SortedList is a collection that stores key-value pairs,
+ sorted by the key. It is part of the System.Collections (non-generic) and System.Collections.Generic namespaces in C#.
+
+Understanding how to use SortedList is important for scenarios where you need a dictionary-like collection with SORTING BY default.
+
+Objectives
+Understand the characteristics and use of SortedList in C#.
+Learn how to perform basic operations such as adding, removing, and accessing elements in a SortedList.
+Explore the differences between the generic and non-generic versions of SortedList.
+Characteristics of SortedList
+
+
+1* Automatically Sorted: The elements in a SortedList are sorted by the key as soon as they are added.
+Key-Value Pairs: Similar to a dictionary, it stores elements as key-value pairs.
+-> But there is a bit of slowness when you add elements to it.
+
+2* Unique Keys: Keys must be unique, and an exception is thrown if a duplicate key is added.
+Slower for addition and Faster for Search because it uses binary search algorithm.
+
+Conclusion
+SortedList in C# is a useful collection for scenarios where automatic sorting of elements is required.
+ Understanding when to use SortedList over other collections like Dictionary or List is crucial for efficient data management in your applications.
+
+
+
+What is the purpose of SortedList in C#?
+To store key-value pairs
+To sort data in ascending order
+To perform binary search on elements
+To store data in a dictionary-like collection
+correctAll of the above
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

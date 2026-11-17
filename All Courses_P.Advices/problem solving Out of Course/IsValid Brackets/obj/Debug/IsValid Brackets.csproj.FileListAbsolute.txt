@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\IsValid Brackets\bin\Debug\IsValid Brackets.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\IsValid Brackets\bin\Debug\IsValid Brackets.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\IsValid Brackets\bin\Debug\IsValid Brackets.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\IsValid Brackets\obj\Debug\IsValid Brackets.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\IsValid Brackets\obj\Debug\IsValid Brackets.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\IsValid Brackets\obj\Debug\IsValid Brackets.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\IsValid Brackets\obj\Debug\IsValid Brackets.pdb

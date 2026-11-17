@@ -1,0 +1,14 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Arrange Files (Same prefix to all files)\bin\Debug\Arrange Files (Same prefix to all files).exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Arrange Files (Same prefix to all files)\bin\Debug\Arrange Files (Same prefix to all files).exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Arrange Files (Same prefix to all files)\bin\Debug\Arrange Files (Same prefix to all files).pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Arrange Files (Same prefix to all files)\obj\Debug\Arrange Files (Same prefix to all files).csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Arrange Files (Same prefix to all files)\obj\Debug\Arrange Files (Same prefix to all files).csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Arrange Files (Same prefix to all files)\obj\Debug\Arrange Files (Same prefix to all files).exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Arrange Files (Same prefix to all files)\obj\Debug\Arrange Files (Same prefix to all files).pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Arrange Files (Same prefix to all files)\bin\Debug\Arrange Files (Same prefix to all files).exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Arrange Files (Same prefix to all files)\bin\Debug\Arrange Files (Same prefix to all files).exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Arrange Files (Same prefix to all files)\bin\Debug\Arrange Files (Same prefix to all files).pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Arrange Files (Same prefix to all files)\obj\Debug\Arrange Files (Same prefix to all files).csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Arrange Files (Same prefix to all files)\obj\Debug\Arrange Files (Same prefix to all files).csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Arrange Files (Same prefix to all files)\obj\Debug\Arrange Files (Same prefix to all files).exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Arrange Files (Same prefix to all files)\obj\Debug\Arrange Files (Same prefix to all files).pdb

@@ -1,0 +1,7 @@
+P:\C# Syntax\default(typename)\default(typename)\bin\Debug\default(typename).exe.config
+P:\C# Syntax\default(typename)\default(typename)\bin\Debug\default(typename).exe
+P:\C# Syntax\default(typename)\default(typename)\bin\Debug\default(typename).pdb
+P:\C# Syntax\default(typename)\default(typename)\obj\Debug\default(typename).csproj.AssemblyReference.cache
+P:\C# Syntax\default(typename)\default(typename)\obj\Debug\default(typename).csproj.CoreCompileInputs.cache
+P:\C# Syntax\default(typename)\default(typename)\obj\Debug\default(typename).exe
+P:\C# Syntax\default(typename)\default(typename)\obj\Debug\default(typename).pdb

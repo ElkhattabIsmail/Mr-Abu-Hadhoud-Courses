@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Copy Files From Folder To Another\bin\Debug\Copy Files From Folder To Another.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Copy Files From Folder To Another\bin\Debug\Copy Files From Folder To Another.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Copy Files From Folder To Another\bin\Debug\Copy Files From Folder To Another.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Copy Files From Folder To Another\obj\Debug\Copy Files From Folder To Another.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Copy Files From Folder To Another\obj\Debug\Copy Files From Folder To Another.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Copy Files From Folder To Another\obj\Debug\Copy Files From Folder To Another.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Copy Files From Folder To Another\obj\Debug\Copy Files From Folder To Another.pdb

@@ -1,0 +1,146 @@
+When to Use Stored Procedures
+Stored procedures are ideal for:
+
+Complex Database Operations: When you need to perform multiple SQL operations in a single call.
+
+Reusability: When you want to encapsulate logic that can be reused across multiple applications or modules.
+
+Security: When you want to control access to the database by exposing only stored procedures instead of direct table access.
+
+Performance: When you want to optimize performance by pre-compiling SQL logic on the database server.
+
+
+
+###
+ Calling a SP_AddNewPerson from C# Using ADO.NET
+Calling a SP_AddNewPerson from C# Using ADO.NET
+Introduction
+In this lesson, we'll learn how to interact with a SQL Server database from a C# application using ADO.NET. We'll focus on calling a stored procedure to insert data into a database and retrieve a generated ID.
+
+
+SQL Stored Procedure
+First, we have a stored procedure SP_AddNewPerson in SQL Server:
+
+CREATE PROCEDURE SP_AddNewPerson
+    @FirstName NVARCHAR(100),
+    @LastName NVARCHAR(100),
+    @Email NVARCHAR(255),
+    @NewPersonID INT OUTPUT
+AS
+BEGIN
+    INSERT INTO People (FirstName, LastName, Email)
+    VALUES (@FirstName, @LastName, @Email);
+
+
+    SET @NewPersonID = SCOPE_IDENTITY();
+END
+
+
+This procedure inserts a new person into the People table and returns the new person's ID.
+
+Calling the Stored Procedure from C#
+To call this stored procedure from a C# application using ADO.NET, follow these steps:
+
+Setting Up the Connection: First, establish a connection to your SQL Server database.
+
+using System.Data.SqlClient;
+
+
+string connectionString = "YourConnectionStringHere";
+using SqlConnection connection = new SqlConnection(connectionString);
+
+
+
+
+
+Creating the Command: Create a command object to represent the stored procedure.
+
+using SqlCommand command = new SqlCommand("SP_AddNewPerson", connection);
+command.CommandType = CommandType.StoredProcedure;
+
+
+
+
+Adding Parameters: Add parameters to the command.
+
+command.Parameters.AddWithValue("@FirstName", "John");
+command.Parameters.AddWithValue("@LastName", "Doe");
+command.Parameters.AddWithValue("@Email", "john.doe@example.com");
+SqlParameter outputIdParam = new SqlParameter("@NewPersonID", SqlDbType.Int)
+{
+    Direction = ParameterDirection.Output
+};
+command.Parameters.Add(outputIdParam);
+
+
+
+
+
+Executing the Command: Open the connection and execute the command.
+
+connection.Open();
+command.ExecuteNonQuery();
+
+
+
+
+Retrieving the Output Parameter: After execution, retrieve the value of the output parameter.
+
+int newPersonID = (int)command.Parameters["@NewPersonID"].Value;
+Console.WriteLine($"New Person ID: {newPersonID}");
+
+
+
+
+
+
+Closing the Connection: Finally, close the connection.
+
+connection.Close();
+
+
+Example
+Here's a simple C# console application example that demonstrates the entire process:
+
+using System;
+using System.Data;
+using System.Data.SqlClient;
+
+
+class Program
+{
+    static void Main()
+    {
+        string connectionString = "YourConnectionStringHere";
+        using SqlConnection connection = new SqlConnection(connectionString);
+        using SqlCommand command = new SqlCommand("SP_AddNewPerson", connection);
+        command.CommandType = CommandType.StoredProcedure;
+
+
+        // Add parameters
+        command.Parameters.AddWithValue("@FirstName", "John");
+        command.Parameters.AddWithValue("@LastName", "Doe");
+        command.Parameters.AddWithValue("@Email", "john.doe@example.com");
+        SqlParameter outputIdParam = new SqlParameter("@NewPersonID", SqlDbType.Int)
+        {
+            Direction = ParameterDirection.Output
+        };
+        command.Parameters.Add(outputIdParam);
+
+
+        // Execute
+        connection.Open();
+        command.ExecuteNonQuery();
+
+
+        // Retrieve the ID of the new person
+        int newPersonID = (int)command.Parameters["@NewPersonID"].Value;
+        Console.WriteLine($"New Person ID: {newPersonID}");
+
+
+        connection.Close();
+    }
+}
+
+
+In this example, replace "YourConnectionStringHere" with your actual database connection string. This application will add a new person to the People table and print the new person's ID to the console.

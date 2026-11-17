@@ -1,0 +1,128 @@
+1 / 17
+What is a graph in data structures?
+A structure used only for sorting data.
+correctA non-linear data structure that models relationships between objects.
+
+
+In a graph, what are the objects called that are represented as points?
+Edges
+correct Vertices (Nodes)
+
+
+
+Which term describes a line connecting two vertices in a graph?
+correct Edge or Arc
+
+
+
+4 / 17
+What is an edge with a weight used to represent?
+Direction of movement
+correct The cost, distance, or strength of connection between nodes
+
+
+What is the term used when a vertex is connected to another vertex by an edge?
+correct Adjacency
+
+
+
+6 / 17
+Which of the following describes a "path" in a graph?
+A single vertex
+An edge connecting two vertices
+correct A sequence of edges connecting a series of vertices
+
+
+What defines a "cycle" in a graph?
+A path that never revisits a vertex
+correct A path that starts and ends at the same vertex, with all edges distinct
+
+
+How can graphs be used in computer networks?
+To store user data
+To represent software programs
+correct To represent connections between computers
+
+
+11 / 17
+Which of the following describes an edge in a weighted graph?
+A simple connection between vertices
+A type of node
+correct A connection with an assigned cost, distance, or time
+
+
+If a vertex "A" is adjacent to vertex "B," what does this mean?
+correct There is an edge connecting "A" and "B."
+
+Which graph-related concept is used in representing a road map?
+Cycles
+Adjacency matrices
+correct Vertices as locations and edges as roads
+
+
+
+In social network graphs, what do the edges typically represent?
+Computer connections
+correct Friendships or relationships between users
+
+
+What kind of path starts and ends at the same vertex without repeating any edges?
+correct Cycle
+
+
+What is a tree in the context of graph theory?
+incorrect A cycle with multiple paths
+A connected graph with no cycles
+
+
+Which of the following is true about graphs in computer networks?
+correct Vertices represent computers, and edges represent connections between them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

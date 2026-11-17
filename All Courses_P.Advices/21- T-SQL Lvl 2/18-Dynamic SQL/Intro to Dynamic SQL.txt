@@ -1,0 +1,44 @@
+- dyn sql very dangerous. sql injection 4 ex
+- yes is flexible but is so slow
+- What is dynamic SQL?
+✔️ correct dynamic SQL statements that are constructed and executed at runtime as strings
+
+
+
+Stored procedures in SQL Server can be used to generate and execute dynamic SQL. Dynamic SQL refers to SQL statements that are constructed and executed at runtime as strings. This approach allows for a high degree of flexibility, but it also requires careful handling to avoid issues such as SQL injection.
+
+Generating Dynamic SQL in Stored Procedures
+To generate and execute dynamic SQL within a stored procedure, you can use the EXECUTE statement or the sp_executesql system stored procedure. Here’s how each method works:
+
+Using EXECUTE (or EXEC):
+CREATE PROCEDURE GenerateDynamicSQL1
+    @TableName NVARCHAR(128)
+AS
+BEGIN
+    DECLARE @SQL NVARCHAR(MAX);
+    SET @SQL = 'SELECT * FROM ' + @TableName;
+    EXECUTE(@SQL);
+END
+
+
+This method directly executes a dynamically built SQL string.
+Be cautious of SQL injection risks when concatenating strings to build the SQL statement.
+Using sp_executesql:
+CREATE PROCEDURE GenerateDynamicSQL2
+    @TableName NVARCHAR(128)
+AS
+BEGIN
+    DECLARE @SQL NVARCHAR(MAX);
+    SET @SQL = N'SELECT * FROM ' + QUOTENAME(@TableName);
+    EXEC sp_executesql @SQL;
+END
+
+
+sp_executesql supports parameterized queries, which can help mitigate the risk of SQL injection.
+The QUOTENAME function is used to safely escape the table name, providing additional protection against injection.
+Considerations for Dynamic SQL in Stored Procedures
+SQL Injection: Dynamic SQL can be vulnerable to SQL injection attacks, especially if user input is concatenated directly into SQL strings. Always validate and sanitize user inputs.
+Debugging and Maintenance: Dynamic SQL can be harder to debug and maintain compared to static SQL, as the actual SQL executed is constructed at runtime.
+Performance: While dynamic SQL offers flexibility, it may not always be as performant as static SQL, especially if it leads to frequent recompilations of the SQL statements.
+Security: Ensure that the stored procedure and its dynamic SQL do not inadvertently elevate the privileges of the user executing it.
+In summary, while stored procedures can be used to generate and execute dynamic SQL in SQL Server, it’s important to use this feature judiciously and securely, considering the implications for security, performance, and maintainability.

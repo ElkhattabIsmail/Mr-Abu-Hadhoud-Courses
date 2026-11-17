@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\4- Lists In C# (Generic Collection)\Simple Book Inventory Management\bin\Debug\Simple Book Inventory Management.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\4- Lists In C# (Generic Collection)\Simple Book Inventory Management\bin\Debug\Simple Book Inventory Management.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\4- Lists In C# (Generic Collection)\Simple Book Inventory Management\bin\Debug\Simple Book Inventory Management.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\4- Lists In C# (Generic Collection)\Simple Book Inventory Management\obj\Debug\Simple Book Inventory Management.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\4- Lists In C# (Generic Collection)\Simple Book Inventory Management\obj\Debug\Simple Book Inventory Management.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\4- Lists In C# (Generic Collection)\Simple Book Inventory Management\obj\Debug\Simple Book Inventory Management.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\4- Lists In C# (Generic Collection)\Simple Book Inventory Management\obj\Debug\Simple Book Inventory Management.pdb

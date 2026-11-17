@@ -1,0 +1,199 @@
+﻿  Vector Using  Iterator.cpp
+C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' (or there is no acceptable conversion)
+C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2): error C2679:         with
+C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2): error C2679:         [
+C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2): error C2679:             _Ty=int
+C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2): error C2679:         ]
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(480,39):
+  could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(448,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(430,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(412,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(394,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(376,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(358,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(340,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(322,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(303,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(277,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(258,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(224,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(206,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(200,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(194,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(189,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(1080,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  	'initializing': cannot convert from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' to 'const std::error_code &'
+          with
+          [
+              _Ty=int
+          ]
+  		C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  		Reason: cannot convert from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' to 'const std::error_code'
+          with
+          [
+              _Ty=int
+          ]
+  		C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(1003,9):
+  or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2):
+  	'_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+  		C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(1002,103):
+  		'<template-parameter>': you cannot create a pointer to a reference
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(945,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  	'initializing': cannot convert from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' to 'unsigned char'
+          with
+          [
+              _Ty=int
+          ]
+  		C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(939,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  	'initializing': cannot convert from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' to 'const unsigned char *'
+          with
+          [
+              _Ty=int
+          ]
+  		C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(934,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  	'initializing': cannot convert from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' to 'signed char'
+          with
+          [
+              _Ty=int
+          ]
+  		C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(928,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  	'initializing': cannot convert from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' to 'const signed char *'
+          with
+          [
+              _Ty=int
+          ]
+  		C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(892,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+  		C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2):
+  		could be 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>'
+          with
+          [
+              _Ty=int
+          ]
+  		C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2):
+  		or       'char'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>'
+          with
+          [
+              _Ty=int
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(849,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>'
+          with
+          [
+              _Ty=int
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(811,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  	'initializing': cannot convert from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' to 'char'
+          with
+          [
+              _Ty=int
+          ]
+  		C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(766,31):
+  or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  	'initializing': cannot convert from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' to 'const char *'
+          with
+          [
+              _Ty=int
+          ]
+  		C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(730,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  	'initializing': cannot convert from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' to 'char'
+          with
+          [
+              _Ty=int
+          ]
+  		C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\ostream(686,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  	'initializing': cannot convert from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' to 'const char *'
+          with
+          [
+              _Ty=int
+          ]
+  		C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,10):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\memory(3629,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>'
+          with
+          [
+              _Ty=int
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\memory(1978,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>'
+          with
+          [
+              _Ty=int
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\xstring(5193,32):
+  or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+  	C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>'
+          with
+          [
+              _Ty=int
+          ]
+  C:\Users\ULTRAPC\source\repos\Vector Using  Iterator\Vector Using  Iterator\Vector Using  Iterator.cpp(14,2):
+  while trying to match the argument list '(std::ostream, std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>)'
+          with
+          [
+              _Ty=int
+          ]
+  

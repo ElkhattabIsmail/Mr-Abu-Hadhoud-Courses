@@ -1,0 +1,6 @@
+This example does the following:
+
+Retrieves the mscorlib assembly, which contains fundamental types like System.String.
+Obtains the System.String type.
+Lists and prints the names and signatures of all public methods of the System.String class.
+Keep in mind that this example only scratches the surface, and the .NET Framework has a comprehensive string library with many methods, properties, and functionalities. The methods obtained by reflection include not only commonly used methods but also internal methods and methods that are less commonly used. Additionally, newer versions of .NET may introduce new members to the System.String class.

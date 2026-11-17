@@ -1,0 +1,69 @@
+Understand how to use Inline Table-Valued Functions with JOIN operations in T-SQL to combine data from multiple tables.
+
+Introduction:
+In T-SQL, Inline Table-Valued Functions (ITVFs) offer a powerful way to encapsulate complex logic and reuse it in queries. One of the key advantages of ITVFs is their ability to be used in JOIN operations, allowing us to combine data from multiple tables efficiently.
+
+In this lesson, we will explore how to use Inline Table-Valued Functions with JOIN operations based on the previously created functions and tables.
+
+Recap of Previously Created Objects:
+Before we proceed, let's recap the previously created objects:
+
+Table Scripts:
+
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    Name NVARCHAR(50),
+    Subject NVARCHAR(50),
+    Grade INT
+);
+
+
+CREATE TABLE Teachers (
+    TeacherID INT PRIMARY KEY,
+    Name NVARCHAR(50),
+    Subject NVARCHAR(50)
+);
+
+
+Inline Table-Valued Functions:
+CREATE FUNCTION dbo.GetStudentsBySubject
+(
+    @Subject NVARCHAR(50)
+)
+RETURNS TABLE
+AS
+RETURN
+(
+    SELECT *
+    FROM Students
+    WHERE Subject = @Subject
+);
+
+
+Explanation:
+
+We have two tables: Students and Teachers, which store information about students and teachers, respectively.
+We also have an Inline Table-Valued Function named "GetStudentsBySubject" that retrieves students based on their subjects.
+Using Inline Table-Valued Functions with JOIN:
+
+Now, let's see how we can use Inline Table-Valued Functions in JOIN operations to combine data from multiple tables.
+
+-- Example 1: Join Students and Teachers based on shared subject
+SELECT s.StudentID, s.Name AS StudentName, t.Name AS TeacherName, s.Grade
+FROM dbo.GetStudentsBySubject('Math') s
+JOIN Teachers t ON s.Subject = t.Subject
+
+
+Explanation:
+
+In Example 1, we use the SELECT statement to retrieve data from the Students table-valued function dbo.GetStudentsBySubject('Math') and join it with the Teachers table based on the shared subject.
+We specify aliases for the Students and Teachers tables as "s" and "t", respectively, to make the query more readable.
+The JOIN keyword is used to combine the rows from both tables based on the specified condition, which is matching subjects in this case.
+The result set includes columns from both tables: StudentID, StudentName (alias for Name column in Students table), TeacherName (alias for Name column in Teachers table), and Grade.
+
+
+Conclusion:
+Using Inline Table-Valued Functions with JOIN operations allows us to combine data from multiple tables efficiently. In this lesson, we learned how to use Inline Table-Valued Functions in JOIN operations and explored different scenarios involving the Students and Teachers tables. By incorporating Inline Table-Valued Functions into your queries, you can enhance the flexibility and reusability of your T-SQL code.
+
+Next Steps:
+Now that you have a good understanding of using Inline Table-Valued Functions with JOIN operations, continue experimenting with different scenarios. Explore more advanced topics, such as combining multiple Inline Table-Valued Functions with JOINs, using different types of JOINs (e.g., LEFT JOIN, INNER JOIN), and incorporating additional filtering and aggregation functions. Keep practicing and expanding your knowledge of T-SQL!

@@ -1,0 +1,7 @@
+P:\oop in C# Code\Parameter-less Constructor\Parameter-less Constructor\bin\Debug\Parameter-less Constructor.exe.config
+P:\oop in C# Code\Parameter-less Constructor\Parameter-less Constructor\bin\Debug\Parameter-less Constructor.exe
+P:\oop in C# Code\Parameter-less Constructor\Parameter-less Constructor\bin\Debug\Parameter-less Constructor.pdb
+P:\oop in C# Code\Parameter-less Constructor\Parameter-less Constructor\obj\Debug\Parameter-less Constructor.csproj.AssemblyReference.cache
+P:\oop in C# Code\Parameter-less Constructor\Parameter-less Constructor\obj\Debug\Parameter-less Constructor.csproj.CoreCompileInputs.cache
+P:\oop in C# Code\Parameter-less Constructor\Parameter-less Constructor\obj\Debug\Parameter-less Constructor.exe
+P:\oop in C# Code\Parameter-less Constructor\Parameter-less Constructor\obj\Debug\Parameter-less Constructor.pdb

@@ -1,0 +1,25 @@
+جزاك الله خيرا هذه مفيدة جدا ولها استخدامات عدة مثلا لو كان عندك سجل في البنك وتريد الاستعلام عنه بعد عمليات السحب والايداع فتظهر لك رصيدك السابق كم كان ورصيدك الحالي كم هو فجزاك الله خيرا على هذه المعلومة القيمة
+
+
+The LAG and LEAD functions in SQL have two key parameters (and an optional third one):
+
+LAG(expression, offset, default) OVER (PARTITION BY ... ORDER BY ...)
+LEAD(expression, offset, default) OVER (PARTITION BY ... ORDER BY ...)
+Parameters
+expression (Required):
+
+The column or expression to retrieve from another row.
+Example: If you're interested in grades, you would pass the Grade column.
+offset (Optional, default = 1):
+
+Specifies how many rows "behind" (LAG) or "ahead" (LEAD) to look relative to the current row.
+Default is 1, meaning the immediate previous row (for LAG) or the next row (for LEAD).
+Example:
+LAG(Grade, 2) fetches the grade 2 rows behind.
+LEAD(Grade, 3) fetches the grade 3 rows ahead.
+default (Optional, default = NULL):
+
+Specifies a default value to return if there is no valid row at the specified offset (e.g., for the first or last rows).
+Default is NULL, but you can set it to any value.
+Example:
+LAG(Grade, 1, 0) would return 0 if there is no previous grade.

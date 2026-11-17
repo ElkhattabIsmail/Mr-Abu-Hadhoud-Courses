@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Contains Duplicate Problem\bin\Debug\Contains Duplicate Problem.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Contains Duplicate Problem\bin\Debug\Contains Duplicate Problem.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Contains Duplicate Problem\bin\Debug\Contains Duplicate Problem.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Contains Duplicate Problem\obj\Debug\Contains Duplicate Problem.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Contains Duplicate Problem\obj\Debug\Contains Duplicate Problem.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Contains Duplicate Problem\obj\Debug\Contains Duplicate Problem.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Contains Duplicate Problem\obj\Debug\Contains Duplicate Problem.pdb

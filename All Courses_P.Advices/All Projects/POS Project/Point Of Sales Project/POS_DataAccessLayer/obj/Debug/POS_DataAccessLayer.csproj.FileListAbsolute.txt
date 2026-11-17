@@ -1,0 +1,6 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\POS_DataAccessLayer\bin\Debug\POS_DataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\POS_DataAccessLayer\bin\Debug\POS_DataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\POS_DataAccessLayer\obj\Debug\POS_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\POS_DataAccessLayer\obj\Debug\POS_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\POS_DataAccessLayer\obj\Debug\POS_DataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\POS_DataAccessLayer\obj\Debug\POS_DataAccessLayer.pdb

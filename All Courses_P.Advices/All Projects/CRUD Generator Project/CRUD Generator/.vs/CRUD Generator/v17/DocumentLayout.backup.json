@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD Generator Project\\CRUD Generator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87A12564-F3CB-4F3A-8006-8BEB09062498}|..\\CRUD_Gen_BessinessLayer\\CRUD_Gen_BessinessLayer.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\crud generator project\\crud_gen_bessinesslayer\\clsbusinessglobalclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4AD34B-A1B3-4BCE-AE5D-EDCACE3E8071}|CRUD Generator Top Layer.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\crud generator project\\crud generator\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC4AD34B-A1B3-4BCE-AE5D-EDCACE3E8071}|CRUD Generator Top Layer.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4AD34B-A1B3-4BCE-AE5D-EDCACE3E8071}|CRUD Generator Top Layer.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\crud generator project\\crud generator\\frmsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC4AD34B-A1B3-4BCE-AE5D-EDCACE3E8071}|CRUD Generator Top Layer.csproj|solutionrelative:frmsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4AD34B-A1B3-4BCE-AE5D-EDCACE3E8071}|CRUD Generator Top Layer.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\crud generator project\\crud generator\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC4AD34B-A1B3-4BCE-AE5D-EDCACE3E8071}|CRUD Generator Top Layer.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A12564-F3CB-4F3A-8006-8BEB09062498}|..\\CRUD_Gen_BessinessLayer\\CRUD_Gen_BessinessLayer.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\crud generator project\\crud_gen_bessinesslayer\\clsbusinessgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD_Gen_DataAccess\\clsDataAccessGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD_Gen_BessinessLayer\\clsBusinessGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD_Gen_BessinessLayer\\clsBusinessGlobalClasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsBusinessGlobalClasses.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD Generator Project\\CRUD_Gen_BessinessLayer\\clsBusinessGlobalClasses.cs",
+              "RelativeDocumentMoniker": "..\\CRUD_Gen_BessinessLayer\\clsBusinessGlobalClasses.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD Generator Project\\CRUD_Gen_BessinessLayer\\clsBusinessGlobalClasses.cs",
+              "RelativeToolTip": "..\\CRUD_Gen_BessinessLayer\\clsBusinessGlobalClasses.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T00:53:45.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsBusinessGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD Generator Project\\CRUD_Gen_BessinessLayer\\clsBusinessGenerator.cs",
+              "RelativeDocumentMoniker": "..\\CRUD_Gen_BessinessLayer\\clsBusinessGenerator.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD Generator Project\\CRUD_Gen_BessinessLayer\\clsBusinessGenerator.cs",
+              "RelativeToolTip": "..\\CRUD_Gen_BessinessLayer\\clsBusinessGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T00:38:30.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmSettings.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD Generator Project\\CRUD Generator\\frmSettings.cs",
+              "RelativeDocumentMoniker": "frmSettings.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD Generator Project\\CRUD Generator\\frmSettings.cs [Design]",
+              "RelativeToolTip": "frmSettings.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T00:29:55.111Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD Generator Project\\CRUD Generator\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD Generator Project\\CRUD Generator\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T00:27:22.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD Generator Project\\CRUD Generator\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD Generator Project\\CRUD Generator\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T23:58:21.921Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clsDataAccessGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD_Gen_DataAccess\\clsDataAccessGenerator.cs",
+              "RelativeDocumentMoniker": "..\\..\\CRUD_Gen_DataAccess\\clsDataAccessGenerator.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD_Gen_DataAccess\\clsDataAccessGenerator.cs",
+              "RelativeToolTip": "..\\..\\CRUD_Gen_DataAccess\\clsDataAccessGenerator.cs",
+              "ViewState": "AgIAACEDAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T23:36:39.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "clsBusinessGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD_Gen_BessinessLayer\\clsBusinessGenerator.cs",
+              "RelativeDocumentMoniker": "..\\..\\CRUD_Gen_BessinessLayer\\clsBusinessGenerator.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD_Gen_BessinessLayer\\clsBusinessGenerator.cs",
+              "RelativeToolTip": "..\\..\\CRUD_Gen_BessinessLayer\\clsBusinessGenerator.cs",
+              "ViewState": "AgIAAIgBAAAAAAAAAAAUwKYBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T23:35:58.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "clsBusinessGlobalClasses.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD_Gen_BessinessLayer\\clsBusinessGlobalClasses.cs",
+              "RelativeDocumentMoniker": "..\\..\\CRUD_Gen_BessinessLayer\\clsBusinessGlobalClasses.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\CRUD_Gen_BessinessLayer\\clsBusinessGlobalClasses.cs",
+              "RelativeToolTip": "..\\..\\CRUD_Gen_BessinessLayer\\clsBusinessGlobalClasses.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T23:32:44.884Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

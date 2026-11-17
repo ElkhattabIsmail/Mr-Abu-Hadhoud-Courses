@@ -1,0 +1,8 @@
+﻿  Bank Extentions 2 Level 4.cpp
+P:\Algorithm Level 4\Bank Extentions 2 Level 4\Bank Extentions 2 Level 4\Bank Extentions 2 Level 4.cpp(68,26): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+P:\Algorithm Level 4\Bank Extentions 2 Level 4\Bank Extentions 2 Level 4\Bank Extentions 2 Level 4.cpp(916,1): warning C4715: 'DeleteUserByUsername': not all control paths return a value
+P:\Algorithm Level 4\Bank Extentions 2 Level 4\Bank Extentions 2 Level 4\Bank Extentions 2 Level 4.cpp(874,1): warning C4715: 'DeleteClientByAccountNumber': not all control paths return a value
+P:\Algorithm Level 4\Bank Extentions 2 Level 4\Bank Extentions 2 Level 4\Bank Extentions 2 Level 4.cpp(1023,1): warning C4715: 'DepositBalanceToClientByAccountNumber': not all control paths return a value
+P:\Algorithm Level 4\Bank Extentions 2 Level 4\Bank Extentions 2 Level 4\Bank Extentions 2 Level 4.cpp(996,1): warning C4715: 'UpdateUserByUsername': not all control paths return a value
+P:\Algorithm Level 4\Bank Extentions 2 Level 4\Bank Extentions 2 Level 4\Bank Extentions 2 Level 4.cpp(956,1): warning C4715: 'UpdateClientByAccountNumber': not all control paths return a value
+  Bank Extentions 2 Level 4.vcxproj -> P:\Algorithm Level 4\Bank Extentions 2 Level 4\x64\Debug\Bank Extentions 2 Level 4.exe

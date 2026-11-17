@@ -1,0 +1,18 @@
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\bin\Debug\BusinessLib.dll
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\bin\Debug\BusinessLib.pdb
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\obj\Debug\BusinessLib.csproj.AssemblyReference.cache
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\obj\Debug\BusinessLib.csproj.CoreCompileInputs.cache
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\obj\Debug\BusinessLib.dll
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\obj\Debug\BusinessLib.pdb
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\bin\Debug\Global Classes.dll
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\bin\Debug\Global Classes.pdb
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\obj\Debug\Business.C190E0A1.Up2Date
+C:\Users\ULTRAPC\OneDrive\Bureau\Code Generator\BusinessLib\bin\Debug\BusinessLib.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Code Generator\BusinessLib\bin\Debug\BusinessLib.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Code Generator\BusinessLib\bin\Debug\Global Classes.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Code Generator\BusinessLib\bin\Debug\Global Classes.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Code Generator\BusinessLib\obj\Debug\BusinessLib.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Code Generator\BusinessLib\obj\Debug\BusinessLib.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Code Generator\BusinessLib\obj\Debug\Business.C190E0A1.Up2Date
+C:\Users\ULTRAPC\OneDrive\Bureau\Code Generator\BusinessLib\obj\Debug\BusinessLib.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Code Generator\BusinessLib\obj\Debug\BusinessLib.pdb

@@ -1,0 +1,104 @@
+Functions in t_sql :
+- You cant use SPs inside query but u cannot use function or aggregate funcs like sum,avg .....
+- you can use the update ,insert statements inside functions.
+- Functions Must Returns Single Value (int , string , bool , date....).
+
+- How can Scalar Functions be used in T-SQL queries?
+In the SELECT statement only.
+In the WHERE clause only.
+In the FROM clause only.
+correct ->  In any part of the query where an expression is allowed.
+
+هذا لينك مفيد به الاشياء اللى ما تقدر تعملها داخل الفانكشن 
+
+https://learn.microsoft.com/en-us/sql/relational-databases/user-defined-functions/create-user-defined-functions-database-engine?view=sql-server-ver16&redirectedfrom=MSDN
+
+
+Scalar Functions in T-SQL :
+
+Understand how to create and use Scalar Functions in T-SQL to encapsulate reusable logic and return a single value.
+
+Introduction:
+Scalar Functions in T-SQL provide a way to encapsulate reusable logic and return a single value. These functions can be used to perform calculations, manipulate data, or apply custom business rules. This lesson will guide you through the process of creating and using Scalar Functions based on the previously provided table scripts.
+
+Scalar Functions be used in T-SQL queries In any part of the query where an expression is allowed.
+
+Recap of Previously Created Objects:
+Before we proceed, let's recap the previously created objects:
+
+Table Scripts:
+
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    Name NVARCHAR(50),
+    Subject NVARCHAR(50),
+    Grade INT
+);
+
+
+CREATE TABLE Teachers (
+    TeacherID INT PRIMARY KEY,
+    Name NVARCHAR(50),
+    Subject NVARCHAR(50)
+);
+
+
+Explanation:
+
+We have two tables: Students and Teachers, which store information about students and teachers, respectively.
+Creating a Scalar Function:
+Now, let's create a Scalar Function named "GetAverageGrade".
+
+CREATE FUNCTION dbo.GetAverageGrade(@subject NVARCHAR(50))
+RETURNS INT
+AS
+BEGIN
+    DECLARE @averageGrade INT;
+
+
+    SELECT @averageGrade = AVG(Grade)
+    FROM Students
+    WHERE Subject = @subject;
+
+
+    RETURN @averageGrade;
+END;
+
+
+Explanation:
+
+In the above script, we create a Scalar Function named "GetAverageGrade".
+The function takes a parameter @subject of type NVARCHAR(50) to specify the subject for which we want to calculate the average grade.
+Inside the function, we declare a variable @averageGrade to hold the calculated average grade.
+We use the SELECT statement to calculate the average grade from the Students table, filtered by the specified subject.
+Finally, we return the @averageGrade as the result of the function.
+Using the Scalar Function:
+Now that we have created the Scalar Function, let's use it in a query.
+
+SELECT Name, dbo.GetAverageGrade(Subject) AS AverageGrade
+FROM Teachers;
+
+
+Explanation:
+
+We use the SELECT statement to retrieve data from the Teachers table.
+We also call the Scalar Function dbo.GetAverageGrade(Subject) to calculate the average grade for each teacher's subject.
+The result set will contain the names of the teachers and their corresponding average grades.
+Further Explorations:
+Now that you understand how to create and use Scalar Functions, you can further explore the possibilities:
+
+-- Example: Use the Scalar Function in a WHERE clause
+SELECT Name, Subject
+FROM Teachers
+WHERE dbo.GetAverageGrade(Subject) > 80;
+
+
+Explanation:
+
+In this example, we use the Scalar Function dbo.GetAverageGrade(Subject) in a WHERE clause to filter the teachers based on their subject's average grade.
+The result set will contain the names and subjects of the teachers whose subject's average grade is greater than 80.
+Conclusion:
+Scalar Functions in T-SQL are a powerful tool for encapsulating reusable logic and returning a single value. In this lesson, we learned how to create and use Scalar Functions based on the previously provided table scripts. By incorporating Scalar Functions into your T-SQL code, you can modularize and reuse custom logic, making your queries more efficient and maintainable.
+
+Next Steps:
+Now that you have a good understanding of Scalar Functions, continue practicing by creating your own Scalar Functions. Explore different scenarios, such as performing calculations, applying custom business rules, or manipulating data. Keep experimenting and expanding your knowledge of T-SQL!

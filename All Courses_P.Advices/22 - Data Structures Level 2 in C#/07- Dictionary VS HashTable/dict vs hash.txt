@@ -1,0 +1,5 @@
+Comparison Summary
+Type Safety: Dictionary is strongly typed, whereas Hashtable requires casting for non-object types.
+Performance: Both provide fast lookups, but Dictionary can be more performant due to type safety and the lack of boxing/unboxing for value types.
+Version Compatibility: Hashtable is available from the first version of .NET, making it suitable for legacy applications. Dictionary was introduced later and is preferred for new development due to its generic nature.
+Thread Safety: Hashtable offers basic thread safety features, but neither collection is fully thread-safe for concurrent modifications without external synchronization.

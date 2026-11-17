@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\All Courses With Programming Advices\\All Projects\\WindowsForm C# Projects\\5_Memory Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41AF3D2E-D098-4F1A-B71D-9E0C9D2E66D5}|Project 03 Memory Game.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\all courses with programming advices\\all projects\\windowsform c# projects\\5_memory game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41AF3D2E-D098-4F1A-B71D-9E0C9D2E66D5}|Project 03 Memory Game.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41AF3D2E-D098-4F1A-B71D-9E0C9D2E66D5}|Project 03 Memory Game.csproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\All Courses With Programming Advices\\All Projects\\WindowsForm C# Projects\\5_Memory Game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41AF3D2E-D098-4F1A-B71D-9E0C9D2E66D5}|Project 03 Memory Game.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\All Courses With Programming Advices\\All Projects\\WindowsForm C# Projects\\5_Memory Game\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\All Courses With Programming Advices\\All Projects\\WindowsForm C# Projects\\5_Memory Game\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAnwGUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T19:07:22.449Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\All Courses With Programming Advices\\All Projects\\WindowsForm C# Projects\\5_Memory Game\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\All Projects\\WindowsForm C# Projects\\5_Memory Game\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\All Projects\\WindowsForm C# Projects\\5_Memory Game\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T17:19:54.809Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

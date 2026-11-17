@@ -1,0 +1,11 @@
+P:\Windows Form Desk apps\Practice - Form\bin\Debug\Practice - Form.exe.config
+P:\Windows Form Desk apps\Practice - Form\bin\Debug\Practice - Form.exe
+P:\Windows Form Desk apps\Practice - Form\bin\Debug\Practice - Form.pdb
+P:\Windows Form Desk apps\Practice - Form\obj\Debug\Practice - Form.csproj.AssemblyReference.cache
+P:\Windows Form Desk apps\Practice - Form\obj\Debug\Practice___Form.Practice.resources
+P:\Windows Form Desk apps\Practice - Form\obj\Debug\Practice___Form.Properties.Resources.resources
+P:\Windows Form Desk apps\Practice - Form\obj\Debug\Practice - Form.csproj.GenerateResource.cache
+P:\Windows Form Desk apps\Practice - Form\obj\Debug\Practice - Form.csproj.CoreCompileInputs.cache
+P:\Windows Form Desk apps\Practice - Form\obj\Debug\Practice - Form.exe
+P:\Windows Form Desk apps\Practice - Form\obj\Debug\Practice - Form.pdb
+P:\Windows Form Desk apps\Practice - Form\obj\Debug\Practice___Form.AnotherForm.resources

@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\NavigateIntoReflectionTools\bin\Debug\NavigateIntoReflectionTools.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\NavigateIntoReflectionTools\bin\Debug\NavigateIntoReflectionTools.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\NavigateIntoReflectionTools\bin\Debug\NavigateIntoReflectionTools.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\NavigateIntoReflectionTools\obj\Debug\NavigateIntoReflectionTools.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\NavigateIntoReflectionTools\obj\Debug\NavigateIntoReflectionTools.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\NavigateIntoReflectionTools\obj\Debug\NavigateIntoReflectionTools.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\NavigateIntoReflectionTools\obj\Debug\NavigateIntoReflectionTools.pdb

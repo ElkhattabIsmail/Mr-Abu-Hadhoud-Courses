@@ -1,0 +1,7 @@
+P:\oop in C# Code\Static Class And Private Constructor Same\Static Class And Private Constructor Same\bin\Debug\Static Class And Private Constructor Same.exe.config
+P:\oop in C# Code\Static Class And Private Constructor Same\Static Class And Private Constructor Same\bin\Debug\Static Class And Private Constructor Same.exe
+P:\oop in C# Code\Static Class And Private Constructor Same\Static Class And Private Constructor Same\bin\Debug\Static Class And Private Constructor Same.pdb
+P:\oop in C# Code\Static Class And Private Constructor Same\Static Class And Private Constructor Same\obj\Debug\Static Class And Private Constructor Same.csproj.AssemblyReference.cache
+P:\oop in C# Code\Static Class And Private Constructor Same\Static Class And Private Constructor Same\obj\Debug\Static Class And Private Constructor Same.csproj.CoreCompileInputs.cache
+P:\oop in C# Code\Static Class And Private Constructor Same\Static Class And Private Constructor Same\obj\Debug\Static Class And Private Constructor Same.exe
+P:\oop in C# Code\Static Class And Private Constructor Same\Static Class And Private Constructor Same\obj\Debug\Static Class And Private Constructor Same.pdb

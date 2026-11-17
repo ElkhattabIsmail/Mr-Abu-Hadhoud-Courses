@@ -1,0 +1,40 @@
+In the old days, ds data in .net framework was not as generic as it is now, for example, when you want to store Integer or any ds data in a list or array, it was mandatory to store the list with the object first and then put them all in a box to a specific data type you want, but now with the general concept of box no longer has uses as it was before.
+
+
+
+Boxing in C#
+Objective
+Learn what Boxing is in C# and how to perform it correctly.
+
+Introduction to Boxing :
+Boxing is the process of converting a value type to a reference type. This involves wrapping a value type (like int, float, char) in an object or any interface type implemented by this value type.
+
+Full Program Example
+using System;
+
+
+class Program
+{
+    static void Main()
+    {
+        int valType = 10;
+        object objType = valType; // Boxing
+
+
+        Console.WriteLine("Value Type: " + valType);
+        Console.WriteLine("Object Type: " + objType);
+    }
+}
+
+
+
+Expected Output
+Value Type: 10
+Object Type: 10
+
+
+Output Explanation
+The output demonstrates the Boxing process where valType, an integer (value type), is boxed into objType (object type). Both display the same value, but objType is a reference type stored in the heap.
+
+Conclusion
+Boxing is a fundamental concept in C#, allowing value types to be treated as objects. While it is necessary in certain scenarios, developers should be aware of its performance implications.

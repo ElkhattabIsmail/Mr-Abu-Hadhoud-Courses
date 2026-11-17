@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\source\\repos\\algorithm level 2 #07 reverse 1234 to 4321\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AC60BFE-FEA6-4351-B09C-DFE6F21B9AC0}|algorithm level 2 #07 reverse 1234 to 4321\\algorithm level 2 #07 reverse 1234 to 4321.vcxproj|C:\\Users\\ULTRAPC\\source\\repos\\algorithm level 2 #07 reverse 1234 to 4321\\algorithm level 2 #07 reverse 1234 to 4321\\algorithm level 2 #07 reverse 1234 to 4321.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AC60BFE-FEA6-4351-B09C-DFE6F21B9AC0}|algorithm level 2 #07 reverse 1234 to 4321\\algorithm level 2 #07 reverse 1234 to 4321.vcxproj|solutionrelative:algorithm level 2 #07 reverse 1234 to 4321\\algorithm level 2 #07 reverse 1234 to 4321.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "algorithm level 2 #07 reverse 1234 to 4321.cpp",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\source\\repos\\algorithm level 2 #07 reverse 1234 to 4321\\algorithm level 2 #07 reverse 1234 to 4321\\algorithm level 2 #07 reverse 1234 to 4321.cpp",
+              "RelativeDocumentMoniker": "algorithm level 2 #07 reverse 1234 to 4321\\algorithm level 2 #07 reverse 1234 to 4321.cpp",
+              "ToolTip": "C:\\Users\\ULTRAPC\\source\\repos\\algorithm level 2 #07 reverse 1234 to 4321\\algorithm level 2 #07 reverse 1234 to 4321\\algorithm level 2 #07 reverse 1234 to 4321.cpp",
+              "RelativeToolTip": "algorithm level 2 #07 reverse 1234 to 4321\\algorithm level 2 #07 reverse 1234 to 4321.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-16T13:58:55.46Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

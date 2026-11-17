@@ -1,0 +1,7 @@
+P:\C# Syntax\switch cases in c#\switch cases in c#\bin\Debug\switch cases in c#.exe.config
+P:\C# Syntax\switch cases in c#\switch cases in c#\bin\Debug\switch cases in c#.exe
+P:\C# Syntax\switch cases in c#\switch cases in c#\bin\Debug\switch cases in c#.pdb
+P:\C# Syntax\switch cases in c#\switch cases in c#\obj\Debug\switch cases in c#.csproj.AssemblyReference.cache
+P:\C# Syntax\switch cases in c#\switch cases in c#\obj\Debug\switch cases in c#.csproj.CoreCompileInputs.cache
+P:\C# Syntax\switch cases in c#\switch cases in c#\obj\Debug\switch cases in c#.exe
+P:\C# Syntax\switch cases in c#\switch cases in c#\obj\Debug\switch cases in c#.pdb

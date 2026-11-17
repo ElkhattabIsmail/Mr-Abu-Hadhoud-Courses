@@ -1,0 +1,94 @@
+✔️ All Functions Are read Only ( We can`t use update-add-delete - etc) inside a function .
+✔️ If you need to perform insert or update operations, you would typically use Stored Procedures or other types of T-SQL routines that are designed for such purposes.
+
+ Can i use update and insert statement in inline functions❓
+✔️ No, you cannot use UPDATE or INSERT statements in Inline Table-Valued Functions (ITVFs) in T-SQL. Inline Table-Valued Functions are designed to be read-only, and they return a table variable that is essentially a result of a single SELECT statement. Since these functions are read-only, they cannot modify the data in the database, which means you cannot perform data manipulation operations like INSERT, UPDATE, DELETE, or MERGE within them.
+
+
+
+deterministic
+/dɪˈtɜːrmɪnɪstɪk/
+صفة
+تشير إلى شيء يعطي نفس النتيجة دائمًا لنفس المدخلات.
+Example: A deterministic function always produces the same output for the same input. الدالة الحتمية دائمًا ما تنتج نفس المخرج لنفس المدخلات.
+
+Inline Table-Valued Functions (ITVFs) in T-SQL
+
+Understand the concept of Inline Table-Valued Functions (ITVFs) in T-SQL and learn how to create and use them effectively.
+
+Introduction:
+In T-SQL, Inline Table-Valued Functions (ITVFs) are user-defined functions that return a table expression. They are defined using the RETURNS TABLE clause and a single SELECT statement. ITVFs provide a flexible way to encapsulate complex logic and reuse it in queries.
+
+You cannot use UPDATE or INSERT statements in Inline Table-Valued Functions (ITVFs) in T-SQL. Inline Table-Valued Functions are designed to be read-only, and they return a table variable that is essentially a result of a single SELECT statement. Since these functions are read-only, they cannot modify the data in the database, which means you cannot perform data manipulation operations like INSERT, UPDATE, DELETE, or MERGE within them.
+
+The primary purpose of an ITVF is to encapsulate a SELECT query. This limitation ensures that the function remains deterministic and does not change the state of the database, which is a critical aspect for functions in SQL Server. If you need to perform insert or update operations, you would typically use Stored Procedures or other types of T-SQL routines that are designed for such purposes.
+
+In this lesson, we will explore the concept of Inline Table-Valued Functions and demonstrate their usage based on the table script you provided.
+
+Understanding the Scenario:
+Before we dive into creating an Inline Table-Valued Function, let's understand the scenario based on the table script you provided.
+
+Table Script:
+
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    Name NVARCHAR(50),
+    Subject NVARCHAR(50),
+    Grade INT
+);
+
+
+Explanation:
+
+The table script creates a table called Students with columns StudentID, Name, Subject, and Grade.
+The StudentID column is the primary key of the table.
+Creating an Inline Table-Valued Function:
+Now, let's create an Inline Table-Valued Function based on the scenario.
+
+CREATE FUNCTION dbo.GetStudentsBySubject
+(
+    @Subject NVARCHAR(50)
+)
+RETURNS TABLE
+AS
+RETURN
+(
+    SELECT *
+    FROM Students
+    WHERE Subject = @Subject
+)
+
+
+Explanation:
+
+We create an Inline Table-Valued Function named "GetStudentsBySubject" that accepts a parameter called @Subject of type NVARCHAR(50).
+The RETURNS TABLE clause specifies that the function will return a table.
+Inside the function body, we use a SELECT statement to retrieve all the rows from the Students table where the Subject column matches the @Subject parameter value.
+The function ends with the RETURN statement, which returns the result set as the output of the function.
+Using the Inline Table-Valued Function:
+Now that we have created the Inline Table-Valued Function, let's see how we can use it in queries.
+
+-- Example 1: Select all students studying Math
+SELECT *
+FROM dbo.GetStudentsBySubject('Math')
+
+
+-- Example 2: Get the average grade of students studying Science
+SELECT AVG(Grade)
+FROM dbo.GetStudentsBySubject('Science')
+
+
+Explanation:
+
+In Example 1, we use the SELECT statement to retrieve all the rows from the table-valued function dbo.GetStudentsBySubject('Math'). This will give us all the students studying Math.
+In Example 2, we calculate the average grade of students studying Science by using the AVG function and passing the table-valued function dbo.GetStudentsBySubject('Science') as the input.
+
+
+
+©️ Conclusion:
+Inline Table-Valued Functions (ITVFs) in T-SQL provide a flexible way to encapsulate complex logic and reuse it in queries. They allow us to treat the function's output as a regular table, enabling powerful querying capabilities. In this lesson, we learned how to create an Inline Table-Valued Function based on the table script you provided and use it in queries. This knowledge will help you design and implement efficient database solutions in the future.
+
+Next Steps:
+Now that you have a good understanding of Inline Table-Valued Functions, try experimenting with different scenarios and explore more advanced topics, such as joining Inline Table-Valued Functions with other tables, applying filtering and aggregation functions on the results, and optimizing their performance. Keep practicing and exploring the world of T-SQL!
+
+

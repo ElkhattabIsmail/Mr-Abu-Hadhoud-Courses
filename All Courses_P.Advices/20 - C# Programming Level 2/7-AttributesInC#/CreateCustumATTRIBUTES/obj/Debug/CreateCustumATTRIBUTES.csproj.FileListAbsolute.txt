@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\CreateCustumATTRIBUTES\bin\Debug\CreateCustumATTRIBUTES.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\CreateCustumATTRIBUTES\bin\Debug\CreateCustumATTRIBUTES.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\CreateCustumATTRIBUTES\bin\Debug\CreateCustumATTRIBUTES.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\CreateCustumATTRIBUTES\obj\Debug\CreateCustumATTRIBUTES.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\CreateCustumATTRIBUTES\obj\Debug\CreateCustumATTRIBUTES.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\CreateCustumATTRIBUTES\obj\Debug\CreateCustumATTRIBUTES.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\7-AttributesInC#\CreateCustumATTRIBUTES\obj\Debug\CreateCustumATTRIBUTES.pdb

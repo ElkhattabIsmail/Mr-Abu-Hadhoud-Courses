@@ -1,0 +1,23 @@
+Type Class:
+The Type class is a central class in reflection, representing a type in C#. You can use it to get information about a type, such as its methods, properties, fields, and events.
+
+Example 1: Getting Type Information
+using System;
+
+
+class Program
+{
+    static void Main()
+    {
+        Type myType = typeof(string);
+
+
+        Console.WriteLine("Type Information:");
+        Console.WriteLine($"Name: {myType.Name}");
+        Console.WriteLine($"Full Name: {myType.FullName}");
+        Console.WriteLine($"Is Class: {myType.IsClass}");
+
+
+        Console.ReadLine();
+    }
+}

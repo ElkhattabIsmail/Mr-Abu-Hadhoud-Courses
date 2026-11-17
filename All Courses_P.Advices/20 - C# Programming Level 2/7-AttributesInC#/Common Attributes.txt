@@ -1,0 +1,102 @@
+1. Common Attributes
+[Serializable]: Marks a class as serializable.
+
+[NonSerialized]: Excludes a field from serialization.
+
+[Obsolete]: Marks a method or class as outdated (with an optional message).
+
+[DllImport]: Used to call unmanaged code from a DLL.
+
+[Conditional]: Compiles a method call based on a preprocessor symbol.
+
+2. Validation Attributes
+[Required]: Specifies that a property is mandatory.
+
+[StringLength]: Defines the maximum length of a string.
+
+[Range]: Specifies a range of values for a property.
+
+[RegularExpression]: Validates a string against a regex pattern.
+
+3. ASP.NET Core Attributes
+[HttpGet], [HttpPost], [HttpPut], [HttpDelete]: Define HTTP action methods.
+
+[Route]: Specifies the route for a controller or action.
+
+[FromBody]: Binds data from the request body to a parameter.
+
+[Authorize]: Restricts access to authorized users.
+
+[AllowAnonymous]: Allows access to unauthorized users.
+
+4. Testing Attributes
+[TestClass]: Marks a class as a test class (MSTest).
+
+[TestMethod]: Marks a method as a test method (MSTest).
+
+[Fact]: Marks a method as a test (xUnit).
+
+[Theory]: Marks a parameterized test (xUnit).
+
+[InlineData]: Provides inline data for parameterized tests (xUnit).
+
+5. Compiler and Code Analysis Attributes
+[NotNull]: Indicates that a parameter or return value cannot be null.
+
+[MaybeNull]: Indicates that a parameter or return value might be null.
+
+[CallerMemberName]: Automatically captures the caller’s method name.
+
+[CallerFilePath]: Automatically captures the caller’s file path.
+
+[CallerLineNumber]: Automatically captures the caller’s line number.
+
+6. Dependency Injection Attributes
+[Inject]: Marks a property or field for dependency injection (in some frameworks).
+
+[Service]: Marks a class as a service for dependency injection.
+
+7. Interop Attributes
+[StructLayout]: Defines the layout of a struct in memory.
+
+[MarshalAs]: Specifies how data is marshaled between managed and unmanaged code.
+
+[ComVisible]: Controls whether a class or member is visible to COM.
+
+8. Custom Attributes
+[AttributeUsage]: Defines how a custom attribute can be used (e.g., on classes, methods, etc.).
+
+Example:
+
+csharp
+Copy
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
+public class CustomAttribute : Attribute { }
+9. Miscellaneous Attributes
+[Flags]: Indicates that an enum can be treated as a bit field.
+
+[DebuggerDisplay]: Customizes how an object is displayed in the debugger.
+
+[DataContract]: Marks a class for data contract serialization.
+
+[DataMember]: Marks a property or field for data contract serialization.
+
+Arranged by Purpose
+Serialization: [Serializable], [NonSerialized], [DataContract], [DataMember].
+
+Validation: [Required], [StringLength], [Range], [RegularExpression].
+
+Web/API: [HttpGet], [HttpPost], [Route], [Authorize], [FromBody].
+
+Testing: [TestClass], [TestMethod], [Fact], [Theory], [InlineData].
+
+Compiler/Code Analysis: [NotNull], [MaybeNull], [CallerMemberName].
+
+Dependency Injection: [Inject], [Service].
+
+Interop: [StructLayout], [MarshalAs], [ComVisible].
+
+Custom Attributes: [AttributeUsage].
+
+Miscellaneous: [Flags], [DebuggerDisplay], [Obsolete].
+

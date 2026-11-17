@@ -1,0 +1,11 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\User Control\Build Your Own Control\bin\Debug\Build Your Own Control.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\User Control\Build Your Own Control\bin\Debug\Build Your Own Control.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\User Control\Build Your Own Control\bin\Debug\Build Your Own Control.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\User Control\Build Your Own Control\obj\Debug\Build Your Own Control.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\User Control\Build Your Own Control\obj\Debug\Build_Your_Own_Control.Properties.Resources.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\User Control\Build Your Own Control\obj\Debug\Build_Your_Own_Control.SimpleCalculator.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\User Control\Build Your Own Control\obj\Debug\Build Your Own Control.csproj.GenerateResource.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\User Control\Build Your Own Control\obj\Debug\Build Your Own Control.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\User Control\Build Your Own Control\obj\Debug\Build Your Own Control.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\User Control\Build Your Own Control\obj\Debug\Build Your Own Control.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\User Control\Build Your Own Control\obj\Debug\Build_Your_Own_Control.Form1.resources

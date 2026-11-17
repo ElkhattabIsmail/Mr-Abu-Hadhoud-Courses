@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\Algorithm Level 4\\Object Oriented Programming\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{520BBE81-6D6F-4EC3-BCE9-B84D9547CBA9}|Object Oriented Programming\\Object Oriented Programming.vcxproj|P:\\Algorithm Level 4\\Object Oriented Programming\\Object Oriented Programming\\Object Oriented Programming.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{520BBE81-6D6F-4EC3-BCE9-B84D9547CBA9}|Object Oriented Programming\\Object Oriented Programming.vcxproj|solutionrelative:Object Oriented Programming\\Object Oriented Programming.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Object Oriented Programming.cpp",
+              "DocumentMoniker": "P:\\Algorithm Level 4\\Object Oriented Programming\\Object Oriented Programming\\Object Oriented Programming.cpp",
+              "RelativeDocumentMoniker": "Object Oriented Programming\\Object Oriented Programming.cpp",
+              "ToolTip": "P:\\Algorithm Level 4\\Object Oriented Programming\\Object Oriented Programming\\Object Oriented Programming.cpp",
+              "RelativeToolTip": "Object Oriented Programming\\Object Oriented Programming.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-09T10:41:46.964Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

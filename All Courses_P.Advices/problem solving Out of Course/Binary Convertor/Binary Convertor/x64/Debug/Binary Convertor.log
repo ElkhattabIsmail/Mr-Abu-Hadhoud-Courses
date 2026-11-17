@@ -1,0 +1,5 @@
+﻿  Binary Convertor.cpp
+P:\problem solving Out of Course\Binary Convertor\Binary Convertor.cpp(33,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+P:\problem solving Out of Course\Binary Convertor\Binary Convertor.cpp(78,37): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+P:\problem solving Out of Course\Binary Convertor\Binary Convertor.cpp(82,45): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Binary Convertor.vcxproj -> P:\problem solving Out of Course\Binary Convertor\x64\Debug\Binary Convertor.exe

@@ -1,0 +1,138 @@
+Standard Query Operators
+Filtering
+Where: Filters elements based on a predicate.
+
+OfType: Filters elements based on a specified type.
+
+Projection
+Select: Projects each element of a sequence into a new form.
+
+SelectMany: Projects each element of a sequence to an IEnumerable and flattens the resulting sequences into one sequence.
+
+Sorting
+OrderBy: Sorts elements in ascending order.
+
+OrderByDescending: Sorts elements in descending order.
+
+ThenBy: Performs a subsequent ordering of elements in ascending order.
+
+ThenByDescending: Performs a subsequent ordering of elements in descending order.
+
+Reverse: Reverses the order of the elements in a sequence.
+
+Grouping
+GroupBy: Groups elements based on a key selector function.
+
+Joining
+Join: Correlates the elements of two sequences based on matching keys.
+
+GroupJoin: Correlates the elements of two sequences based on matching keys and groups the results.
+
+Set Operations
+Distinct: Returns distinct elements from a sequence.
+
+Union: Produces the set union of two sequences.
+
+Intersect: Produces the set intersection of two sequences.
+
+Except: Produces the set difference of two sequences.
+
+Element Operations
+First: Returns the first element of a sequence.
+
+FirstOrDefault: Returns the first element of a sequence, or a default value if no element is found.
+
+Last: Returns the last element of a sequence.
+
+LastOrDefault: Returns the last element of a sequence, or a default value if no element is found.
+
+Single: Returns the only element of a sequence, and throws an exception if there is not exactly one element in the sequence.
+
+SingleOrDefault: Returns the only element of a sequence, or a default value if the sequence is empty; throws an exception if there is more than one element in the sequence.
+
+ElementAt: Returns the element at a specified index in a sequence.
+
+ElementAtOrDefault: Returns the element at a specified index in a sequence, or a default value if the index is out of range.
+
+DefaultIfEmpty: Returns the elements of the specified sequence or the specified value in a singleton collection if the sequence is empty.
+
+Aggregation
+Count: Returns the number of elements in a sequence.
+
+LongCount: Returns the number of elements in a sequence as a long integer.
+
+Sum: Computes the sum of a sequence of numeric values.
+
+Min: Returns the minimum value in a sequence of numeric values.
+
+Max: Returns the maximum value in a sequence of numeric values.
+
+Average: Computes the average of a sequence of numeric values.
+
+Aggregate: Applies an accumulator function over a sequence.
+
+Quantifiers
+Any: Determines whether any elements in a sequence satisfy a condition.
+
+All: Determines whether all elements in a sequence satisfy a condition.
+
+Contains: Determines whether a sequence contains a specified element.
+
+Partitioning
+Skip: Bypasses a specified number of elements in a sequence and returns the remaining elements.
+
+Take: Returns a specified number of contiguous elements from the start of a sequence.
+
+SkipWhile: Bypasses elements in a sequence as long as a specified condition is true and then returns the remaining elements.
+
+TakeWhile: Returns elements from a sequence as long as a specified condition is true.
+
+Conversion
+ToArray: Creates an array from a sequence.
+
+ToList: Creates a List from a sequence.
+
+ToDictionary: Creates a Dictionary from a sequence according to specified key selector and value selector functions.
+
+ToLookup: Creates a Lookup from a sequence according to specified key selector and value selector functions.
+
+Cast: Casts the elements of a sequence to a specified type.
+
+AsEnumerable: Returns the input typed as IEnumerable<T>.
+
+AsQueryable: Converts an IEnumerable to an IQueryable.
+
+Example
+Here's a quick example demonstrating a few LINQ methods:
+
+csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+class Program
+{
+    static void Main()
+    {
+        List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+        // Filtering
+        var evenNumbers = numbers.Where(n => n % 2 == 0);
+
+        // Projection
+        var squaredNumbers = numbers.Select(n => n * n);
+
+        // Sorting
+        var sortedNumbers = numbers.OrderByDescending(n => n);
+
+        // Aggregation
+        int sum = numbers.Sum();
+
+        // Display results
+        Console.WriteLine("Even Numbers: " + string.Join(", ", evenNumbers));
+        Console.WriteLine("Squared Numbers: " + string.Join(", ", squaredNumbers));
+        Console.WriteLine("Sorted Numbers: " + string.Join(", ", sortedNumbers));
+        Console.WriteLine("Sum: " + sum);
+    }
+}
+This is a comprehensive list of LINQ methods in C#. If you have any specific questions or need more examples on how to use these methods, feel free to ask!

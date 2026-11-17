@@ -1,0 +1,476 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frrmprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frrmprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmtreeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmtreeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmtrackbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmtrackbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmtabcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmtabcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmtabcontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmtabcontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmpicturebox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmpicturebox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmpicturebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmpicturebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmnumericupdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmnumericupdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmnotifyicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmnotifyicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmmonthcalander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmmonthcalander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmmessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmmessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmmaskedtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmmaskedtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmmenustrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmmenustrip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmlistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmlistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmlinklable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmlinklable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmgroupboxvspanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmgroupboxvspanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmerrorprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmerrorprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmerrorprovider.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmerrorprovider.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmdialogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmdialogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmdatetimepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmdatetimepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmcontextmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmcontextmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmcombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmcombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmchkradiogroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmchkradiogroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\5_all exercises\\myfirstwinformsproject\\frmcheckedlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21302A90-DC23-4BE4-950B-540F2AED24B1}|MyFirstWinformsProject.csproj|solutionrelative:frmcheckedlistbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:54:18.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrrmProgressBar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrrmProgressBar.cs",
+              "RelativeDocumentMoniker": "FrrmProgressBar.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrrmProgressBar.cs [Design]",
+              "RelativeToolTip": "FrrmProgressBar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:54:17.636Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmTreeView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmTreeView.cs",
+              "RelativeDocumentMoniker": "FrmTreeView.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmTreeView.cs [Design]",
+              "RelativeToolTip": "FrmTreeView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:54:16.397Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmTrackBar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmTrackBar.cs",
+              "RelativeDocumentMoniker": "FrmTrackBar.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmTrackBar.cs [Design]",
+              "RelativeToolTip": "FrmTrackBar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:54:15.448Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmTimer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmTimer.cs",
+              "RelativeDocumentMoniker": "FrmTimer.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmTimer.cs [Design]",
+              "RelativeToolTip": "FrmTimer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:54:14.102Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmTextBox.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmTextBox.cs",
+              "RelativeDocumentMoniker": "FrmTextBox.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmTextBox.cs [Design]",
+              "RelativeToolTip": "FrmTextBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:54:12.601Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmTabControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmTabControl.Designer.cs",
+              "RelativeDocumentMoniker": "FrmTabControl.Designer.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmTabControl.Designer.cs",
+              "RelativeToolTip": "FrmTabControl.Designer.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAiwJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:54:05.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmTabControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmTabControl.cs",
+              "RelativeDocumentMoniker": "FrmTabControl.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmTabControl.cs [Design]",
+              "RelativeToolTip": "FrmTabControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:54:04.254Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmPictureBox.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmPictureBox.Designer.cs",
+              "RelativeDocumentMoniker": "FrmPictureBox.Designer.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmPictureBox.Designer.cs",
+              "RelativeToolTip": "FrmPictureBox.Designer.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAiwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:54:01.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmPictureBox.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmPictureBox.cs",
+              "RelativeDocumentMoniker": "FrmPictureBox.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmPictureBox.cs [Design]",
+              "RelativeToolTip": "FrmPictureBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:58.984Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmNumericUpDown.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmNumericUpDown.cs",
+              "RelativeDocumentMoniker": "FrmNumericUpDown.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmNumericUpDown.cs [Design]",
+              "RelativeToolTip": "FrmNumericUpDown.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:57.738Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmNotifyIcon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmNotifyIcon.cs",
+              "RelativeDocumentMoniker": "FrmNotifyIcon.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmNotifyIcon.cs [Design]",
+              "RelativeToolTip": "FrmNotifyIcon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:56.134Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmMonthCalander.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmMonthCalander.cs",
+              "RelativeDocumentMoniker": "FrmMonthCalander.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmMonthCalander.cs [Design]",
+              "RelativeToolTip": "FrmMonthCalander.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:55.554Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrmMessageBox.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmMessageBox.cs",
+              "RelativeDocumentMoniker": "FrmMessageBox.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmMessageBox.cs [Design]",
+              "RelativeToolTip": "FrmMessageBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:54.904Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmMenuStrip.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmMenuStrip.cs",
+              "RelativeDocumentMoniker": "FrmMenuStrip.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmMenuStrip.cs [Design]",
+              "RelativeToolTip": "FrmMenuStrip.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:53.257Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmMain.cs",
+              "RelativeDocumentMoniker": "FrmMain.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmMain.cs [Design]",
+              "RelativeToolTip": "FrmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:48.075Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FrmMaskedTextBox.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmMaskedTextBox.cs",
+              "RelativeDocumentMoniker": "FrmMaskedTextBox.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmMaskedTextBox.cs [Design]",
+              "RelativeToolTip": "FrmMaskedTextBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:46.713Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FrmListView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmListView.cs",
+              "RelativeDocumentMoniker": "FrmListView.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmListView.cs [Design]",
+              "RelativeToolTip": "FrmListView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:43.587Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FrmLinkLable.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmLinkLable.cs",
+              "RelativeDocumentMoniker": "FrmLinkLable.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmLinkLable.cs [Design]",
+              "RelativeToolTip": "FrmLinkLable.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:42.616Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FrmGroupBoxvsPanel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmGroupBoxvsPanel.cs",
+              "RelativeDocumentMoniker": "FrmGroupBoxvsPanel.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmGroupBoxvsPanel.cs [Design]",
+              "RelativeToolTip": "FrmGroupBoxvsPanel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:40.522Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FrmErrorProvider.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmErrorProvider.Designer.cs",
+              "RelativeDocumentMoniker": "FrmErrorProvider.Designer.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmErrorProvider.Designer.cs",
+              "RelativeToolTip": "FrmErrorProvider.Designer.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAiwKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:31.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FrmDateTimePicker.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmDateTimePicker.cs",
+              "RelativeDocumentMoniker": "FrmDateTimePicker.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmDateTimePicker.cs [Design]",
+              "RelativeToolTip": "FrmDateTimePicker.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:28.219Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FrmErrorProvider.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmErrorProvider.cs",
+              "RelativeDocumentMoniker": "FrmErrorProvider.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmErrorProvider.cs [Design]",
+              "RelativeToolTip": "FrmErrorProvider.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:25.552Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FrmDialogs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmDialogs.cs",
+              "RelativeDocumentMoniker": "FrmDialogs.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmDialogs.cs [Design]",
+              "RelativeToolTip": "FrmDialogs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:24.549Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FrmContextMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmContextMenu.cs",
+              "RelativeDocumentMoniker": "FrmContextMenu.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmContextMenu.cs [Design]",
+              "RelativeToolTip": "FrmContextMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:23.887Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FrmComboBox.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmComboBox.cs",
+              "RelativeDocumentMoniker": "FrmComboBox.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmComboBox.cs [Design]",
+              "RelativeToolTip": "FrmComboBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:22.884Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FrmChkRadioGroup.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmChkRadioGroup.cs",
+              "RelativeDocumentMoniker": "FrmChkRadioGroup.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmChkRadioGroup.cs [Design]",
+              "RelativeToolTip": "FrmChkRadioGroup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:21.974Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FrmCheckedListBox.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmCheckedListBox.cs",
+              "RelativeDocumentMoniker": "FrmCheckedListBox.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\5_All Exercises\\MyFirstWinformsProject\\FrmCheckedListBox.cs [Design]",
+              "RelativeToolTip": "FrmCheckedListBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:53:20.387Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

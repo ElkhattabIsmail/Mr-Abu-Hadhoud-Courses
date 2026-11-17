@@ -1,0 +1,179 @@
+Key Difference Between AFTER UPDATE and INSTEAD OF UPDATE
+Feature				AFTER UPDATE Trigger				INSTEAD OF UPDATE Trigger
+Where It Can Be Used		Only on physical tables.			On views or physical tables.
+When It Fires			After the UPDATE operation is completed.	Instead of the UPDATE operation.
+Purpose				To perform actions after data is updated.	To define custom logic for the update.
+
+
+Why You Cannot Use AFTER UPDATE on a View
+Views Are Virtual Tables:
+
+A view is not a physical table; it is a virtual table that displays data from one or more underlying tables.
+
+Since a view does not store data itself, there is no "after" event to trigger when the view is updated. The data is stored in the underlying tables, not in the view.
+
+Triggers Operate on Physical Tables:
+
+Triggers (like AFTER UPDATE) are designed to work on physical tables, where data is actually stored.
+
+When you update a view, the update is actually applied to the underlying table(s), not the view itself. Therefore, you cannot use AFTER UPDATE on a view because the view does not have its own data to trigger an "after" event.
+
+INSTEAD OF Triggers Are the Solution:
+
+Since you cannot use AFTER UPDATE on a view, SQL Server provides INSTEAD OF triggers as a workaround.
+
+An INSTEAD OF UPDATE trigger allows you to define custom logic that executes instead of the actual UPDATE operation on the view. This way, you can control how the underlying tables are updated.
+
+Question : How can we use After Update on a view  ❓
+
+In SQL Server, views are virtual tables that do not store data themselves but instead display data from one or more underlying tables. Since views are not physical tables, you cannot directly use triggers like AFTER UPDATE on a view. However, you can achieve similar functionality by using an INSTEAD OF UPDATE trigger on the view.
+An INSTEAD OF UPDATE trigger allows you to define custom logic that executes instead of the actual UPDATE operation on the view. This way, you can control how the underlying tables are updated when an UPDATE statement is issued against the view.
+
+-Triggers (like AFTER UPDATE) are designed to work on physical tables, where data is actually stored.
+
+
+
+
+You can't unless the view only has one table, because when you have more than one table on your view, the update functionality is not even defined, so logically there is no update thus there is no after-update trigger.
+Why can't an 'After Update' trigger be used effectively for updating the StudentView ❓
+✔️ The StudentView is not directly updateable
+✔️ The StudentView is based on multiple tables
+
+
+
+
+Updating a Multi-Table View using Instead of Update Trigger
+Imagine you have a database with two tables, PersonalInfo and AcademicInfo, representing different aspects of student data. You then create a view, StudentView, which combines these tables to provide a complete profile of each student.
+
+PersonalInfo: Contains columns like StudentID, Name, and Address.
+AcademicInfo: Contains columns like StudentID, Course, and Grade.
+The view StudentView is created with a join on StudentID from both tables and includes columns from both PersonalInfo and AcademicInfo.
+
+Problem with After Update Trigger
+An "After Update" trigger cannot be used effectively for directly updating this view because:
+
+The view is based on multiple tables, and a standard UPDATE operation on the view doesn't inherently know how to distribute changes to its underlying tables.
+An "After Update" trigger would only respond after an update attempt on the view, which would fail if the view is not directly updateable.
+Solution with Instead Of Update Trigger
+An "Instead Of Update" trigger on the view can intercept update attempts and appropriately distribute the changes to the underlying tables.
+
+
+
+Step 1: Creating the Tables
+Script for PersonalInfo Table:
+CREATE TABLE PersonalInfo (
+    StudentID INT PRIMARY KEY,
+    Name NVARCHAR(100),
+    Address NVARCHAR(255)
+);
+
+
+Script for AcademicInfo Table:
+CREATE TABLE AcademicInfo (
+    StudentID INT PRIMARY KEY,
+    Course NVARCHAR(100),
+    Grade INT,
+    FOREIGN KEY (StudentID) REFERENCES PersonalInfo(StudentID)
+);
+
+
+Step 2: Inserting Sample Data
+Insert Data into PersonalInfo:
+INSERT INTO PersonalInfo (StudentID, Name, Address) VALUES
+(1, 'John Doe', '123 Main St'),
+(2, 'Jane Smith', '456 Oak Ave');
+
+
+Insert Data into AcademicInfo:
+INSERT INTO AcademicInfo (StudentID, Course, Grade) VALUES
+(1, 'Computer Science', 90),
+(2, 'Mathematics', 85);
+
+
+Step 3: Creating the View
+Script for StudentView:
+CREATE VIEW StudentView AS
+SELECT P.StudentID, P.Name, P.Address, A.Course, A.Grade
+FROM PersonalInfo P
+JOIN AcademicInfo A ON P.StudentID = A.StudentID;
+
+
+Step 4: Creating the Instead Of Update Trigger
+Script for the Trigger on StudentView:
+CREATE TRIGGER trg_UpdateStudentView ON StudentView
+INSTEAD OF UPDATE
+AS
+BEGIN
+    -- Update PersonalInfo
+    UPDATE PersonalInfo
+    SET Name = I.Name, Address = I.Address
+    FROM PersonalInfo
+    INNER JOIN inserted I ON PersonalInfo.StudentID = I.StudentID;
+
+
+    -- Update AcademicInfo
+    UPDATE AcademicInfo
+    SET Course = I.Course, Grade = I.Grade
+    FROM AcademicInfo
+    INNER JOIN inserted I ON AcademicInfo.StudentID = I.StudentID;
+END;
+
+
+Step 5: Testing the Setup
+To test this setup, you can attempt to update the StudentView and then check both the PersonalInfo and AcademicInfo tables to see if the updates were applied correctly.
+
+Update Statement for Testing:
+UPDATE StudentView
+SET Name = 'Johnathan Doe', Course = 'Biology', Grade = 92
+WHERE StudentID = 1;
+
+
+Check the Updates:
+SELECT * FROM PersonalInfo WHERE StudentID = 1;
+SELECT * FROM AcademicInfo WHERE StudentID = 1;
+
+
+This set of scripts will create the required tables, view, and trigger for the example scenario. By running these scripts in your SQL Server environment, you can see how the "Instead Of Update" trigger works to update a view based on multiple underlying tables.
+
+
+
+
+Why can't an 'After Update' trigger be used effectively for updating the StudentView ❓
+The StudentView is not directly updateable
+The StudentView is based on multiple tables
+
+
+
+
+Creating the Instead Of Update Trigger:
+
+CREATE TRIGGER trg_UpdateStudentView ON StudentView
+INSTEAD OF UPDATE
+AS
+BEGIN
+    -- Update PersonalInfo
+    UPDATE PersonalInfo
+    SET Name = I.Name, Address = I.Address
+    FROM PersonalInfo
+    INNER JOIN inserted I ON PersonalInfo.StudentID = I.StudentID;
+
+
+    -- Update AcademicInfo
+    UPDATE AcademicInfo
+    SET Course = I.Course, Grade = I.Grade
+    FROM AcademicInfo
+    INNER JOIN inserted I ON AcademicInfo.StudentID = I.StudentID;
+END;
+
+
+In this trigger:
+
+When an UPDATE statement is issued on StudentView, the trigger activates.
+Instead of performing a standard update (which isn't directly feasible on the view), it updates the corresponding rows in the PersonalInfo and AcademicInfo tables based on the data in the inserted pseudo-table.
+This allows the view to be "updateable" in a logical sense, even though it's based on multiple underlying tables.
+Conclusion
+This scenario illustrates a case where an "Instead Of Update" trigger is necessary and cannot be replaced by an "After Update" trigger. It's a powerful example of the flexibility and utility of "Instead Of Update" triggers in handling complex data relationships and views in SQL Server.
+
+
+
+

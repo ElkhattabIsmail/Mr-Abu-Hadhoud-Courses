@@ -1,0 +1,21 @@
+﻿  Project lib Prof Solution.cpp
+P:\Algorithm Level 4\Project lib Prof Solution\Project lib Prof Solution\clsString.h(44,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20lib%20Prof%20Solution.cpp')
+  
+P:\Algorithm Level 4\Project lib Prof Solution\Project lib Prof Solution\clsString.h(49,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20lib%20Prof%20Solution.cpp')
+  
+P:\Algorithm Level 4\Project lib Prof Solution\Project lib Prof Solution\clsString.h(61,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20lib%20Prof%20Solution.cpp')
+  
+P:\Algorithm Level 4\Project lib Prof Solution\Project lib Prof Solution\clsString.h(198,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20lib%20Prof%20Solution.cpp')
+  
+P:\Algorithm Level 4\Project lib Prof Solution\Project lib Prof Solution\clsString.h(332,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20lib%20Prof%20Solution.cpp')
+  
+P:\Algorithm Level 4\Project lib Prof Solution\Project lib Prof Solution\clsString.h(380,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20lib%20Prof%20Solution.cpp')
+  
+P:\Algorithm Level 4\Project lib Prof Solution\Project lib Prof Solution\Project lib Prof Solution.cpp(11,13): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  Project lib Prof Solution.vcxproj -> P:\Algorithm Level 4\Project lib Prof Solution\x64\Debug\Project lib Prof Solution.exe

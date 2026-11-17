@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Implement Collection based on Arrays\bin\Debug\Implement Collection based on Arrays.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Implement Collection based on Arrays\bin\Debug\Implement Collection based on Arrays.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Implement Collection based on Arrays\bin\Debug\Implement Collection based on Arrays.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Implement Collection based on Arrays\obj\Debug\Implement Collection based on Arrays.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Implement Collection based on Arrays\obj\Debug\Implement Collection based on Arrays.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Implement Collection based on Arrays\obj\Debug\Implement Collection based on Arrays.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Implement Collection based on Arrays\obj\Debug\Implement Collection based on Arrays.pdb

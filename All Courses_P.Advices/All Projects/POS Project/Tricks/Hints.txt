@@ -1,0 +1,206 @@
+
+How can I insert, for example, this table in the database with ProductID, Name, Price, TotalAmount as a column? The problem is that the user of the program can choose multiple products to add to the database. Is there a good and efficient way to solve this status?
+(Due to technical issues, the search service is temporarily unavailable.)
+
+To handle the scenario where a user can select multiple products and insert them into the database efficiently, you can use a batch insert approach. This approach minimizes the number of database round-trips and improves performance by inserting multiple rows in a single query.
+
+Here’s how you can implement this in your application:
+
+Solution: Batch Insert for Multiple Products
+1. Database Table Structure
+Assume you have a table named Products with the following structure:
+
+sql
+Copy
+CREATE TABLE Products (
+    ProductID INT IDENTITY(1,1) PRIMARY KEY,
+    Name NVARCHAR(100) NOT NULL,
+    Price DECIMAL(18, 2) NOT NULL,
+    TotalAmount DECIMAL(18, 2) NOT NULL
+);
+2. Collect Selected Products in the Application
+When the user selects multiple products (e.g., from a DataGridView or a list), store them in a collection (e.g., a List<Product>).
+
+Product Class
+Define a Product class to represent the product data:
+
+csharp
+Copy
+public class Product
+{
+    public string Name { get; set; }
+    public decimal Price { get; set; }
+    public decimal TotalAmount { get; set; }
+}
+Collect Selected Products
+For example, if the user selects products from a DataGridView:
+
+csharp
+Copy
+List<Product> selectedProducts = new List<Product>();
+
+foreach (DataGridViewRow row in dataGridView1.Rows)
+{
+    if (row.Selected)
+    {
+        selectedProducts.Add(new Product
+        {
+            Name = row.Cells["Name"].Value.ToString(),
+            Price = Convert.ToDecimal(row.Cells["Price"].Value),
+            TotalAmount = Convert.ToDecimal(row.Cells["TotalAmount"].Value)
+        });
+    }
+}
+3. Batch Insert Using SQL
+Using a Single INSERT Statement
+You can construct a single INSERT statement to insert all selected products at once:
+
+sql
+Copy
+INSERT INTO Products (Name, Price, TotalAmount)
+VALUES
+('Product1', 10.00, 100.00),
+('Product2', 20.00, 200.00),
+('Product3', 30.00, 300.00);
+C# Code to Generate the Query
+Dynamically generate the INSERT query based on the selected products:
+
+csharp
+Copy
+StringBuilder query = new StringBuilder("INSERT INTO Products (Name, Price, TotalAmount) VALUES ");
+
+for (int i = 0; i < selectedProducts.Count; i++)
+{
+    query.Append($"('{selectedProducts[i].Name}', {selectedProducts[i].Price}, {selectedProducts[i].TotalAmount})");
+
+    if (i < selectedProducts.Count - 1)
+    {
+        query.Append(", ");
+    }
+}
+
+using (SqlConnection connection = new SqlConnection("YourConnectionString"))
+{
+    connection.Open();
+    using (SqlCommand command = new SqlCommand(query.ToString(), connection))
+    {
+        command.ExecuteNonQuery();
+    }
+}
+4. Using Parameterized Queries (Recommended)
+To prevent SQL injection and improve performance, use parameterized queries with a SqlCommand.
+
+C# Code for Parameterized Batch Insert
+csharp
+Copy
+using (SqlConnection connection = new SqlConnection("YourConnectionString"))
+{
+    connection.Open();
+
+    StringBuilder query = new StringBuilder("INSERT INTO Products (Name, Price, TotalAmount) VALUES ");
+
+    // Add parameters for each product
+    for (int i = 0; i < selectedProducts.Count; i++)
+    {
+        query.Append($"(@Name{i}, @Price{i}, @TotalAmount{i})");
+
+        if (i < selectedProducts.Count - 1)
+        {
+            query.Append(", ");
+        }
+    }
+
+    using (SqlCommand command = new SqlCommand(query.ToString(), connection))
+    {
+        for (int i = 0; i < selectedProducts.Count; i++)
+        {
+            command.Parameters.AddWithValue($"@Name{i}", selectedProducts[i].Name);
+            command.Parameters.AddWithValue($"@Price{i}", selectedProducts[i].Price);
+            command.Parameters.AddWithValue($"@TotalAmount{i}", selectedProducts[i].TotalAmount);
+        }
+
+        command.ExecuteNonQuery();
+    }
+}
+5. Using Stored Procedures (Optional)
+If you prefer to use stored procedures, you can pass the selected products as a table-valued parameter (TVP).
+
+Step 1: Create a User-Defined Table Type in SQL Server
+sql
+Copy
+CREATE TYPE dbo.ProductTableType AS TABLE
+(
+    Name NVARCHAR(100),
+    Price DECIMAL(18, 2),
+    TotalAmount DECIMAL(18, 2)
+);
+Step 2: Create a Stored Procedure
+sql
+Copy
+CREATE PROCEDURE InsertProducts
+    @Products dbo.ProductTableType READONLY
+AS
+BEGIN
+    INSERT INTO Products (Name, Price, TotalAmount)
+    SELECT Name, Price, TotalAmount
+    FROM @Products;
+END
+Step 3: Call the Stored Procedure from C#
+csharp
+Copy
+using (SqlConnection connection = new SqlConnection("YourConnectionString"))
+{
+    connection.Open();
+
+    // Create a DataTable to hold the selected products
+    DataTable productTable = new DataTable();
+    productTable.Columns.Add("Name", typeof(string));
+    productTable.Columns.Add("Price", typeof(decimal));
+    productTable.Columns.Add("TotalAmount", typeof(decimal));
+
+    // Add selected products to the DataTable
+    foreach (var product in selectedProducts)
+    {
+        productTable.Rows.Add(product.Name, product.Price, product.TotalAmount);
+    }
+
+    // Call the stored procedure
+    using (SqlCommand command = new SqlCommand("InsertProducts", connection))
+    {
+        command.CommandType = CommandType.StoredProcedure;
+        command.Parameters.Add(new SqlParameter("@Products", productTable));
+        command.ExecuteNonQuery();
+    }
+}
+6. Benefits of Batch Insert
+Efficiency: Reduces the number of database round-trips.
+
+Performance: Faster than inserting rows one by one.
+
+Simplicity: Easier to manage and maintain.
+
+7. Error Handling
+Always include error handling to manage exceptions (e.g., database connection issues, invalid data):
+
+csharp
+Copy
+try
+{
+    // Batch insert code here
+}
+catch (SqlException ex)
+{
+    MessageBox.Show("Database error: " + ex.Message);
+}
+catch (Exception ex)
+{
+    MessageBox.Show("An error occurred: " + ex.Message);
+}
+Summary
+Use a batch insert approach to insert multiple products efficiently.
+
+Use parameterized queries or stored procedures to prevent SQL injection and improve performance.
+
+Collect selected products in a collection (e.g., List<Product>) and dynamically generate the INSERT query.
+
+This approach ensures that your application handles multiple product inserts in a clean, efficient, and secure manner. Let me know if you need further clarification! 🚀

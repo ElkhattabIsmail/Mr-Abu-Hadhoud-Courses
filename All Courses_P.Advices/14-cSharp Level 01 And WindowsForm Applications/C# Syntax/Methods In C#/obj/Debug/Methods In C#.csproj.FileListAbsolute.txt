@@ -1,0 +1,7 @@
+P:\C# Syntax\Methods In C#\bin\Debug\Methods In C#.exe.config
+P:\C# Syntax\Methods In C#\bin\Debug\Methods In C#.exe
+P:\C# Syntax\Methods In C#\bin\Debug\Methods In C#.pdb
+P:\C# Syntax\Methods In C#\obj\Debug\Methods In C#.csproj.AssemblyReference.cache
+P:\C# Syntax\Methods In C#\obj\Debug\Methods In C#.csproj.CoreCompileInputs.cache
+P:\C# Syntax\Methods In C#\obj\Debug\Methods In C#.exe
+P:\C# Syntax\Methods In C#\obj\Debug\Methods In C#.pdb

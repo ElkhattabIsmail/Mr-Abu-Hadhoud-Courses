@@ -1,0 +1,6 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\My Custom Controls Library\My Own Custom Controls library\bin\Debug\My Own Custom Controls library.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\My Custom Controls Library\My Own Custom Controls library\bin\Debug\My Own Custom Controls library.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\My Custom Controls Library\My Own Custom Controls library\obj\Debug\My Own Custom Controls library.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\My Custom Controls Library\My Own Custom Controls library\obj\Debug\My Own Custom Controls library.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\My Custom Controls Library\My Own Custom Controls library\obj\Debug\My Own Custom Controls library.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\My Custom Controls Library\My Own Custom Controls library\obj\Debug\My Own Custom Controls library.pdb

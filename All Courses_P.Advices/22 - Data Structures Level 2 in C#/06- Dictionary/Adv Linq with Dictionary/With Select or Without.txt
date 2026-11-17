@@ -1,0 +1,57 @@
+Query 1
+csharp
+var productQuer = Product.Where(x => x.Value > 3)
+                         .OrderBy(x => x.Key)
+                         .Select(x => new { x.Key, x.Value });
+Query 2
+csharp
+var productQuer2 = Product.Where(x => x.Value > 3)
+                          .OrderBy(x => x.Key);
+Differences
+Projection with Select:
+
+Query 1 uses the Select method to project each element into a new anonymous type containing only the Key and Value properties. The result of this query will be a collection of objects with these two properties.
+
+Query 2 does not use the Select method. As a result, it returns the original elements from the Product collection (assuming each element is of a type that has a Key and Value property).
+
+Result Type:
+
+Query 1: The result type is an IEnumerable of an anonymous type with Key and Value properties.
+
+Query 2: The result type is an IOrderedEnumerable of the original element type from the Product collection.
+
+Example Scenario
+Let's assume Product is a collection of ProductItem objects, defined as:
+
+csharp
+public class ProductItem
+{
+    public int Key { get; set; }
+    public int Value { get; set; }
+    public string Description { get; set; }
+}
+Query 1
+csharp
+var productQuer = Product.Where(x => x.Value > 3)
+                         .OrderBy(x => x.Key)
+                         .Select(x => new { x.Key, x.Value });
+
+// Result type: IEnumerable<{ Key: int, Value: int }>
+foreach (var item in productQuer)
+{
+    Console.WriteLine($"Key: {item.Key}, Value: {item.Value}");
+}
+Query 2
+csharp
+var productQuer2 = Product.Where(x => x.Value > 3)
+                          .OrderBy(x => x.Key);
+
+// Result type: IOrderedEnumerable<ProductItem>
+foreach (var item in productQuer2)
+{
+    Console.WriteLine($"Key: {item.Key}, Value: {item.Value}, Description: {item.Description}");
+}
+Key Takeaways
+Query 1 creates a new anonymous type with only Key and Value, which is useful when you need a subset of properties from the original elements.
+
+Query 2 preserves the original type of the elements, allowing access to all properties, including Description.

@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Add Data to Data Base\bin\Debug\Add Data to Data Base.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Add Data to Data Base\bin\Debug\Add Data to Data Base.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Add Data to Data Base\bin\Debug\Add Data to Data Base.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Add Data to Data Base\obj\Debug\Add Data to Data Base.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Add Data to Data Base\obj\Debug\Add Data to Data Base.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Add Data to Data Base\obj\Debug\Add Data to Data Base.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Add Data to Data Base\obj\Debug\Add Data to Data Base.pdb

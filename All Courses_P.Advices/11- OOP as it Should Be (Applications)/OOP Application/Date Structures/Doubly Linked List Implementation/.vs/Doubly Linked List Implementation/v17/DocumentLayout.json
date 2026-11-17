@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\OOP Application\\Date Structures\\Doubly Linked List Implementation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B563626-A210-4330-B130-DBA1F31B5265}|Doubly Linked List Implementation\\Doubly Linked List Implementation.vcxproj|P:\\OOP Application\\Date Structures\\Doubly Linked List Implementation\\Doubly Linked List Implementation\\Doubly Linked List Implementation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5B563626-A210-4330-B130-DBA1F31B5265}|Doubly Linked List Implementation\\Doubly Linked List Implementation.vcxproj|solutionrelative:Doubly Linked List Implementation\\Doubly Linked List Implementation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Doubly Linked List Implementation.cpp",
+              "DocumentMoniker": "P:\\OOP Application\\Date Structures\\Doubly Linked List Implementation\\Doubly Linked List Implementation\\Doubly Linked List Implementation.cpp",
+              "RelativeDocumentMoniker": "Doubly Linked List Implementation\\Doubly Linked List Implementation.cpp",
+              "ToolTip": "P:\\OOP Application\\Date Structures\\Doubly Linked List Implementation\\Doubly Linked List Implementation\\Doubly Linked List Implementation.cpp",
+              "RelativeToolTip": "Doubly Linked List Implementation\\Doubly Linked List Implementation.cpp",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAAKoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-12T13:56:24.315Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

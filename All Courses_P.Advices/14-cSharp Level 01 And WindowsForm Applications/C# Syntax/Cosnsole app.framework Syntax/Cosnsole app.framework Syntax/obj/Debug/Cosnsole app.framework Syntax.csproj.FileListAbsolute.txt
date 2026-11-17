@@ -1,0 +1,7 @@
+P:\C# Syntax\Cosnsole app.framework Syntax\Cosnsole app.framework Syntax\bin\Debug\Cosnsole app.framework Syntax.exe.config
+P:\C# Syntax\Cosnsole app.framework Syntax\Cosnsole app.framework Syntax\bin\Debug\Cosnsole app.framework Syntax.exe
+P:\C# Syntax\Cosnsole app.framework Syntax\Cosnsole app.framework Syntax\bin\Debug\Cosnsole app.framework Syntax.pdb
+P:\C# Syntax\Cosnsole app.framework Syntax\Cosnsole app.framework Syntax\obj\Debug\Cosnsole app.framework Syntax.csproj.AssemblyReference.cache
+P:\C# Syntax\Cosnsole app.framework Syntax\Cosnsole app.framework Syntax\obj\Debug\Cosnsole app.framework Syntax.csproj.CoreCompileInputs.cache
+P:\C# Syntax\Cosnsole app.framework Syntax\Cosnsole app.framework Syntax\obj\Debug\Cosnsole app.framework Syntax.exe
+P:\C# Syntax\Cosnsole app.framework Syntax\Cosnsole app.framework Syntax\obj\Debug\Cosnsole app.framework Syntax.pdb

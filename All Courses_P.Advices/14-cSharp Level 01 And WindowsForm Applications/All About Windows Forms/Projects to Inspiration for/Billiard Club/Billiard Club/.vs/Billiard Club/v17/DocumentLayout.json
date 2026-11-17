@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0628\u0631\u0645\u062D\u064A\u0629 \u0639\u0644\u0649 windows form\\Billiard Club\\Billiard Club\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F86F337A-B9F0-4A24-A55F-CD22EA561B28}|Billiard Club.csproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0628\u0631\u0645\u062D\u064A\u0629 \u0639\u0644\u0649 windows form\\Billiard Club\\Billiard Club\\billiard_club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86F337A-B9F0-4A24-A55F-CD22EA561B28}|Billiard Club.csproj|solutionrelative:billiard_club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86F337A-B9F0-4A24-A55F-CD22EA561B28}|Billiard Club.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0628\u0631\u0645\u062D\u064A\u0629 \u0639\u0644\u0649 windows form\\billiard club\\billiard club\\billiard_club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F86F337A-B9F0-4A24-A55F-CD22EA561B28}|Billiard Club.csproj|solutionrelative:billiard_club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Billiard_Club.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0628\u0631\u0645\u062D\u064A\u0629 \u0639\u0644\u0649 windows form\\Billiard Club\\Billiard Club\\Billiard_Club.cs",
+              "RelativeDocumentMoniker": "Billiard_Club.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0628\u0631\u0645\u062D\u064A\u0629 \u0639\u0644\u0649 windows form\\Billiard Club\\Billiard Club\\Billiard_Club.cs [Design]",
+              "RelativeToolTip": "Billiard_Club.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:09:28.552Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Billiard_Club.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0628\u0631\u0645\u062D\u064A\u0629 \u0639\u0644\u0649 windows form\\Billiard Club\\Billiard Club\\Billiard_Club.cs",
+              "RelativeDocumentMoniker": "Billiard_Club.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0628\u0631\u0645\u062D\u064A\u0629 \u0639\u0644\u0649 windows form\\Billiard Club\\Billiard Club\\Billiard_Club.cs",
+              "RelativeToolTip": "Billiard_Club.cs",
+              "ViewState": "AQIAAAUBAAAAAAAAAAAawBEBAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:45:31.359Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

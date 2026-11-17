@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\Algorithm Level 4\\Structure Inside Classes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC6BFD3-A443-4CE6-A394-198A9D1AE7D3}|Structure Inside Classes\\Structure Inside Classes.vcxproj|P:\\Algorithm Level 4\\Structure Inside Classes\\Structure Inside Classes\\Structure Inside Classes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6BC6BFD3-A443-4CE6-A394-198A9D1AE7D3}|Structure Inside Classes\\Structure Inside Classes.vcxproj|solutionrelative:Structure Inside Classes\\Structure Inside Classes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Structure Inside Classes.cpp",
+              "DocumentMoniker": "P:\\Algorithm Level 4\\Structure Inside Classes\\Structure Inside Classes\\Structure Inside Classes.cpp",
+              "RelativeDocumentMoniker": "Structure Inside Classes\\Structure Inside Classes.cpp",
+              "ToolTip": "P:\\Algorithm Level 4\\Structure Inside Classes\\Structure Inside Classes\\Structure Inside Classes.cpp",
+              "RelativeToolTip": "Structure Inside Classes\\Structure Inside Classes.cpp",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-18T18:17:49.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

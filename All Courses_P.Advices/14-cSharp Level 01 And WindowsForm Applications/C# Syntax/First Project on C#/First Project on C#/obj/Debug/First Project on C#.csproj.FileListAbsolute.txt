@@ -1,0 +1,7 @@
+P:\C# Syntax\First Project on C#\First Project on C#\bin\Debug\First Project on C#.exe.config
+P:\C# Syntax\First Project on C#\First Project on C#\bin\Debug\First Project on C#.exe
+P:\C# Syntax\First Project on C#\First Project on C#\bin\Debug\First Project on C#.pdb
+P:\C# Syntax\First Project on C#\First Project on C#\obj\Debug\First Project on C#.csproj.AssemblyReference.cache
+P:\C# Syntax\First Project on C#\First Project on C#\obj\Debug\First Project on C#.csproj.CoreCompileInputs.cache
+P:\C# Syntax\First Project on C#\First Project on C#\obj\Debug\First Project on C#.exe
+P:\C# Syntax\First Project on C#\First Project on C#\obj\Debug\First Project on C#.pdb

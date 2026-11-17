@@ -1,0 +1,30 @@
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.dll
+C:\Users\Acer\Dropbox\Personal\Advices\2021\18 ADO\Projects\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\ContactsWinFormSolution\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\ContactsWinFormSolution\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\ContactsWinFormSolution\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\ContactsWinFormSolution\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\ContactsWinFormSolution\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\ContactsWinFormSolution\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Forms With Data Base\ContactsWinForm prof Solution\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Forms With Data Base\ContactsWinForm prof Solution\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Forms With Data Base\ContactsWinForm prof Solution\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Forms With Data Base\ContactsWinForm prof Solution\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Forms With Data Base\ContactsWinForm prof Solution\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Forms With Data Base\ContactsWinForm prof Solution\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course 19 Course\My Contacts Form + Additional Features\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Course 19 Course\My Contacts Form + Additional Features\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course 19 Course\My Contacts Form + Additional Features\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course 19 Course\My Contacts Form + Additional Features\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course 19 Course\My Contacts Form + Additional Features\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Course 19 Course\My Contacts Form + Additional Features\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All About Windows Forms\Base Revision\DataBase Connectivity\My Contacts Form + Additional Features\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\All About Windows Forms\Base Revision\DataBase Connectivity\My Contacts Form + Additional Features\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All About Windows Forms\Base Revision\DataBase Connectivity\My Contacts Form + Additional Features\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All About Windows Forms\Base Revision\DataBase Connectivity\My Contacts Form + Additional Features\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All About Windows Forms\Base Revision\DataBase Connectivity\My Contacts Form + Additional Features\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\All About Windows Forms\Base Revision\DataBase Connectivity\My Contacts Form + Additional Features\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.pdb

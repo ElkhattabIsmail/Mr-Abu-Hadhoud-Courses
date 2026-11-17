@@ -1,0 +1,48 @@
+CASE Statement in T-SQL
+Introduction
+T-SQL does not have a dedicated SWITCH statement as found in many programming languages. Instead, the CASE statement serves a similar purpose, allowing for conditional logic based on specific values or conditions. It's the closest equivalent to a SWITCH statement in T-SQL.
+
+
+
+In T-SQL, the CASE statement is primarily used within the context of queries, such as SELECT, UPDATE, INSERT, and DELETE statements. It is not used as a standalone control-of-flow structure like IF or WHILE.
+
+In T-SQL, the CASE statement is specifically designed for conditional logic within the set-based operations of SQL queries. It's not a general-purpose control-of-flow statement like those found in procedural programming languages. Therefore, it cannot be used in the same way as an if-else or switch statement in languages like C# or Java, which control the flow of the program.
+
+If you need to implement control-of-flow logic in T-SQL that is not directly tied to a query, you would typically use:
+
+IF...ELSE Statements: For conditional execution of T-SQL statements.
+WHILE Loops: For executing a set of statements repeatedly based on a condition.
+
+
+Understanding the CASE Statement as a SWITCH Equivalent
+The CASE statement can be used in two forms, which can mimic the behavior of a SWITCH statement but only inside queries:
+
+Simple CASE (Equivalent to SWITCH): Compares an expression to a set of specific values.
+Searched CASE: Evaluates a set of Boolean expressions.
+Syntax of Simple CASE (SWITCH Equivalent)
+CASE input_expression
+    WHEN expression1 THEN result1
+    WHEN expression2 THEN result2
+    ...
+    ELSE default_result
+END
+
+input_expression: The expression to compare against the WHEN expressions.
+Syntax of Searched CASE
+CASE
+    WHEN boolean_expression1 THEN result1
+    WHEN boolean_expression2 THEN result2
+    ...
+    ELSE default_result
+END
+
+
+Each WHEN clause contains a Boolean expression.
+
+Best Practices
+Avoid Complexity: Keep CASE statements simple for better readability.
+Performance Consideration: Be cautious with performance on large datasets.
+NULL Handling: CASE returns NULL if no conditions are met and there is no ELSE clause.
+Consistent Data Types: Ensure consistent data types in THEN and ELSE clauses.
+Summary
+In T-SQL, the CASE statement functions as the closest equivalent to a SWITCH statement. It's a flexible tool for conditional logic, adaptable for various scenarios in SELECT, UPDATE, and ORDER BY clauses, enhancing SQL query functionality and dynamism.

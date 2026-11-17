@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Rerirve Auto Number\bin\Debug\Rerirve Auto Number.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Rerirve Auto Number\bin\Debug\Rerirve Auto Number.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Rerirve Auto Number\bin\Debug\Rerirve Auto Number.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Rerirve Auto Number\obj\Debug\Rerirve Auto Number.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Rerirve Auto Number\obj\Debug\Rerirve Auto Number.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Rerirve Auto Number\obj\Debug\Rerirve Auto Number.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Rerirve Auto Number\obj\Debug\Rerirve Auto Number.pdb

@@ -1,0 +1,9 @@
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\bin\Release\BusinessLib.dll
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\bin\Release\BusinessLib.pdb
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\bin\Release\Global Classes.dll
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\bin\Release\Global Classes.pdb
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\obj\Release\BusinessLib.csproj.AssemblyReference.cache
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\obj\Release\BusinessLib.csproj.CoreCompileInputs.cache
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\obj\Release\Business.C190E0A1.Up2Date
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\obj\Release\BusinessLib.dll
+C:\Users\HUSSAIN\source\repos\Code Generator\BusinessLib\obj\Release\BusinessLib.pdb

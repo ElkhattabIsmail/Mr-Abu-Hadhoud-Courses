@@ -1,0 +1,24 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Project After C21\Point Of Sales Project\Point Of Sales Project\bin\Debug\Point Of Sales Project.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Project After C21\Point Of Sales Project\Point Of Sales Project\bin\Debug\Point Of Sales Project.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Project After C21\Point Of Sales Project\Point Of Sales Project\bin\Debug\Point Of Sales Project.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Project After C21\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point Of Sales Project.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Project After C21\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point_Of_Sales_Project.Properties.Resources.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Project After C21\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point Of Sales Project.csproj.GenerateResource.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Project After C21\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point Of Sales Project.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Project After C21\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point Of Sales Project.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Project After C21\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point Of Sales Project.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\bin\Debug\Point Of Sales Project.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\bin\Debug\Point Of Sales Project.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\bin\Debug\Point Of Sales Project.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\bin\Debug\POS_BusinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\bin\Debug\POS_DataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\bin\Debug\POS_BusinessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\bin\Debug\POS_DataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point Of Sales Project.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point_Of_Sales_Project.MainForm.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point_Of_Sales_Project.Properties.Resources.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point Of Sales Project.csproj.GenerateResource.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point Of Sales Project.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point Of.7FEB2893.Up2Date
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point Of Sales Project.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\POS Project\Point Of Sales Project\Point Of Sales Project\obj\Debug\Point Of Sales Project.pdb

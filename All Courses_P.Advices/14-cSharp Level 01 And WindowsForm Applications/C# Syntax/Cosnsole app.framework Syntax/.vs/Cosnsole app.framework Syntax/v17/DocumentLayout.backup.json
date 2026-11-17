@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\C# Syntax\\Cosnsole app.framework Syntax\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA07787-8BC6-4B7D-9774-62C6CAA40E37}|Cosnsole app.framework Syntax\\Cosnsole app.framework Syntax.csproj|p:\\c# syntax\\cosnsole app.framework syntax\\cosnsole app.framework syntax\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA07787-8BC6-4B7D-9774-62C6CAA40E37}|Cosnsole app.framework Syntax\\Cosnsole app.framework Syntax.csproj|solutionrelative:cosnsole app.framework syntax\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "P:\\C# Syntax\\Cosnsole app.framework Syntax\\Cosnsole app.framework Syntax\\Program.cs",
+              "RelativeDocumentMoniker": "Cosnsole app.framework Syntax\\Program.cs",
+              "ToolTip": "P:\\C# Syntax\\Cosnsole app.framework Syntax\\Cosnsole app.framework Syntax\\Program.cs",
+              "RelativeToolTip": "Cosnsole app.framework Syntax\\Program.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAQwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T15:11:32.559Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+breach the data  إنتهاك
+أفضل شي هو تحط الكويري باراميبر تفيديا لحقن الكويري 
+Which of the following best describes SQL injection ❓
+✔️ correct A security vulnerability that occurs when an attacker manipulates user input to execute unintended SQL statements
+Which is a preventive measure against SQL injection ❓
+✔️ correct Parameterized queries
+
+SQL Injection in T-SQL
+
+Understand the concept of SQL Injection, its potential risks, and learn preventive measures to mitigate this security vulnerability in T-SQL using the provided script.
+
+Introduction:
+SQL Injection is a security vulnerability that occurs when an attacker manipulates user input to execute unintended SQL statements. This can lead to unauthorized access, data breaches, or even complete compromise of the database. In this lesson, we will explore SQL Injection risks and learn preventive measures using the provided script as an example.
+
+Understanding SQL Injection:
+SQL Injection occurs when an attacker injects malicious SQL code into an application's input fields, bypassing input validation and directly manipulating SQL statements. Let's consider the provided script as an example:
+
+DECLARE @input NVARCHAR(50) = '1 or 1=1';
+
+
+DECLARE @SQL NVARCHAR(MAX);
+
+
+SET @SQL =  ' SELECT * FROM Students WHERE studentID = ' +  @input;
+EXECUTE(@SQL);
+
+
+
+Explanation:
+
+In this example, the @input variable is set to '1 or 1=1', which is a typical SQL Injection payload.
+The script dynamically creates a SQL statement in the @SQL variable by concatenating the @input value into the query.
+If the @input value is not properly validated or sanitized, an attacker can manipulate it to alter the original query's logic and retrieve unintended data.
+SQL Injection Risks:
+SQL Injection poses several risks, including:
+
+Unauthorized data access: Attackers can retrieve sensitive information by crafting malicious input.
+Data modification: Attackers can modify or delete data in the database.
+Database compromise: Attackers can execute arbitrary SQL statements, potentially gaining full control of the database.
+Preventive Measures:
+To prevent SQL Injection, follow these best practices:
+
+Parameterized Queries:
+
+Use parameterized queries or prepared statements instead of concatenating user input directly into SQL statements.
+Parameterized queries separate the SQL code from the user input, preventing malicious input from altering the query's structure.
+Example using parameterized queries:
+
+DECLARE @input NVARCHAR(50) = '1 or 1=1';
+
+
+SELECT *
+FROM Students
+WHERE studentID = @input;
+Explanation:
+
+In this example, the @input value is passed as a parameter to the query, separating it from the SQL code.
+Even if the @input value is '1 or 1=1', it will be treated as a literal value and not alter the query's structure.
+Input Validation and Sanitization:
+
+Validate and sanitize user input to ensure it meets expected criteria.
+Use input validation techniques such as white-listing, regular expressions, or data type checks to filter out potentially malicious input.
+Example using input validation:
+
+DECLARE @input NVARCHAR(50) = '1 or 1=1';
+
+
+IF ISNUMERIC(@input) = 1
+BEGIN
+    SELECT *
+    FROM Students
+    WHERE studentID = @input;
+END
+ELSE
+BEGIN
+    -- Handle invalid input
+    SELECT 'Invalid input';
+END
+
+
+Explanation:
+
+In this example, the ISNUMERIC function is used to check if the @input value is numeric.
+If the @input value is numeric, the query is executed, ensuring that only valid studentIDs are used.
+Otherwise, an alternative action can be taken, such as displaying an error message.
+Conclusion:
+SQL Injection is a severe security vulnerability that can lead to unauthorized access, data breaches, or even complete compromise of the database. In this lesson, we explored the concept of SQL Injection, its potential risks, and learned preventive measures using the provided script as an example. By employing parameterized queries and implementing input validation and sanitization techniques, you can significantly reduce the risk of SQL Injection attacks.
+
+
+
+
+
+

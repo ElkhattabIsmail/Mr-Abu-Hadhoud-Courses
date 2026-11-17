@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\LinqWithTupelsExample\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\LinqWithTupelsExample\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\LinqWithTupelsExample\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\LinqWithTupelsExample\ConsoleApp1\obj\Debug\LinqWithTupelsExample.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\LinqWithTupelsExample\ConsoleApp1\obj\Debug\LinqWithTupelsExample.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\LinqWithTupelsExample\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\22- Tuples\LinqWithTupelsExample\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

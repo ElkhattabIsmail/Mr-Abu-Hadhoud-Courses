@@ -1,0 +1,7 @@
+P:\OOP in C#\Abstact Class\bin\Debug\Abstact Class.exe.config
+P:\OOP in C#\Abstact Class\bin\Debug\Abstact Class.exe
+P:\OOP in C#\Abstact Class\bin\Debug\Abstact Class.pdb
+P:\OOP in C#\Abstact Class\obj\Debug\Abstact Class.csproj.AssemblyReference.cache
+P:\OOP in C#\Abstact Class\obj\Debug\Abstact Class.csproj.CoreCompileInputs.cache
+P:\OOP in C#\Abstact Class\obj\Debug\Abstact Class.exe
+P:\OOP in C#\Abstact Class\obj\Debug\Abstact Class.pdb

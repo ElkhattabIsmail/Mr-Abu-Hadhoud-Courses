@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\27-Calling Stored Procedures in C#\Stored Procudures in C#\bin\Debug\Stored Procudures in C#.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\27-Calling Stored Procedures in C#\Stored Procudures in C#\bin\Debug\Stored Procudures in C#.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\27-Calling Stored Procedures in C#\Stored Procudures in C#\bin\Debug\Stored Procudures in C#.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\27-Calling Stored Procedures in C#\Stored Procudures in C#\obj\Debug\Stored Procudures in C#.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\27-Calling Stored Procedures in C#\Stored Procudures in C#\obj\Debug\Stored Procudures in C#.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\27-Calling Stored Procedures in C#\Stored Procudures in C#\obj\Debug\Stored Procudures in C#.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\27-Calling Stored Procedures in C#\Stored Procudures in C#\obj\Debug\Stored Procudures in C#.pdb

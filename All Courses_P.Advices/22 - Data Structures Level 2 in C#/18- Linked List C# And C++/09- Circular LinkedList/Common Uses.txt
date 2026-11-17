@@ -1,0 +1,6 @@
+Buffer of 100 digit 
+infinite loop and replace the digit with new Values and do it again and again.
+
+
+Black Screen of Vs Do The Same Thing.
+Console...

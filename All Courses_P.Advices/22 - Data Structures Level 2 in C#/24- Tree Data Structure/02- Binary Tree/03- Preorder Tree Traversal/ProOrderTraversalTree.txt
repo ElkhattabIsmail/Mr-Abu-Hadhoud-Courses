@@ -1,0 +1,3 @@
+Why is Preorder Traversal useful?
+It visits the right subtree first
+correctIt is a method for creating a copy of a tree

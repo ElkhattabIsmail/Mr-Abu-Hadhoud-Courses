@@ -1,0 +1,118 @@
+Why does gimme a syntax error With TopMovieRate As
+(
+select top 1 AvgRatesMovies.movie_id, AvgRatesMovies.MovieRate, 
+AvgRatesMovies.title from
+(
+select MR.movie_id ,MV.title, AVG(MR.rating * 1.0) as MovieRate 
+from MovieRating MR inner join Movies MV ON MV.movie_id = MR.movie_id
+where MONTH(MR.created_at) = 2 AND YEAR(MR.created_at) = 2020
+group by MR.movie_id,MV.title
+) AvgRatesMovies
+order by AvgRatesMovies.MovieRate desc, AvgRatesMovies.title
+)
+select top 1 U.name as results from MovieRating MR inner join Users U ON U.user_id = MR.user_id
+where MR.movie_id = TopMovieRate.movie_id and MONTH(MR.created_at) = 2 AND YEAR(MR.created_at) = 2020
+union all
+select TopMovieRate.title as results
+
+ChatGPT a dit :
+Great question — you're very close, but the issue is related to how you're referencing the CTE (TopMovieRate) outside of its declaration.
+
+❌ The Problem
+You're using the TopMovieRate CTE in a WHERE clause without joining it properly:
+
+sql
+Copier
+Modifier
+-- This is invalid:
+where MR.movie_id = TopMovieRate.movie_id
+SQL Server doesn't allow direct reference to a CTE as a scalar like that unless it's in the FROM clause or properly joined.
+
+✅ Hints to Fix It
+Here’s how to fix it conceptually:
+
+CTE (TopMovieRate) must be referenced in the FROM clause of your final query.
+
+You'll need to join TopMovieRate to MovieRating to access TopMovieRate.movie_id.
+
+✅ Use CTE like this in final query:
+sql
+Copier
+Modifier
+WITH TopMovieRate AS (
+  -- Your top movie average rating logic
+)
+SELECT ...
+FROM MovieRating MR
+JOIN TopMovieRate TMR ON MR.movie_id = TMR.movie_id
+...
+Then use that to filter/select user names and movie title.
+
+🧠 Summary
+✔️ You cannot use a CTE alias (TopMovieRate) directly in WHERE without including it in FROM or JOIN.
+
+✔️ Use a JOIN to relate it properly in the final query.
+
+🧠 Think of a CTE like a temp view or a derived table — it has to be used from or joined to, not accessed like a variable.
+
+Let me know if you want to confirm your fix or walk through rewriting it!
+
+
+
+Vous avez dit :
+union all
+select TopMovieRate.title as results how about this clause ?
+
+ChatGPT a dit :
+Great follow-up! Let's focus on this part of your query:
+
+sql
+Copier
+Modifier
+SELECT TopMovieRate.title AS results
+❗ Problem:
+You're referencing TopMovieRate outside of its valid scope.
+
+In SQL Server:
+
+A CTE (Common Table Expression) like TopMovieRate is only available to the immediately following SELECT, INSERT, UPDATE, or DELETE statement.
+
+So if you do this:
+
+sql
+Copier
+Modifier
+WITH TopMovieRate AS (...)
+-- First SELECT that uses the CTE
+SELECT ...
+-- Second SELECT (this one)
+SELECT TopMovieRate.title ...
+✅ This will cause an error unless the second SELECT is still part of the same query.
+
+🛠 Fix:
+If you're doing something like this:
+
+sql
+Copier
+Modifier
+WITH TopMovieRate AS (...)
+SELECT ... -- First query using TopMovieRate
+UNION ALL
+SELECT TopMovieRate.title AS results -- ❌ Invalid
+You need to include TopMovieRate in the FROM clause of this second query:
+
+sql
+Copier
+Modifier
+WITH TopMovieRate AS (...)
+SELECT ... -- First SELECT
+UNION ALL
+SELECT title AS results FROM TopMovieRate -- ✅ Valid usage
+✅ TL;DR – Your corrected version should be:
+sql
+Copier
+Modifier
+SELECT title AS results FROM TopMovieRate
+⛔ Don’t reference TopMovieRate.title without a FROM TopMovieRate.
+
+Let me know if you'd like the full rewritten query or want help structuring the UNION ALL block properly.

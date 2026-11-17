@@ -1,0 +1,95 @@
+🎯 تخيلها كعملية بناء هرم وظيفي
+✅ اللفة الأولى (Anchor Query) → جلب المدير الأعلى (مثلاً CEO).
+✅ اللفة الثانية → إضافة المديرين التابعين للـ CEO.
+✅ اللفة الثالثة → إضافة التابعين للمديرين اللي تم إضافتهم في اللفة اللي فاتت.
+✅ وهكذا...
+
+💡 في كل مرة، البيانات اللي تم جمعها بتزيد، لكن مفيش تعديل على البيانات السابقة، فقط إضافة جديدة.
+
+
+Example Iterations:
+Assume the Employees7 table has the following data:
+
+EmployeeID	ManagerID	Name
+1		NULL		CEO
+2		1		VP1
+3		1		VP2
+4		2		Mgr1
+5		2		Mgr2
+6		3		Mgr3
+
+Iteration 1:
+The anchor member initializes the CEO:
+
+EmployeeID	ManagerID	Name	Hierarchy	Level
+1	NULL	CEO	CEO	0
+The recursive member finds employees whose ManagerID matches the CEO's EmployeeID (i.e., ManagerID = 1):
+
+Employees: VP1 and VP2.
+
+Output:
+
+EmployeeID	ManagerID	Name	Hierarchy	Level
+2		1		VP1	CEO <- VP1	1
+3		1		VP2	CEO <- VP2	1
+
+Iteration 2:
+The recursive member now processes VP1 and VP2:
+
+For VP1 (EmployeeID = 2), it finds employees with ManagerID = 2:
+
+Employees: Mgr1 and Mgr2.
+
+For VP2 (EmployeeID = 3), it finds employees with ManagerID = 3:
+
+Employee: Mgr3.
+
+Output:
+
+EmployeeID	ManagerID	Name	Hierarchy		Level
+4		2		Mgr1	CEO <- VP1 <- Mgr1	2
+5		2		Mgr2	CEO <- VP1 <- Mgr2	2
+6		3		Mgr3	CEO <- VP2 <- Mgr3	2
+
+Iteration 3:
+The recursive member now processes Mgr1, Mgr2, and Mgr3:
+
+No employees have ManagerID matching Mgr1, Mgr2, or Mgr3.
+
+The recursion stops.
+
+3. Final Output
+The final output of the CTE is the union of all iterations:
+
+EmployeeID	ManagerID	Name	Hierarchy		Level
+1		NULL		CEO	CEO			0
+2		1		VP1	CEO <- VP1		1
+3		1		VP2	CEO <- VP2		1
+4		2		Mgr1	CEO <- VP1 <- Mgr1	2
+5		2		Mgr2	CEO <- VP1 <- Mgr2	2
+6		3		Mgr3	CEO <- VP2 <- Mgr3	2
+
+4. Final SELECT
+The final SELECT retrieves all rows from the CTE and orders them by the Hierarchy column:
+
+
+
+SELECT * FROM EmployeeTreeHierarchy
+ORDER BY Hierarchy;
+Output:
+EmployeeID	ManagerID	Name	Hierarchy		Level
+1		NULL		CEO	CEO			0
+2		1		VP1	CEO <- VP1		1
+4		2		Mgr1	CEO <- VP1 <- Mgr1	2
+5		2		Mgr2	CEO <- VP1 <- Mgr2	2
+3		1		VP2	CEO <- VP2		1
+6		3		Mgr3	CEO <- VP2 <- Mgr3	2
+Summary
+The anchor member initializes the hierarchy with the root employee (CEO).
+
+The recursive member builds the hierarchy by joining employees with their managers and appending their names to the Hierarchy path.
+
+The recursion stops when no more employees are found under the current level.
+
+The final output is ordered by the Hierarchy column to show the tree structure clearly.
+

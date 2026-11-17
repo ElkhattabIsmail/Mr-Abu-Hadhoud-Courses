@@ -1,0 +1,7 @@
+P:\oop in C# Code\InterFaces\bin\Debug\InterFaces.exe.config
+P:\oop in C# Code\InterFaces\bin\Debug\InterFaces.exe
+P:\oop in C# Code\InterFaces\bin\Debug\InterFaces.pdb
+P:\oop in C# Code\InterFaces\obj\Debug\InterFaces.csproj.AssemblyReference.cache
+P:\oop in C# Code\InterFaces\obj\Debug\InterFaces.csproj.CoreCompileInputs.cache
+P:\oop in C# Code\InterFaces\obj\Debug\InterFaces.exe
+P:\oop in C# Code\InterFaces\obj\Debug\InterFaces.pdb

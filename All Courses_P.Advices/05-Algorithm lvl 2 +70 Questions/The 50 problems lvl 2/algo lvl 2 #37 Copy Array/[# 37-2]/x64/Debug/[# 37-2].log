@@ -1,0 +1,3 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project ([# 37-2].vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  [# 37-2].cpp
+  [# 37-2].vcxproj -> C:\Users\ULTRAPC\OneDrive\Bureau\Problems Level 03\algo lvl 2 +50 Questions\algo lvl 2 #34 Copy Array\x64\Debug\#34 Copy Array.exe

@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\frmmessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmmessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\myfirstwinformsproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\frmmessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91D5FF1D-275D-4221-8E28-A2EE88CB9B91}|MyFirstWinFormsProject.csproj|solutionrelative:frmmessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMessageBox.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\frmMessageBox.cs",
+              "RelativeDocumentMoniker": "frmMessageBox.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\frmMessageBox.cs",
+              "RelativeToolTip": "frmMessageBox.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:08:19.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmMessageBox.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\frmMessageBox.cs",
+              "RelativeDocumentMoniker": "frmMessageBox.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\frmMessageBox.cs [Design]",
+              "RelativeToolTip": "frmMessageBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:08:19.568Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:08:19.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\frmMain.cs",
+              "RelativeToolTip": "frmMain.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIAwwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:08:19.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\frmMain.cs [Design]",
+              "RelativeToolTip": "frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:08:19.574Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:08:19.575Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\MyFirstWinFormsProject\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAArwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:08:19.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

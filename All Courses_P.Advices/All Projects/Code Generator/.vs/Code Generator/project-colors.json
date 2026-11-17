@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "95b0abf0-633e-48e0-bf6d-0ebfe55b89a8": {
+      "ProjectGuid": "95b0abf0-633e-48e0-bf6d-0ebfe55b89a8",
+      "DisplayName": "Code Generator",
+      "ColorIndex": 0
+    },
+    "9f3558f8-a41d-44e2-a228-27e169004037": {
+      "ProjectGuid": "9f3558f8-a41d-44e2-a228-27e169004037",
+      "DisplayName": "BusinessLib",
+      "ColorIndex": 1
+    },
+    "659c162f-3ccb-4283-993f-c24c83e43d84": {
+      "ProjectGuid": "659c162f-3ccb-4283-993f-c24c83e43d84",
+      "DisplayName": "DataAccessLib",
+      "ColorIndex": 2
+    },
+    "4ccc0fef-00cd-47a6-b727-0a9458ea6357": {
+      "ProjectGuid": "4ccc0fef-00cd-47a6-b727-0a9458ea6357",
+      "DisplayName": "Global Classes",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

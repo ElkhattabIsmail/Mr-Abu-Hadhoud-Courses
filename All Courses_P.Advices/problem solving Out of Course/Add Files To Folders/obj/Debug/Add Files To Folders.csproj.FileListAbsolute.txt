@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Add Files To Folders\bin\Debug\Add Files To Folders.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Add Files To Folders\bin\Debug\Add Files To Folders.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Add Files To Folders\bin\Debug\Add Files To Folders.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Add Files To Folders\obj\Debug\Add Files To Folders.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Add Files To Folders\obj\Debug\Add Files To Folders.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Add Files To Folders\obj\Debug\Add Files To Folders.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Add Files To Folders\obj\Debug\Add Files To Folders.pdb

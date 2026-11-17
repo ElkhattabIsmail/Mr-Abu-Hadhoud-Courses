@@ -1,0 +1,71 @@
+Overview:
+
+ArrayList is a dynamic array that can hold elements of any data type.
+It's part of the System.Collections namespace.
+Unlike arrays, ArrayList can grow dynamically as elements are added, but it does not automatically decrease its capacity when elements are removed.
+Key Points:
+
+Dynamic Sizing: Unlike arrays, ArrayList automatically increases its size as elements are added. However, it does not automatically decrease its capacity when elements are removed.
+Heterogeneous Collection: ArrayList can hold elements of different data types. This flexibility allows for the storage of different types of objects within the same collection.
+Methods and Properties: ArrayList provides various methods and properties to manipulate and access elements, such as Add(), Remove(), Insert(), Count, and Capacity.
+Memory Management: Although ArrayList does not automatically decrease its capacity when elements are removed, you can use the TrimToSize() method to reduce the capacity to match the number of elements stored in the list.
+
+
+
+
+
+
+
+
+
+###
+Yes, that's correct! In C#, non-generic collections (like ArrayList, Hashtable, Stack, Queue, etc.) store elements as object types. This means:
+
+Boxing and Unboxing in Non-Generic Collections
+Boxing:
+
+When you add a value type (e.g., int, double, bool) to a non-generic collection, it is boxed into an object.
+
+Boxing involves wrapping the value type in an object and storing it on the heap.
+
+csharp
+Copy
+ArrayList list = new ArrayList();
+list.Add(42); // Boxing occurs here (int -> object)
+Unboxing:
+
+When you retrieve a value type from a non-generic collection, it must be unboxed back to its original type.
+
+Unboxing involves extracting the value type from the object and converting it back to its original type.
+
+csharp
+Copy
+int number = (int)list[0]; // Unboxing occurs here (object -> int)
+Why Boxing and Unboxing are Problematic
+Performance Overhead:
+
+Boxing and unboxing involve memory allocations and type conversions, which can degrade performance, especially in large collections or frequent operations.
+
+Type Safety:
+
+Non-generic collections are not type-safe. You can accidentally store incompatible types, leading to runtime errors (e.g., InvalidCastException).
+
+csharp
+Copy
+list.Add("hello"); // This works, but...
+int value = (int)list[1]; // Throws InvalidCastException at runtime
+Generic Collections Avoid Boxing and Unboxing
+Generic collections (like List<T>, Dictionary<TKey, TValue>, Stack<T>, etc.) do not involve boxing and unboxing because they store elements as their actual types.
+
+Example:
+csharp
+Copy
+List<int> genericList = new List<int>();
+genericList.Add(42); // No boxing (int remains int)
+int number = genericList[0]; // No unboxing (int remains int)
+Summary
+Non-generic collections (e.g., ArrayList, Hashtable) involve boxing and unboxing when storing and retrieving value types.
+
+Generic collections (e.g., List<T>, Dictionary<TKey, TValue>) avoid boxing and unboxing, making them more efficient and type-safe.
+
+Always prefer generic collections in modern C# code to avoid performance overhead and ensure type safety.

@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\15-stringBuilder\CompareStringBuilderAndNormalString\bin\Debug\CompareStringBuilderAndNormalString.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\15-stringBuilder\CompareStringBuilderAndNormalString\bin\Debug\CompareStringBuilderAndNormalString.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\15-stringBuilder\CompareStringBuilderAndNormalString\bin\Debug\CompareStringBuilderAndNormalString.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\15-stringBuilder\CompareStringBuilderAndNormalString\obj\Debug\CompareStringBuilderAndNormalString.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\15-stringBuilder\CompareStringBuilderAndNormalString\obj\Debug\CompareStringBuilderAndNormalString.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\15-stringBuilder\CompareStringBuilderAndNormalString\obj\Debug\CompareStringBuilderAndNormalString.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\15-stringBuilder\CompareStringBuilderAndNormalString\obj\Debug\CompareStringBuilderAndNormalString.pdb

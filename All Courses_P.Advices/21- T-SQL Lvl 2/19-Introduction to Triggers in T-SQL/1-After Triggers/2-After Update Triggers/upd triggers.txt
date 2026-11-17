@@ -1,0 +1,74 @@
+What are some common uses of After Update Triggers in T-SQL ❓
+Logging changes
+Updating related information
+Enforcing constraints
+
+
+Understanding After Update Triggers in T-SQL
+
+This lesson aims to deepen your understanding of After Update Triggers in T-SQL, demonstrated with the 'Students' table. We will explore how these triggers can be used to monitor and log updates.
+
+What is an After Update Trigger?
+An After Update Trigger in T-SQL is a procedural code that is automatically executed in response to an UPDATE event on a table. It's mainly used for operations that need to occur right after a record is updated, like logging changes, enforcing constraints, or updating related information.
+
+Environment Setup:
+Ensure both the main table ('Students') and the update log table ('StudentUpdateLog') are prepared.
+
+-- Assuming the Students table is already created
+
+
+-- Table for logging grade updates
+CREATE TABLE StudentUpdateLog (
+    LogID INT IDENTITY PRIMARY KEY,
+    StudentID INT,
+    OldGrade INT,
+    NewGrade INT,
+    UpdatedDateTime DATETIME DEFAULT GETDATE()
+);
+
+
+Creating the After Update Trigger:
+This script sets up a trigger to record grade changes in the 'Students' table.
+
+CREATE TRIGGER trg_AfterUpdateStudent ON Students
+AFTER UPDATE
+AS
+BEGIN
+    IF UPDATE(Grade)
+    BEGIN
+        INSERT INTO StudentUpdateLog(StudentID, OldGrade, NewGrade)
+        SELECT i.StudentID, d.Grade AS OldGrade, i.Grade AS NewGrade
+        FROM inserted i
+        INNER JOIN deleted d ON i.StudentID = d.StudentID;
+    END
+END;
+
+
+Key Components Explained:
+
+CREATE TRIGGER trg_AfterUpdateStudent: Creates a trigger named trg_AfterUpdateStudent.
+ON Students: Associates the trigger with the 'Students' table.
+AFTER UPDATE: The trigger is fired after an update operation.
+IF UPDATE(Grade): Checks if the 'Grade' column was part of the update.
+The inserted and deleted tables: Special tables where inserted contains the new values and deleted contains the old values of the updated rows.
+Testing the Trigger:
+We'll update a student's grade and then inspect the update log.
+
+-- Updating the grade of a student
+UPDATE Students
+SET Grade = 90
+WHERE StudentID = 1;
+
+
+-- Checking the log table
+SELECT * FROM StudentUpdateLog;
+
+
+Expected Result:
+
+An entry in StudentUpdateLog showing the change from the old grade (85) to the new grade (90).
+
+Conclusion:
+After Update Triggers in T-SQL are essential for tracking modifications, enforcing data consistency, and automating responses to data changes. They play a critical role in maintaining the integrity and reliability of the data within a SQL Server database.
+
+Through these lessons, you've gained valuable insights into implementing and utilizing After Insert and After Update Triggers, enhancing your T-SQL programming skills for effective database management.

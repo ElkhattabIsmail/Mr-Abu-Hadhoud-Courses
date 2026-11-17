@@ -1,0 +1,7 @@
+P:\oop in C# Code\Hybrid Inheritance\bin\Debug\Hybrid Inheritance.exe.config
+P:\oop in C# Code\Hybrid Inheritance\bin\Debug\Hybrid Inheritance.exe
+P:\oop in C# Code\Hybrid Inheritance\bin\Debug\Hybrid Inheritance.pdb
+P:\oop in C# Code\Hybrid Inheritance\obj\Debug\Hybrid Inheritance.csproj.AssemblyReference.cache
+P:\oop in C# Code\Hybrid Inheritance\obj\Debug\Hybrid Inheritance.csproj.CoreCompileInputs.cache
+P:\oop in C# Code\Hybrid Inheritance\obj\Debug\Hybrid Inheritance.exe
+P:\oop in C# Code\Hybrid Inheritance\obj\Debug\Hybrid Inheritance.pdb

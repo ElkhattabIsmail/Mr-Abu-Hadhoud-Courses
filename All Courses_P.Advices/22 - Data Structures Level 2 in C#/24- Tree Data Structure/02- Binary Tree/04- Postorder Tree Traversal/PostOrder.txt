@@ -1,0 +1,8 @@
+When is postorder traversal especially useful?
+When you need to visit parent nodes before child nodes
+correct When calculating the size or depth of a tree
+correct When you need to visit child nodes before their parents
+
+
+What is the purpose of postorder traversal?
+correctTo visit all nodes in a tree structure in a specific sequence

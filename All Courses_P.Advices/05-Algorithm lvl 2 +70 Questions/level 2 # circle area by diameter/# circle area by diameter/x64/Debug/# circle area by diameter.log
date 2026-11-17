@@ -1,0 +1,4 @@
+﻿  # circle area by diameter.cpp
+C:\Users\ULTRAPC\source\repos\(4,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ULTRAPC\source\repos\(14,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  # circle area by diameter.vcxproj -> C:\Users\ULTRAPC\source\repos\# circle area by diameter\x64\Debug\# circle area by diameter.exe

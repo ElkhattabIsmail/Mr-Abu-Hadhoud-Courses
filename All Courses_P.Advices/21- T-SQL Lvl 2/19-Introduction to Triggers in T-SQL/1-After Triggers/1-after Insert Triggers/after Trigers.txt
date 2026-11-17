@@ -1,0 +1,60 @@
+Understanding and Implementing After Insert Triggers in T-SQL
+
+This lesson provides a detailed understanding of creating and testing an After Insert Trigger in T-SQL, using the 'Students' table as a practical example. We'll focus on how this trigger can be used to log new entries in a database.
+
+What is an After Insert Trigger?
+An After Insert Trigger in T-SQL is executed automatically after a new record is inserted into a table. It's typically used for tasks that need to occur immediately following the insertion, such as logging, auditing, or updating other related data.
+
+Environment Setup:
+Ensure the primary table ('Students') and a logging table ('StudentInsertLog') are in place.
+
+-- Assuming the Students table is already created
+-- Table for logging new student entries
+CREATE TABLE StudentInsertLog (
+    LogID INT IDENTITY PRIMARY KEY,
+    StudentID INT,
+    Name NVARCHAR(50),
+    Subject NVARCHAR(50),
+    Grade INT,
+    InsertedDateTime DATETIME DEFAULT GETDATE()
+);
+
+
+Creating the After Insert Trigger:
+The following script creates a trigger that activates after a new student record is inserted.
+
+CREATE TRIGGER trg_AfterInsertStudent ON Students
+AFTER INSERT
+AS
+BEGIN
+    INSERT INTO StudentInsertLog(StudentID, Name, Subject, Grade)
+    SELECT StudentID, Name, Subject, Grade FROM inserted;
+END;
+
+
+Key Components Explained:
+
+CREATE TRIGGER trg_AfterInsertStudent: Declares a new trigger named trg_AfterInsertStudent.
+ON Students: Specifies that the trigger is associated with the 'Students' table.
+AFTER INSERT: Indicates that the trigger responds to insert operations.
+INSERT INTO StudentInsertLog(...) SELECT ... FROM inserted: The core action, which inserts a record into the 'StudentInsertLog' table. The inserted table is a special table used within the scope of insert and update triggers, holding the newly inserted rows.
+Testing the Trigger:
+To validate our trigger, we insert a record into 'Students' and then query 'StudentInsertLog'.
+
+-- Inserting a new student
+INSERT INTO Students (StudentID, Name, Subject, Grade)
+VALUES (1, 'John Doe', 'Mathematics', 85);
+
+
+-- Checking the log table
+SELECT * FROM StudentInsertLog;
+
+
+
+
+﻿Expected Result:
+
+You should see a corresponding entry for 'John Doe' in the StudentInsertLog table.
+
+Conclusion:
+After Insert Triggers are powerful for maintaining data integrity, automating logging, and implementing complex business rules. They help ensure that actions are taken immediately after data is entered into the database, enhancing the database's functionality and reliability.

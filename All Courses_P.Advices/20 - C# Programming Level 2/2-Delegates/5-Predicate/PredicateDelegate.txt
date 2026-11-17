@@ -1,0 +1,9 @@
+In simple words: it's a shortcut for a delegate function that takes one parameter and return boolean.
+
+In C#, a predicate is a delegate that represents a method that takes one or more parameters and returns a Boolean value. Specifically, the Predicate<T> delegate is a built-in generic delegate in the System namespace, and it's commonly used for defining conditions or filters.
+
+The Predicate<T> delegate is defined as follows:
+
+public delegate bool Predicate<in T>(T obj); 
+
+Here, T is the type of the parameter that the method takes, and the delegate returns a Boolean value.

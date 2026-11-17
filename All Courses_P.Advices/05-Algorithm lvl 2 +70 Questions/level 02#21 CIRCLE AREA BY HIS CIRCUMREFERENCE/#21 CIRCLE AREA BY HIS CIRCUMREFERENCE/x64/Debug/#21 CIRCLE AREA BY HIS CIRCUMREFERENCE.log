@@ -1,0 +1,4 @@
+﻿  #21 CIRCLE AREA BY HIS CIRCUMREFERENCE.cpp
+C:\Users\ULTRAPC\source\repos\(4,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ULTRAPC\source\repos\(15,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  #21 CIRCLE AREA BY HIS CIRCUMREFERENCE.vcxproj -> C:\Users\ULTRAPC\source\repos\#21 CIRCLE AREA BY HIS CIRCUMREFERENCE\x64\Debug\#21 CIRCLE AREA BY HIS CIRCUMREFERENCE.exe

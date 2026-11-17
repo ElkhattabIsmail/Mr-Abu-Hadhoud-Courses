@@ -1,0 +1,7 @@
+P:\oop in C# Code\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+P:\oop in C# Code\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+P:\oop in C# Code\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+P:\oop in C# Code\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.AssemblyReference.cache
+P:\oop in C# Code\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+P:\oop in C# Code\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+P:\oop in C# Code\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

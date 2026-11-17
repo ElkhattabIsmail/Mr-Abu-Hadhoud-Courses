@@ -1,0 +1,47 @@
+Understanding Return Values in Stored Procedures in T-SQL
+Introduction
+In T-SQL, a stored procedure can return a value to the calling environment. This is an essential feature for communicating the success or failure of the procedure's execution or to provide a specific status code. Understanding how to use and handle return values is crucial for effective database programming.
+
+What is a Return Value?
+A return value is an integer value that a stored procedure can return to the caller.
+It is primarily used to indicate success or failure (often with 0 for success and non-zero values for various error conditions or specific states).
+Also return used to exist from SP.
+
+Example using return value to check if the person exists or not.
+
+Stored procedure to check if a person exists in a People table, to check for the existence of a person based on a unique identifier, such as PersonID. Here's the a stored procedure:
+
+CREATE PROCEDURE SP_CheckPersonExists
+    @PersonID INT
+AS
+BEGIN
+    IF EXISTS(SELECT * FROM People WHERE PersonID = @PersonID)
+        RETURN 1;  -- Person exists
+    ELSE
+        RETURN 0;  -- Person does not exist
+END
+
+Explanation:
+
+It takes @PersonID as a parameter, which is used to identify the person in the People table.
+The IF EXISTS statement checks for the existence of a record in the People table where the PersonID matches the provided parameter.
+It returns 1 if the person exists and 0 if not.
+To use this stored procedure, you would call it with a specific PersonID and check the return value:
+
+DECLARE @Result INT;
+EXEC @Result = SP_CheckPersonExists @PersonID = 123; -- Replace 123 with the actual PersonID
+
+
+IF @Result = 1
+    PRINT 'Person exists.';
+ELSE
+    PRINT 'Person does not exist.';
+
+In this usage example, @Result will hold the return value of the stored procedure, indicating whether the specified person exists (1) or not (0).
+
+Best Practices
+Use return values primarily for indicating success or failure.
+For detailed data output, consider using OUTPUT parameters, which can return more complex data types.
+Clearly document the meaning of various return values in your stored procedures.
+Conclusion
+Return values in T-SQL stored procedures are a simple yet powerful way to communicate the outcome of a procedure. They are particularly useful for error handling and flow control in database applications. Understanding how to use them effectively is a key skill in T-SQL programming.

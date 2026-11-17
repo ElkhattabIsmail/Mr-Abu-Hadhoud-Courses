@@ -1,0 +1,28 @@
+-> Var Table is Faster Than physical Table(Using Log files and other Constraints) + There are no statistics in the variables table unlike the physical table.
+
+-> Temp Variable.
+
+
+-> Limitations of Table Variables
+Indexing: By default, you can only create a primary key index at the time of declaration. Additional indexing options are limited.  لك الحق في إستعمال فهرس واحد عند تعريف الجدول كمتغير
+Statistics: Lack of statistics can lead to suboptimal query plans for large data sets  قد يؤدي نقص الإحصائيات إلى خطط استعلام  غير مثالية لمجموعات البيانات الكبيرة
+
+Can you use a table variable in a JOIN clause?
+correct Yes, table variables can be used in JOINs like regular tables.
+
+
++++
+Table Variables: Have minimal logging and do not participate in transactions. This means that if a transaction is rolled back, changes made to a table variable within that transaction are not rolled back. متغيرات الجدول: تتطلب الحد الأدنى من التسجيل ولا تشارك في المعاملات. وهذا يعني أنه في حالة التراجع عن معاملة، فإن التغييرات التي تم إجراؤها على متغير الجدول ضمن تلك المعاملة لا يتم التراجع عنها.
+
+*Resume:
+Table variables in T-SQL provide a convenient way to temporarily store and manipulate small sets of data. They are particularly useful for quick operations and in scenarios where minimal logging and transactional scope are important. Understanding when and how to use table variables, as opposed to temporary tables or other types of temporary storage, is an important skill in SQL programming and database design.
+T-SQL توفر متغيرات الجدول في
+ طريقة ملائمة لتخزين ومعالجة مجموعات صغيرة من البيانات مؤقتًا. وهي مفيدة بشكل خاص للعمليات السريعة وفي السيناريوهات التي يكون فيها الحد الأدنى من التسجيل والنطاق المعاملاتي مهمًا. إن فهم متى وكيف يتم استخدام متغيرات الجدول، على عكس الجداول المؤقتة أو الأنواع الأخرى من التخزين المؤقت، يعد مهارة مهمة في برمجة أسكوال وتصميم قاعدة البيانات.
+
+
+
+
+
+
+
+

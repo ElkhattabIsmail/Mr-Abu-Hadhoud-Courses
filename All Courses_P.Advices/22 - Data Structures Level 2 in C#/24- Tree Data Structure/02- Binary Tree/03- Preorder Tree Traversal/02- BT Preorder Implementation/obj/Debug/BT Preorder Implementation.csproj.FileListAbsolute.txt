@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\02- Binary Tree\03- Preorder Tree Traversal\BT Preorder Implementation\bin\Debug\BT Preorder Implementation.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\02- Binary Tree\03- Preorder Tree Traversal\BT Preorder Implementation\bin\Debug\BT Preorder Implementation.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\02- Binary Tree\03- Preorder Tree Traversal\BT Preorder Implementation\bin\Debug\BT Preorder Implementation.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\02- Binary Tree\03- Preorder Tree Traversal\BT Preorder Implementation\obj\Debug\BT Preorder Implementation.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\02- Binary Tree\03- Preorder Tree Traversal\BT Preorder Implementation\obj\Debug\BT Preorder Implementation.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\02- Binary Tree\03- Preorder Tree Traversal\BT Preorder Implementation\obj\Debug\BT Preorder Implementation.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\24- Tree Data Structure\02- Binary Tree\03- Preorder Tree Traversal\BT Preorder Implementation\obj\Debug\BT Preorder Implementation.pdb

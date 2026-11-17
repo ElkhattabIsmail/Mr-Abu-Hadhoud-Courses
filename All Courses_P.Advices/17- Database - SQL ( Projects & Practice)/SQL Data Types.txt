@@ -1,0 +1,3 @@
+
+// SQL Data Types //
+https://programmingadvices.com/courses/database-level-1-sql-concepts-and-practice/lectures/46486680

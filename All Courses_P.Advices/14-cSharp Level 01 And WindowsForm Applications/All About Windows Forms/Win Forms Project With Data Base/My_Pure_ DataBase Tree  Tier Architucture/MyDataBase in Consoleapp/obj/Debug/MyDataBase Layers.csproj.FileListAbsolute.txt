@@ -1,0 +1,36 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\MyDataBase Layers\bin\Debug\MyDataBase Layers.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\MyDataBase Layers\bin\Debug\MyDataBase Layers.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\MyDataBase Layers\bin\Debug\MyDataBase Layers.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\MyDataBase Layers\bin\Debug\ContactsBussinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\MyDataBase Layers\bin\Debug\DataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\MyDataBase Layers\bin\Debug\ContactsBussinessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\MyDataBase Layers\bin\Debug\DataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\MyDataBase Layers\obj\Debug\MyDataBase Layers.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\MyDataBase Layers\obj\Debug\MyDataBase Layers.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\MyDataBase Layers\obj\Debug\MyDataBa.E266D2DA.Up2Date
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\MyDataBase Layers\obj\Debug\MyDataBase Layers.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\MyDataBase Layers\obj\Debug\MyDataBase Layers.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\My_Pure_ DataBase\MyDataBase in Consoleapp\bin\Debug\MyDataBase Layers.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\My_Pure_ DataBase\MyDataBase in Consoleapp\bin\Debug\MyDataBase Layers.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\My_Pure_ DataBase\MyDataBase in Consoleapp\bin\Debug\MyDataBase Layers.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\My_Pure_ DataBase\MyDataBase in Consoleapp\bin\Debug\ContactsBussinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\My_Pure_ DataBase\MyDataBase in Consoleapp\bin\Debug\DataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\My_Pure_ DataBase\MyDataBase in Consoleapp\bin\Debug\ContactsBussinessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\My_Pure_ DataBase\MyDataBase in Consoleapp\bin\Debug\DataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\My_Pure_ DataBase\MyDataBase in Consoleapp\obj\Debug\MyDataBase Layers.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\My_Pure_ DataBase\MyDataBase in Consoleapp\obj\Debug\MyDataBase Layers.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\My_Pure_ DataBase\MyDataBase in Consoleapp\obj\Debug\MyDataBa.E266D2DA.Up2Date
+C:\Users\ULTRAPC\OneDrive\Bureau\My_Pure_ DataBase\MyDataBase in Consoleapp\obj\Debug\MyDataBase Layers.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\My_Pure_ DataBase\MyDataBase in Consoleapp\obj\Debug\MyDataBase Layers.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\MyDataBase in Consoleapp\bin\Debug\MyDataBase Layers.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\MyDataBase in Consoleapp\bin\Debug\MyDataBase Layers.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\MyDataBase in Consoleapp\bin\Debug\MyDataBase Layers.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\MyDataBase in Consoleapp\bin\Debug\ContactsBussinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\MyDataBase in Consoleapp\bin\Debug\DataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\MyDataBase in Consoleapp\bin\Debug\ContactsBussinessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\MyDataBase in Consoleapp\bin\Debug\DataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\MyDataBase in Consoleapp\obj\Debug\MyDataBase Layers.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\MyDataBase in Consoleapp\obj\Debug\MyDataBase Layers.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\MyDataBase in Consoleapp\obj\Debug\MyDataBa.E266D2DA.Up2Date
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\MyDataBase in Consoleapp\obj\Debug\MyDataBase Layers.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\MyDataBase in Consoleapp\obj\Debug\MyDataBase Layers.pdb

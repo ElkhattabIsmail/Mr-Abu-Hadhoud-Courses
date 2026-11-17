@@ -1,0 +1,5 @@
+﻿  Lexicographicaly letter.cpp
+P:\problem solving\Lexicographicaly letter\Lexicographicaly letter\Lexicographicaly letter.cpp(26,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+P:\problem solving\Lexicographicaly letter\Lexicographicaly letter\Lexicographicaly letter.cpp(47,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+P:\problem solving\Lexicographicaly letter\Lexicographicaly letter\Lexicographicaly letter.cpp(47,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Lexicographicaly letter.vcxproj -> P:\problem solving\Lexicographicaly letter\x64\Debug\Lexicographicaly letter.exe

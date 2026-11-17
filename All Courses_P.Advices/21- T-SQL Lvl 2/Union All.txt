@@ -1,0 +1,89 @@
+🔥 Problem Recap
+You're doing something like this:
+
+sql
+Copier
+Modifier
+WITH TopMovieRate AS (...)
+SELECT TOP 1 U.name AS results
+FROM TopMovieRate tm
+JOIN MovieRating MR ...
+JOIN Users U ...
+-- ❌ Why can't I put ORDER BY here?
+
+UNION ALL
+
+SELECT title AS results FROM TopMovieRate
+💡 Answer: You cannot use ORDER BY in the first SELECT of a UNION unless you wrap the entire UNION in a subquery or CTE, or put the ORDER BY at the very end.
+🔒 In SQL Server:
+ORDER BY is only allowed at the outermost level of the full query (after the UNION ALL).
+
+So this won’t work:
+
+sql
+Copier
+Modifier
+SELECT TOP 1 ... FROM ... ORDER BY ...  -- ❌ if inside UNION
+UNION ALL
+SELECT ...
+✅ Solutions
+✅ Option 1: Wrap your first SELECT in a subquery or use ORDER BY outside the UNION
+✔ Rewriting your query using SELECT TOP 1 WITH TIES + ROW_NUMBER if needed:
+If you're just trying to pick 1 name ordered by something specific, use this pattern:
+
+sql
+Copier
+Modifier
+WITH TopMovieRate AS (
+    SELECT TOP 1 MR.movie_id, AVG(MR.rating * 1.0) AS MovieRate, MV.title
+    FROM MovieRating MR
+    JOIN Movies MV ON MV.movie_id = MR.movie_id
+    WHERE MONTH(MR.created_at) = 2 AND YEAR(MR.created_at) = 2020
+    GROUP BY MR.movie_id, MV.title
+    ORDER BY MovieRate DESC, MV.title
+)
+-- Now apply ORDER BY here
+SELECT U.name AS results
+FROM TopMovieRate tm
+JOIN MovieRating MR ON tm.movie_id = MR.movie_id
+JOIN Users U ON U.user_id = MR.user_id
+WHERE MONTH(MR.created_at) = 2 AND YEAR(MR.created_at) = 2020
+ORDER BY U.name -- ✅ ORDER BY allowed here because no UNION yet
+OFFSET 0 ROWS FETCH NEXT 1 ROW ONLY
+
+UNION ALL
+
+SELECT title AS results FROM TopMovieRate;
+✅ This puts the ORDER BY after the first SELECT block and before UNION.
+
+✅ Option 2: Use ROW_NUMBER() to simulate TOP with ORDER inside a CTE
+You can pre-rank users and filter to 1 after:
+
+sql
+Copier
+Modifier
+WITH TopMovieRate AS (...),
+UserRank AS (
+  SELECT U.name, ROW_NUMBER() OVER (ORDER BY U.name) AS rn
+  FROM TopMovieRate tm
+  JOIN MovieRating MR ON tm.movie_id = MR.movie_id
+  JOIN Users U ON U.user_id = MR.user_id
+  WHERE MONTH(MR.created_at) = 2 AND YEAR(MR.created_at) = 2020
+)
+SELECT name AS results FROM UserRank WHERE rn = 1
+UNION ALL
+SELECT title AS results FROM TopMovieRate;
+✅ TL;DR:
+❌ ORDER BY is not allowed inside a SELECT that is part of a UNION unless:
+
+It's wrapped in a subquery.
+
+Or you place the ORDER BY at the end of the whole query.
+
+Let me know if you want the final full query cleaned up and optimized.
+
+
+
+
+#######
+

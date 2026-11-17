@@ -1,0 +1,36 @@
+In SQL Server, UNION ALL works based on the number and order of columns, not the column names.
+
+✅ Requirements for UNION ALL to work:
+Same number of columns in each SELECT statement.
+
+Compatible data types in corresponding columns (e.g., INT with INT, VARCHAR with VARCHAR, etc.).
+
+Column names do not need to match — only the order and data types matter.
+
+Example:
+sql
+Copier
+Modifier
+-- Table A
+SELECT id, name FROM TableA
+
+-- Table B
+SELECT user_id, full_name FROM TableB
+
+-- This works if:
+-- 1. Both return two columns
+-- 2. The first columns (id, user_id) are same/similar types
+-- 3. The second columns (name, full_name) are same/similar types
+
+-- Using UNION ALL
+SELECT id, name FROM TableA
+UNION ALL
+SELECT user_id, full_name FROM TableB
+Summary:
+✔ Same number of columns: Required
+
+❌ Same column names: Not required
+
+✔ Same or compatible data types: Required
+
+Let me know if you'd like to see a real example or run one!

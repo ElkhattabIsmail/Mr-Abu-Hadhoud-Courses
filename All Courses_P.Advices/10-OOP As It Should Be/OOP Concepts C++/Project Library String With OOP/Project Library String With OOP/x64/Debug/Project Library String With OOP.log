@@ -1,0 +1,25 @@
+﻿  Project Library String With OOP.cpp
+P:\Algorithm Level 4\Project Library String With OOP\Project Library String With OOP\ClsString.h(51,18): warning C4244: 'argument': conversion from 'short' to 'const _Elem', possible loss of data
+P:\Algorithm Level 4\Project Library String With OOP\Project Library String With OOP\ClsString.h(51,18): warning C4244:         with
+P:\Algorithm Level 4\Project Library String With OOP\Project Library String With OOP\ClsString.h(51,18): warning C4244:         [
+P:\Algorithm Level 4\Project Library String With OOP\Project Library String With OOP\ClsString.h(51,18): warning C4244:             _Elem=char
+P:\Algorithm Level 4\Project Library String With OOP\Project Library String With OOP\ClsString.h(51,18): warning C4244:         ]
+  (compiling source file 'Project%20Library%20String%20With%20OOP.cpp')
+  
+P:\Algorithm Level 4\Project Library String With OOP\Project Library String With OOP\ClsString.h(115,36): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20Library%20String%20With%20OOP.cpp')
+  
+P:\Algorithm Level 4\Project Library String With OOP\Project Library String With OOP\ClsString.h(222,33): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20Library%20String%20With%20OOP.cpp')
+  
+P:\Algorithm Level 4\Project Library String With OOP\Project Library String With OOP\ClsString.h(297,34): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20Library%20String%20With%20OOP.cpp')
+  
+P:\Algorithm Level 4\Project Library String With OOP\Project Library String With OOP\ClsString.h(335,34): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20Library%20String%20With%20OOP.cpp')
+  
+P:\Algorithm Level 4\Project Library String With OOP\Project Library String With OOP\ClsString.h(392,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20Library%20String%20With%20OOP.cpp')
+  
+P:\Algorithm Level 4\Project Library String With OOP\Project Library String With OOP\Project Library String With OOP.cpp(16,57): warning C4267: 'argument': conversion from 'size_t' to 'short', possible loss of data
+  Project Library String With OOP.vcxproj -> P:\Algorithm Level 4\Project Library String With OOP\x64\Debug\Project Library String With OOP.exe

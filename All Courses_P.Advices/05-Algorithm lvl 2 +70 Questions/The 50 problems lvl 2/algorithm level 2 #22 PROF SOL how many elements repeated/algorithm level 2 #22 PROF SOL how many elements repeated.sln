@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "algorithm level 2 #22 PROF SOL how many elements repeated", "algorithm level 2 #22 PROF SOL how many elements repeated\algorithm level 2 #22 PROF SOL how many elements repeated.vcxproj", "{FD3496F3-FE3B-4B3E-969F-3E00EF4CD1C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD3496F3-FE3B-4B3E-969F-3E00EF4CD1C9}.Debug|x64.ActiveCfg = Debug|x64
+		{FD3496F3-FE3B-4B3E-969F-3E00EF4CD1C9}.Debug|x64.Build.0 = Debug|x64
+		{FD3496F3-FE3B-4B3E-969F-3E00EF4CD1C9}.Debug|x86.ActiveCfg = Debug|Win32
+		{FD3496F3-FE3B-4B3E-969F-3E00EF4CD1C9}.Debug|x86.Build.0 = Debug|Win32
+		{FD3496F3-FE3B-4B3E-969F-3E00EF4CD1C9}.Release|x64.ActiveCfg = Release|x64
+		{FD3496F3-FE3B-4B3E-969F-3E00EF4CD1C9}.Release|x64.Build.0 = Release|x64
+		{FD3496F3-FE3B-4B3E-969F-3E00EF4CD1C9}.Release|x86.ActiveCfg = Release|Win32
+		{FD3496F3-FE3B-4B3E-969F-3E00EF4CD1C9}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79AB0538-C060-43E7-BB72-BCCB6F362F4A}
+	EndGlobalSection
+EndGlobal

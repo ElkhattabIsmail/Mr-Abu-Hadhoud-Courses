@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\GROUP Employees BY PerformanceCategory\bin\Debug\GROUP Employees BY PerformanceCategory.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\GROUP Employees BY PerformanceCategory\bin\Debug\GROUP Employees BY PerformanceCategory.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\GROUP Employees BY PerformanceCategory\bin\Debug\GROUP Employees BY PerformanceCategory.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\GROUP Employees BY PerformanceCategory\obj\Debug\GROUP Employees BY PerformanceCategory.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\GROUP Employees BY PerformanceCategory\obj\Debug\GROUP Employees BY PerformanceCategory.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\GROUP Employees BY PerformanceCategory\obj\Debug\GROUP Employees BY PerformanceCategory.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\GROUP Employees BY PerformanceCategory\obj\Debug\GROUP Employees BY PerformanceCategory.pdb

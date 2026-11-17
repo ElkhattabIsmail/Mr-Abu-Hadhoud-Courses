@@ -1,0 +1,11 @@
+Which type of Binary Tree has all levels completely filled with nodes except the last level?
+correct Perfect Binary Tree
+
+
+In a Balanced Binary Tree, what is the maximum allowed difference in height between the left and right sub-trees of a node?
+correct1
+
+
+
+Degenerate(or Pathological) Binary Tree
+Degenerate Binary Tree is a Binary Tree where every parent node has only one child node.

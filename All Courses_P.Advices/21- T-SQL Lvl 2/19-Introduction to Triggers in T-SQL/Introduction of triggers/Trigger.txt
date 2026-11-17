@@ -1,0 +1,71 @@
+A trigger in SQL is a special type of stored procedure that automatically executes in response to specific events on a table or view. Triggers are used for enforcing business rules, maintaining audit logs, and automating tasks.
+
+Types of Triggers in SQL
+Before Trigger – Executes before an operation (INSERT, UPDATE, DELETE).
+After Trigger – Executes after an operation.
+Instead of Trigger – Replaces the operation (commonly used with views).
+Row-Level vs. Statement-Level Trigger:
+Row-Level: Executes for each row affected.
+Statement-Level: Executes once per statement, regardless of the number of rows affected.
+Basic Syntax of a Trigger
+sql
+Copier
+Modifier
+CREATE TRIGGER trigger_name
+AFTER | BEFORE INSERT | UPDATE | DELETE
+ON table_name
+FOR EACH ROW
+BEGIN
+    -- SQL statements
+END;
+Example 1: AFTER INSERT Trigger
+Automatically logs new employee records into an audit table.
+sql
+Copier
+Modifier
+CREATE TABLE employee_audit (
+    audit_id INT AUTO_INCREMENT PRIMARY KEY,
+    employee_id INT,
+    action VARCHAR(50),
+    action_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TRIGGER after_employee_insert
+AFTER INSERT ON employees
+FOR EACH ROW
+BEGIN
+    INSERT INTO employee_audit (employee_id, action)
+    VALUES (NEW.id, 'INSERT');
+END;
+Example 2: BEFORE UPDATE Trigger
+Ensures salary never goes below a minimum threshold before updating.
+sql
+Copier
+Modifier
+CREATE TRIGGER before_salary_update
+BEFORE UPDATE ON employees
+FOR EACH ROW
+BEGIN
+    IF NEW.salary < 30000 THEN
+        SET NEW.salary = 30000;
+    END IF;
+END;
+Example 3: INSTEAD OF DELETE Trigger (for Views)
+Prevents deletion from a view but marks the employee as inactive instead.
+sql
+Copier
+Modifier
+CREATE VIEW active_employees AS
+SELECT id, name, salary FROM employees WHERE is_active = 1;
+
+CREATE TRIGGER instead_of_delete
+INSTEAD OF DELETE ON active_employees
+FOR EACH ROW
+BEGIN
+    UPDATE employees SET is_active = 0 WHERE id = OLD.id;
+END;
+Key Points to Remember
+Triggers execute automatically when the specified event occurs.
+Use OLD and NEW for referencing row values (OLD.column_name before update/delete, NEW.column_name after insert/update).
+Be cautious with recursive triggers to avoid infinite loops.
+Performance impact: Triggers can slow down transactions if they involve complex operations.

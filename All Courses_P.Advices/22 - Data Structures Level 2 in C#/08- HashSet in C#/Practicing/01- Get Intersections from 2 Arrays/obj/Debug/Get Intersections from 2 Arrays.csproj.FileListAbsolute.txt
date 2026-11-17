@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Get Intersections from 2 Arrays\bin\Debug\Get Intersections from 2 Arrays.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Get Intersections from 2 Arrays\bin\Debug\Get Intersections from 2 Arrays.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Get Intersections from 2 Arrays\bin\Debug\Get Intersections from 2 Arrays.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Get Intersections from 2 Arrays\obj\Debug\Get Intersections from 2 Arrays.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Get Intersections from 2 Arrays\obj\Debug\Get Intersections from 2 Arrays.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Get Intersections from 2 Arrays\obj\Debug\Get Intersections from 2 Arrays.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Get Intersections from 2 Arrays\obj\Debug\Get Intersections from 2 Arrays.pdb

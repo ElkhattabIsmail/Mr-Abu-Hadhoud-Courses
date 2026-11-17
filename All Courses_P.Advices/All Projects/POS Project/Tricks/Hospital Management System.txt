@@ -1,0 +1,24 @@
+4. Hospital Management System
+Description:
+A desktop application to manage patient records, appointments, and medical history for a hospital or clinic.
+
+Features:
+Patient Management: Add, update, and delete patient records (e.g., name, age, contact details).
+
+Appointment Scheduling: Schedule and manage appointments with doctors.
+
+Medical History: Record and view patient medical history.
+
+Billing System: Generate and manage patient bills.
+
+Reporting: Generate reports for appointments, patient history, and revenue.
+
+User Authentication: Login system for doctors, nurses, and administrators.
+
+Technologies:
+.NET Framework: Windows Forms for the UI.
+
+SQL Server: Database to store patient, appointment, and billing data.
+
+Entity Framework: ORM for database interactions.
+

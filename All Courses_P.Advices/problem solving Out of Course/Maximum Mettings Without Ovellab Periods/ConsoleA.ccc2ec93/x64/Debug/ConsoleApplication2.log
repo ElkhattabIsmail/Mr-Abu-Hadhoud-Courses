@@ -1,0 +1,3 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Maximum Mettings Without Ovellab Periods\ConsoleApplication2.cpp(39,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ConsoleApplication2.vcxproj -> C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Maximum Mettings Without Ovellab Periods\x64\Debug\ConsoleApplication2.exe

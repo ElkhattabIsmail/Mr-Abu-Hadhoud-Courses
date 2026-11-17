@@ -1,0 +1,20 @@
+﻿  Date Library Prof Solution.cpp
+P:\Algorithm Level 4\Date Library Prof Solution\Date Library Prof Solution\clsString.h(44,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Date%20Library%20Prof%20Solution.cpp')
+  
+P:\Algorithm Level 4\Date Library Prof Solution\Date Library Prof Solution\clsString.h(49,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Date%20Library%20Prof%20Solution.cpp')
+  
+P:\Algorithm Level 4\Date Library Prof Solution\Date Library Prof Solution\clsString.h(61,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Date%20Library%20Prof%20Solution.cpp')
+  
+P:\Algorithm Level 4\Date Library Prof Solution\Date Library Prof Solution\clsString.h(198,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Date%20Library%20Prof%20Solution.cpp')
+  
+P:\Algorithm Level 4\Date Library Prof Solution\Date Library Prof Solution\clsString.h(332,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Date%20Library%20Prof%20Solution.cpp')
+  
+P:\Algorithm Level 4\Date Library Prof Solution\Date Library Prof Solution\clsString.h(380,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Date%20Library%20Prof%20Solution.cpp')
+  
+  Date Library Prof Solution.vcxproj -> P:\Algorithm Level 4\Date Library Prof Solution\x64\Debug\Date Library Prof Solution.exe

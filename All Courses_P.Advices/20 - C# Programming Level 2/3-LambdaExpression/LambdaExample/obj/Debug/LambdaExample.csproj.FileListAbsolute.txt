@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\3-LambdaExpression\LambdaExample\bin\Debug\LambdaExample.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\3-LambdaExpression\LambdaExample\bin\Debug\LambdaExample.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\3-LambdaExpression\LambdaExample\bin\Debug\LambdaExample.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\3-LambdaExpression\LambdaExample\obj\Debug\LambdaExample.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\3-LambdaExpression\LambdaExample\obj\Debug\LambdaExample.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\3-LambdaExpression\LambdaExample\obj\Debug\LambdaExample.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\3-LambdaExpression\LambdaExample\obj\Debug\LambdaExample.pdb

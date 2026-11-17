@@ -1,0 +1,132 @@
+1. SUM(RunningTotalWeight)
+What it does:
+
+SUM() is an aggregate function that calculates the total sum of a column’s values.
+
+In this case, it sums up the values in the RunningTotalWeight column.
+
+How it works:
+
+Normally, SUM() is used with a GROUP BY clause to calculate the total for groups of rows.
+
+However, when used with the OVER() clause (a window function), it can calculate a running total or a cumulative sum for each row in the result set.
+
+Example:
+
+If the RunningTotalWeight column has values [5.5, 4.5, 4.8], the SUM() function would return 14.8 (the total of all values).
+
+2. OVER (ORDER BY Name)
+What it does:
+
+The OVER() clause is a window function that defines a "window" or a subset of rows over which the SUM() function operates.
+
+The ORDER BY Name inside the OVER() clause specifies the order in which the rows are processed.
+
+How it works:
+
+The OVER (ORDER BY Name) clause tells SQL to process the rows in the order of the Name column (alphabetically, from A to Z).
+
+For each row, the SUM() function calculates the cumulative sum of the RunningTotalWeight column up to and including the current row.
+
+Why it’s called a "running total":
+
+The sum "runs" or accumulates as the query processes each row in the specified order.
+
+For example:
+
+For the first row, the running total is just the value of that row.
+
+For the second row, the running total is the sum of the first and second rows.
+
+For the third row, the running total is the sum of the first, second, and third rows.
+
+And so on...
+
+Combining SUM() and OVER (ORDER BY Name)
+When you combine SUM(RunningTotalWeight) with OVER (ORDER BY Name), the query calculates a running total of the RunningTotalWeight column, ordered by the Name column.
+
+Example Data:
+Name	RunningTotalWeight
+Alfie	5.50
+Ashes	4.50
+Charlie	4.80
+How the Running Total is Calculated:
+First Row (Alfie):
+
+Running Total = 5.50 (only Alfie's weight).
+
+Second Row (Ashes):
+
+Running Total = 5.50 (Alfie) + 4.50 (Ashes) = 10.00.
+
+Third Row (Charlie):
+
+Running Total = 10.00 (previous total) + 4.80 (Charlie) = 14.80.
+
+Result:
+Name	running_total_weight
+Alfie	5.50
+Ashes	10.00
+Charlie	14.80
+Key Points to Remember:
+SUM():
+
+An aggregate function that calculates the total of a column’s values.
+
+When used with OVER(), it can calculate a running total.
+
+OVER (ORDER BY Name):
+
+A window function that defines the order in which rows are processed.
+
+It allows the SUM() function to calculate a cumulative sum for each row, based on the specified order.
+
+Running Total:
+
+The sum accumulates as the query processes each row in the specified order.
+
+It’s useful for analyzing cumulative data, such as total sales over time or cumulative weights.
+
+Why Use OVER (ORDER BY Name)?
+Without the OVER() clause, SUM() would return a single total for the entire column.
+
+With the OVER() clause, you can calculate a row-by-row cumulative sum, which is much more powerful for analyzing trends and patterns in your data.
+
+Example Without OVER()
+If you run this query:
+
+sql
+Copy
+SELECT 
+    Name, 
+    SUM(RunningTotalWeight) AS total_weight
+FROM Pets;
+It will return a single row with the total sum of the RunningTotalWeight column:
+
+Name	total_weight
+NULL	61.10
+Example With OVER()
+When you add the OVER() clause:
+
+sql
+Copy
+SELECT 
+    Name, 
+    SUM(RunningTotalWeight) OVER (ORDER BY Name) AS running_total_weight
+FROM Pets;
+It returns a running total for each row:
+
+Name	running_total_weight
+Alfie	5.50
+Ashes	10.00
+Charlie	14.80
+...	...
+Summary:
+SUM(RunningTotalWeight): Calculates the total of the RunningTotalWeight column.
+
+OVER (ORDER BY Name): Defines the order in which the rows are processed and calculates a running total for each row.
+
+Together, they allow you to calculate a cumulative sum (running total) for each row in the result set.
+
+
+

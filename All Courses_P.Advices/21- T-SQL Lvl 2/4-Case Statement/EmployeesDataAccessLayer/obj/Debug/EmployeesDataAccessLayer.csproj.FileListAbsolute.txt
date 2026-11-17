@@ -1,0 +1,6 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesDataAccessLayer\bin\Debug\EmployeesDataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesDataAccessLayer\bin\Debug\EmployeesDataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesDataAccessLayer\obj\Debug\EmployeesDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesDataAccessLayer\obj\Debug\EmployeesDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesDataAccessLayer\obj\Debug\EmployeesDataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\EmployeesDataAccessLayer\obj\Debug\EmployeesDataAccessLayer.pdb

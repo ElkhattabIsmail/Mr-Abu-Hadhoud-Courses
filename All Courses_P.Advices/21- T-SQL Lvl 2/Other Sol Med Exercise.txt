@@ -1,0 +1,163 @@
+-- Question:
+
+/*
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| person_id   | int     |
+| person_name | varchar |
+| weight      | int     |
+| turn        | int     |
++-------------+---------+
+person_id column contains unique values.
+This table has the information about all people waiting for a bus.
+The person_id and turn columns will contain all numbers from 1 to n, where n is the number of rows in the table.
+turn determines the order of which the people will board the bus, where turn=1 denotes the first person to board and turn=n denotes the last person to board.
+weight is the weight of the person in kilograms.
+ 
+
+There is a queue of people waiting to board a bus. However, the bus has a weight limit of 1000 kilograms, so there may be some people who cannot board.
+
+Write a solution to find the person_name of the last person that can fit on the bus without exceeding the weight limit. The test cases are generated such that the first person does not exceed the weight limit.
+
+Note that only one person can board the bus at any given turn.
+
+The result format is in the following example.
+
+ 
+
+Example 1:
+
+Input: 
+Queue table:
++-----------+-------------+--------+------+
+| person_id | person_name | weight | turn |
++-----------+-------------+--------+------+
+| 5         | Alice       | 250    | 1    |
+| 4         | Bob         | 175    | 5    |
+| 3         | Alex        | 350    | 2    |
+| 6         | John Cena   | 400    | 3    |
+| 1         | Winston     | 500    | 6    |
+| 2         | Marie       | 200    | 4    |
++-----------+-------------+--------+------+
+Output: 
++-------------+
+| person_name |
++-------------+
+| John Cena   |
++-------------+
+Explanation: The folowing table is ordered by the turn for simplicity.
++------+----+-----------+--------+--------------+
+| Turn | ID | Name      | Weight | Total Weight |
++------+----+-----------+--------+--------------+
+| 1    | 5  | Alice     | 250    | 250          |
+| 2    | 3  | Alex      | 350    | 600          |
+| 3    | 6  | John Cena | 400    | 1000         | (last person to board)
+| 4    | 2  | Marie     | 200    | 1200         | (cannot board)
+| 5    | 4  | Bob       | 175    | ___          |
+| 6    | 1  | Winston   | 500    | ___          |
++------+----+-----------+--------+--------------+  */
+
+
+-- Solution:
+
+
+select top 1 person_name
+from
+(
+	select *,
+	SUM(weight) over (order by turn ) 
+	as Total_weight from Queue
+) t1
+where t1.Total_weight <= 1000
+order by t1.turn desc   can provide to me another solution to this problem using another approaches like the inner join or any thing else ?
+
+ChatGPT a dit :
+Absolutely! You're already using a great solution with window functions and SUM() OVER (...). But let's explore alternative approaches to solve the "last person who can board the bus without exceeding 1000kg" using different techniques:
+
+✅ Option 1: CTE + Cumulative Sum with Correlated Subquery
+We simulate the cumulative sum manually using a correlated subquery.
+
+sql
+Copier
+Modifier
+SELECT TOP 1 q1.person_name
+FROM Queue q1
+WHERE (
+    SELECT SUM(q2.weight)
+    FROM Queue q2
+    WHERE q2.turn <= q1.turn
+) <= 1000
+ORDER BY q1.turn DESC;
+🧠 Explanation:
+For each row, we compute the cumulative sum of weights up to that turn.
+
+We filter to only rows where the total weight is ≤ 1000.
+
+We get the last such person by ordering descending and using TOP 1.
+
+✅ This works without window functions.
+
+✅ Option 2: Self Join + Cumulative Sum
+We can simulate the cumulative total using a self-join:
+
+sql
+Copier
+Modifier
+SELECT TOP 1 q1.person_name
+FROM Queue q1
+JOIN Queue q2 ON q2.turn <= q1.turn
+GROUP BY q1.person_id, q1.person_name, q1.turn
+HAVING SUM(q2.weight) <= 1000
+ORDER BY q1.turn DESC;
+🧠 Explanation:
+q2.turn <= q1.turn makes the join cumulative.
+
+We use GROUP BY and HAVING SUM(...) <= 1000 to filter by cumulative weight.
+
+Finally, we order by turn DESC and take the top 1.
+
+🔁 This is an inner join version. It's less efficient than window functions but demonstrates the concept well.
+
+✅ Option 3: Procedural-style with a Temp Table or Cursor (if in Stored Procedure Context)
+This is more complex and rarely used for set-based SQL problems, but possible in T-SQL:
+
+sql
+Copier
+Modifier
+-- Assuming SQL Server
+DECLARE @Total INT = 0, @Limit INT = 1000, @LastPerson VARCHAR(100);
+
+DECLARE cur CURSOR FOR
+SELECT person_name, weight
+FROM Queue
+ORDER BY turn;
+
+DECLARE @Name VARCHAR(100), @Weight INT;
+
+OPEN cur;
+FETCH NEXT FROM cur INTO @Name, @Weight;
+
+WHILE @@FETCH_STATUS = 0
+BEGIN
+    IF @Total + @Weight > @Limit
+        BREAK;
+
+    SET @Total = @Total + @Weight;
+    SET @LastPerson = @Name;
+
+    FETCH NEXT FROM cur INTO @Name, @Weight;
+END
+
+CLOSE cur;
+DEALLOCATE cur;
+
+SELECT @LastPerson AS person_name;
+📌 This procedural solution is only suitable for stored procedures or scripting in SQL Server.
+
+✅ Summary of Alternatives
+Approach	Uses Window Function?	Set-Based	Efficient	Notes
+Original (Window Function)	✅ Yes	✅ Yes	✅ Best	Cleanest
+Correlated Subquery	❌ No	✅ Yes	🟡 OK	Elegant fallback
+Inner Join Simulation	❌ No	✅ Yes	🟡 OK	Good logic, slower
+Cursor / Procedural	❌ No	❌ No	❌ Worst	For scripting/stored procs

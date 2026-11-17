@@ -1,0 +1,4 @@
+﻿  palindrom problem.cpp
+P:\problem solving\palindrom problem\palindrom problem\palindrom problem.cpp(57,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+P:\problem solving\palindrom problem\palindrom problem\palindrom problem.cpp(62,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  palindrom problem.vcxproj -> P:\problem solving\palindrom problem\x64\Debug\palindrom problem.exe

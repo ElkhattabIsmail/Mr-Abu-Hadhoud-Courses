@@ -1,0 +1,79 @@
+🔹 What is OFFSET in SQL Server?
+
+OFFSET is used with the ORDER BY clause to skip a specified number of rows before starting to return rows from the query.
+
+It is typically used with FETCH to implement pagination — that is, to return a subset of rows from a query (like when displaying 10 results per page in a web app).
+
+🔹 Syntax
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column_name
+OFFSET n ROWS
+FETCH NEXT m ROWS ONLY;
+
+
+n: Number of rows to skip
+
+m: Number of rows to fetch/return
+
+🔸 Example
+
+Imagine this table:
+
+Employees
+
+ID	Name	Department
+1	Alice	HR
+2	Bob	IT
+3	Charlie	Finance
+4	David	HR
+5	Eve	IT
+✅ Query:
+SELECT *
+FROM Employees
+ORDER BY ID
+OFFSET 2 ROWS
+FETCH NEXT 2 ROWS ONLY;
+
+🔍 Result:
+ID	Name	Department
+3	Charlie	Finance
+4	David	HR
+📘 Explanation:
+
+OFFSET 2 ROWS: Skip the first 2 rows (ID 1 and 2)
+
+FETCH NEXT 2 ROWS ONLY: Return the next 2 rows (ID 3 and 4)
+
+🔹 Just Using OFFSET
+
+You can use OFFSET without FETCH, just to skip rows:
+
+SELECT *
+FROM Employees
+ORDER BY ID
+OFFSET 3 ROWS;
+
+
+This will return all rows starting from the 4th row (IDs 4 and 5 in our example).
+
+❗Important Notes:
+
+ORDER BY is mandatory when using OFFSET.
+
+Without ORDER BY, SQL Server won’t know what order to apply the offset to.
+
+It's available starting with SQL Server 2012 and newer.
+
+🔹 Use Case: Pagination
+
+If you want to show page 3 of 10 items per page:
+
+DECLARE @PageNumber INT = 3;
+DECLARE @RowsPerPage INT = 10;
+
+SELECT *
+FROM YourTable
+ORDER BY SomeColumn
+OFFSET (@PageNumber - 1) * @RowsPerPage ROWS
+FETCH NEXT @RowsPerPage ROWS ONLY;

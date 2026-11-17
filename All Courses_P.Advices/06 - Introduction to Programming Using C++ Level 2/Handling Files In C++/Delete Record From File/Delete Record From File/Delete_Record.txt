@@ -1,0 +1,9 @@
+#include<iostream>
+#include<cstdlib>
+using namespace std;
+Smail EL Khattab
+{
+	//Function to generate a random number
+	int randNum = rand() % (To - From + 1) + From;
+	return randNum;
+}

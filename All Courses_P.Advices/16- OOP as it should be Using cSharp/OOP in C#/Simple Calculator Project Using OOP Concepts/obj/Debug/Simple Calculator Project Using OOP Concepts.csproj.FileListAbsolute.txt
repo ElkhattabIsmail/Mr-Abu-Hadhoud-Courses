@@ -1,0 +1,7 @@
+P:\oop in C# Code\Simple Calculator Project Using OOP Concepts\bin\Debug\Simple Calculator Project Using OOP Concepts.exe.config
+P:\oop in C# Code\Simple Calculator Project Using OOP Concepts\bin\Debug\Simple Calculator Project Using OOP Concepts.exe
+P:\oop in C# Code\Simple Calculator Project Using OOP Concepts\bin\Debug\Simple Calculator Project Using OOP Concepts.pdb
+P:\oop in C# Code\Simple Calculator Project Using OOP Concepts\obj\Debug\Simple Calculator Project Using OOP Concepts.csproj.AssemblyReference.cache
+P:\oop in C# Code\Simple Calculator Project Using OOP Concepts\obj\Debug\Simple Calculator Project Using OOP Concepts.csproj.CoreCompileInputs.cache
+P:\oop in C# Code\Simple Calculator Project Using OOP Concepts\obj\Debug\Simple Calculator Project Using OOP Concepts.exe
+P:\oop in C# Code\Simple Calculator Project Using OOP Concepts\obj\Debug\Simple Calculator Project Using OOP Concepts.pdb

@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\Practice - Form\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A86490C5-B619-4A9E-A224-2A6D16AECF10}|Practice - Form.csproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\Practice - Form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A86490C5-B619-4A9E-A224-2A6D16AECF10}|Practice - Form.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A86490C5-B619-4A9E-A224-2A6D16AECF10}|Practice - Form.csproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\Practice - Form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A86490C5-B619-4A9E-A224-2A6D16AECF10}|Practice - Form.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A86490C5-B619-4A9E-A224-2A6D16AECF10}|Practice - Form.csproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\Practice - Form\\anotherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A86490C5-B619-4A9E-A224-2A6D16AECF10}|Practice - Form.csproj|solutionrelative:anotherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A86490C5-B619-4A9E-A224-2A6D16AECF10}|Practice - Form.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\win forms project with data base\\practice - form\\anotherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A86490C5-B619-4A9E-A224-2A6D16AECF10}|Practice - Form.csproj|solutionrelative:anotherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnotherForm.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\Practice - Form\\AnotherForm.cs",
+              "RelativeDocumentMoniker": "AnotherForm.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\Practice - Form\\AnotherForm.cs",
+              "RelativeToolTip": "AnotherForm.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAASwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T20:30:49.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnotherForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\Practice - Form\\AnotherForm.cs",
+              "RelativeDocumentMoniker": "AnotherForm.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\Practice - Form\\AnotherForm.cs [Design]",
+              "RelativeToolTip": "AnotherForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T20:29:40.679Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\Practice - Form\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\Practice - Form\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAhwHEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:27:44.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\Practice - Form\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Win Forms Project With Data Base\\Practice - Form\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:26:00.409Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+Here’s a comprehensive list of built-in methods available for the List<T> data structure in C#. These methods are part of the System.Collections.Generic namespace and provide powerful functionality for working with lists.
+
+Commonly Used Methods
+1. Adding Elements
+Add(T item)
+
+Adds an item to the end of the list.
+
+Time Complexity: 
+O
+(
+1
+)
+O(1) amortized (unless resizing is required).
+
+AddRange(IEnumerable<T> collection)
+
+Adds multiple items from a collection to the end of the list.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n), where 
+n
+n is the number of elements in the collection.
+
+Insert(int index, T item)
+
+Inserts an item at the specified index.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n), as elements after the index must be shifted.
+
+InsertRange(int index, IEnumerable<T> collection)
+
+Inserts multiple items from a collection at the specified index.
+
+Time Complexity: 
+O
+(
+n
++
+m
+)
+O(n+m), where 
+n
+n is the number of elements after the index and 
+m
+m is the number of elements in the collection.
+
+2. Removing Elements
+Remove(T item)
+
+Removes the first occurrence of a specific item.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n), as it may need to search and shift elements.
+
+RemoveAt(int index)
+
+Removes the item at the specified index.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n), as elements after the index must be shifted.
+
+RemoveAll(Predicate<T> match)
+
+Removes all items that match the specified condition.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+RemoveRange(int index, int count)
+
+Removes a range of elements starting from the specified index.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n), as elements after the range must be shifted.
+
+Clear()
+
+Removes all items from the list.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n), as it needs to clear all elements.
+
+3. Accessing Elements
+this[int index] (Indexer)
+
+Gets or sets the element at the specified index.
+
+Time Complexity: 
+O
+(
+1
+)
+O(1).
+
+Contains(T item)
+
+Checks if the list contains a specific item.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+IndexOf(T item)
+
+Returns the index of the first occurrence of a specific item.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+LastIndexOf(T item)
+
+Returns the index of the last occurrence of a specific item.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+Find(Predicate<T> match)
+
+Finds the first item that matches the specified condition.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+FindAll(Predicate<T> match)
+
+Finds all items that match the specified condition.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+FindIndex(Predicate<T> match)
+
+Finds the index of the first item that matches the specified condition.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+FindLast(Predicate<T> match)
+
+Finds the last item that matches the specified condition.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+FindLastIndex(Predicate<T> match)
+
+Finds the index of the last item that matches the specified condition.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+4. Sorting and Searching
+Sort()
+
+Sorts the elements in the list using the default comparer.
+
+Time Complexity: 
+O
+(
+n
+log
+⁡
+n
+)
+O(nlogn).
+
+Sort(IComparer<T> comparer)
+
+Sorts the elements using a custom comparer.
+
+Time Complexity: 
+O
+(
+n
+log
+⁡
+n
+)
+O(nlogn).
+
+Sort(Comparison<T> comparison)
+
+Sorts the elements using a custom comparison delegate.
+
+Time Complexity: 
+O
+(
+n
+log
+⁡
+n
+)
+O(nlogn).
+
+BinarySearch(T item)
+
+Searches for an item using binary search (requires the list to be sorted).
+
+Time Complexity: 
+O
+(
+log
+⁡
+n
+)
+O(logn).
+
+BinarySearch(T item, IComparer<T> comparer)
+
+Searches for an item using binary search with a custom comparer.
+
+Time Complexity: 
+O
+(
+log
+⁡
+n
+)
+O(logn).
+
+5. Iterating and Transforming
+ForEach(Action<T> action)
+
+Performs an action on each element in the list.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+ConvertAll<TOutput>(Converter<T, TOutput> converter)
+
+Converts all elements in the list to another type.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+GetRange(int index, int count)
+
+Returns a new list containing a range of elements from the original list.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+6. Capacity and Size
+Capacity
+
+Gets or sets the total number of elements the list can hold without resizing.
+
+Time Complexity: 
+O
+(
+1
+)
+O(1).
+
+TrimExcess()
+
+Reduces the capacity to the actual number of elements if the list is less than 90% full.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+Count
+
+Gets the number of elements in the list.
+
+Time Complexity: 
+O
+(
+1
+)
+O(1).
+
+7. Copying and Converting
+ToArray()
+
+Copies the elements of the list to a new array.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+CopyTo(T[] array)
+
+Copies the elements of the list to an array.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+CopyTo(T[] array, int arrayIndex)
+
+Copies the elements of the list to an array starting at the specified index.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+CopyTo(int index, T[] array, int arrayIndex, int count)
+
+Copies a range of elements from the list to an array.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+8. Other Useful Methods
+Exists(Predicate<T> match)
+
+Checks if any element in the list matches the specified condition.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+TrueForAll(Predicate<T> match)
+
+Checks if all elements in the list match the specified condition.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+Reverse()
+
+Reverses the order of elements in the list.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+Example Usage
+csharp
+Copy
+List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+
+// Adding elements
+numbers.Add(6);
+numbers.AddRange(new[] { 7, 8, 9 });
+
+// Removing elements
+numbers.Remove(3);
+numbers.RemoveAt(0);
+
+// Accessing elements
+int first = numbers[0];
+bool contains = numbers.Contains(5);
+
+// Sorting and searching
+numbers.Sort();
+int index = numbers.BinarySearch(4);
+
+// Iterating
+numbers.ForEach(n => Console.WriteLine(n));
+
+// Converting
+int[] array = numbers.ToArray();
+This list covers most of the built-in methods for List<T> in C#. Let me know if you need further clarification or examples! 😊

@@ -1,0 +1,116 @@
+
+
+What is the depth/level of a node?
+The length of the longest path from a node to a leaf
+The distance between a node and the root
+correct The count of edges on the path from the root node to that node
+
+
+
+What is a subtree?
+Children of the same parent node
+A node with no children
+correct A tree rooted at a node
+
+
+
+What are descendants in a tree?
+correct Nodes that can be reached by following paths downward from a specific node, 
+including its children, grandchildren, and further generations down the tree.
+
+
+
+
+What is an internal node in a tree?
+correct A node with at least one child
+
+
+
+What differentiates trees from linear data structures like arrays and linked lists?
+Trees are hierarchical and have a branching structure
+
+
+
+What is the term for a tree rooted at a specific node?
+correct Subtree
+
+
+
+Which of the following statements is true about descendants in a tree? 
+Descendants are nodes at the same level as the root
+Descendants include only immediate children of a node
+correct Descendants are all nodes reachable by following paths downward from a specific node  الأسلاف
+
+
+
+What is the count of edges on the path from the root node to a specific node called?
+Depth
+
+What is the length of the longest path from a node to a leaf called?
+Height
+
+
+
+Which of the following is an essential reason for understanding tree data structures?
+correct Enhancing skills in data manipulation and organization
+
+
+What is the term for a node that is located between the root and leaf nodes?
+Leaf node
+correct Internal node
+
+
+What is the term for a node that is directly above another node in a tree?
+Ancestor
+correct Parent
+
+
+What is the term for nodes that can be traversed back to the root node called?
+
+- true maybe Predecessors
+-  true maybe Ancestors
+- Neighbors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

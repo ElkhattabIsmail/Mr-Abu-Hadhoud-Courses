@@ -1,0 +1,30 @@
+P:\Windows Form Desk apps\Rgb Color\bin\Debug\Rgb Color.exe.config
+P:\Windows Form Desk apps\Rgb Color\bin\Debug\Rgb Color.exe
+P:\Windows Form Desk apps\Rgb Color\bin\Debug\Rgb Color.pdb
+P:\Windows Form Desk apps\Rgb Color\obj\Debug\Rgb Color.csproj.AssemblyReference.cache
+P:\Windows Form Desk apps\Rgb Color\obj\Debug\Rgb_Color.Form1.resources
+P:\Windows Form Desk apps\Rgb Color\obj\Debug\Rgb_Color.Properties.Resources.resources
+P:\Windows Form Desk apps\Rgb Color\obj\Debug\Rgb Color.csproj.GenerateResource.cache
+P:\Windows Form Desk apps\Rgb Color\obj\Debug\Rgb Color.csproj.CoreCompileInputs.cache
+P:\Windows Form Desk apps\Rgb Color\obj\Debug\Rgb Color.exe
+P:\Windows Form Desk apps\Rgb Color\obj\Debug\Rgb Color.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Rgb Color\bin\Debug\Rgb Color.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Rgb Color\bin\Debug\Rgb Color.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Rgb Color\bin\Debug\Rgb Color.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Rgb Color\obj\Debug\Rgb Color.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Rgb Color\obj\Debug\Rgb_Color.Form1.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Rgb Color\obj\Debug\Rgb_Color.Properties.Resources.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Rgb Color\obj\Debug\Rgb Color.csproj.GenerateResource.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Rgb Color\obj\Debug\Rgb Color.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Rgb Color\obj\Debug\Rgb Color.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Rgb Color\obj\Debug\Rgb Color.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\WindowsForm C# Projects\3_Rgb Color\bin\Debug\Rgb Color.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\WindowsForm C# Projects\3_Rgb Color\bin\Debug\Rgb Color.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\WindowsForm C# Projects\3_Rgb Color\bin\Debug\Rgb Color.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\WindowsForm C# Projects\3_Rgb Color\obj\Debug\Rgb Color.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\WindowsForm C# Projects\3_Rgb Color\obj\Debug\Rgb_Color.Form1.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\WindowsForm C# Projects\3_Rgb Color\obj\Debug\Rgb_Color.Properties.Resources.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\WindowsForm C# Projects\3_Rgb Color\obj\Debug\Rgb Color.csproj.GenerateResource.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\WindowsForm C# Projects\3_Rgb Color\obj\Debug\Rgb Color.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\WindowsForm C# Projects\3_Rgb Color\obj\Debug\Rgb Color.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\All Projects\WindowsForm C# Projects\3_Rgb Color\obj\Debug\Rgb Color.pdb

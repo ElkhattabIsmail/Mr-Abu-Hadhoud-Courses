@@ -1,0 +1,10 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\2_PictureBox Exercise Solution\MyFirstWinformsProject\bin\Debug\MyFirstWinformsProject.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\2_PictureBox Exercise Solution\MyFirstWinformsProject\bin\Debug\MyFirstWinformsProject.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\2_PictureBox Exercise Solution\MyFirstWinformsProject\bin\Debug\MyFirstWinformsProject.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\2_PictureBox Exercise Solution\MyFirstWinformsProject\obj\Debug\MyFirstWinformsProject.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\2_PictureBox Exercise Solution\MyFirstWinformsProject\obj\Debug\MyFirstWinformsProject.Form1.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\2_PictureBox Exercise Solution\MyFirstWinformsProject\obj\Debug\MyFirstWinformsProject.Properties.Resources.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\2_PictureBox Exercise Solution\MyFirstWinformsProject\obj\Debug\MyFirstWinformsProject.csproj.GenerateResource.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\2_PictureBox Exercise Solution\MyFirstWinformsProject\obj\Debug\MyFirstWinformsProject.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\2_PictureBox Exercise Solution\MyFirstWinformsProject\obj\Debug\MyFirstWinformsProject.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\2_PictureBox Exercise Solution\MyFirstWinformsProject\obj\Debug\MyFirstWinformsProject.pdb

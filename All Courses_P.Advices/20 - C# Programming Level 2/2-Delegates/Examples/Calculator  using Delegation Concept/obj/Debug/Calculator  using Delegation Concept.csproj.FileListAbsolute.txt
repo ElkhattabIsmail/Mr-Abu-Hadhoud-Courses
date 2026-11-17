@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\Calculator  using Delegation Concept\bin\Debug\Calculator  using Delegation Concept.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\Calculator  using Delegation Concept\bin\Debug\Calculator  using Delegation Concept.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\Calculator  using Delegation Concept\bin\Debug\Calculator  using Delegation Concept.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\Calculator  using Delegation Concept\obj\Debug\Calculator  using Delegation Concept.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\Calculator  using Delegation Concept\obj\Debug\Calculator  using Delegation Concept.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\Calculator  using Delegation Concept\obj\Debug\Calculator  using Delegation Concept.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\Calculator  using Delegation Concept\obj\Debug\Calculator  using Delegation Concept.pdb

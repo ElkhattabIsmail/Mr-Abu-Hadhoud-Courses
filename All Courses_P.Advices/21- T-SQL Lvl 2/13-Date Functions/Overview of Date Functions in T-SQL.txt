@@ -1,0 +1,81 @@
+Date functions in T-SQL are crucial for manipulating and querying datetime data. These functions allow you to format dates, calculate time intervals, and extract specific parts of a date. Here's an overview of some commonly used date functions in T-SQL:
+
+1. GETDATE()
+Purpose: Returns the current date and time.
+2. DATEADD()
+Purpose: Adds a specified number of units (days, months, years, etc.) to a date.
+3. DATEDIFF()
+Purpose: Calculates the difference between two dates in a specified unit (days, months, years, etc.).
+4. DATEPART()
+Purpose: Returns a specified part of a date, such as year, month, day, etc.
+5. DATENAME()
+Purpose: Returns the name of the specified part of a date, such as the name of the month, day of the week, etc.
+6. DAY()
+Purpose: Extracts the day part of a date.
+
+7. MONTH()
+Purpose: Extracts the month part of a date.
+8. YEAR()
+Purpose: Extracts the year part of a date.
+
+9. CONVERT()
+Purpose: Converts an expression of one data type to another, often used to format dates.
+
+10. CAST ()
+Purpose: Similar to CONVERT, it changes the data type of an expression, frequently used in date formatting.
+
+11. EOMONTH()
+Purpose: Returns the last day of the month for a specified date.
+12. SYSDATETIME()
+Purpose: Returns the system date and time with fractional seconds and time zone offset.
+These functions are integral in managing and analyzing date and time data in SQL Server. Effective use of these functions can significantly enhance your data querying and manipulation capabilities.
+
+
+
+Here's the official Microsoft reference for all T-SQL date functions:
+
+Microsoft Documentation:
+
+Date and Time Data Types and Functions (Transact-SQL):
+
+https://learn.microsoft.com/en-us/sql/t-sql/functions/date-and-time-data-types-and-functions-transact-sql?view=sql-server-ver16
+
+This comprehensive resource provides detailed descriptions, syntax, and examples for a wide range of date and time functions, including:
+
+Functions that return system date and time values:
+
+GETDATE()
+SYSDATETIME()
+SYSUTCDATETIME()
+CURRENT_TIMESTAMP
+Functions that return date and time parts:
+
+DATEPART()
+DATENAME()
+YEAR()
+MONTH()
+DAY()
+DATEDIFF()
+EOMONTH()
+Functions that return date and time values from their parts:
+
+DATEFROMPARTS()
+SMALLDATETIMEFROMPARTS()
+DATETIME2FROMPARTS()
+DATETIMEOFFSETFROMPARTS()
+Functions that modify date and time values:
+
+DATEADD()
+DATEDIFF()
+Functions that set or return session format functions:
+
+FORMAT()
+Functions that validate date and time values:
+
+ISDATE()
+Date and time-related articles:
+
+CAST and CONVERT (Transact-SQL)
+SWITCHOFFSET (Transact-SQL)
+TODATETIMEOFFSET (Transact-SQL)
+I highly recommend exploring this documentation to gain a deeper understanding of the available date functions and their capabilities.

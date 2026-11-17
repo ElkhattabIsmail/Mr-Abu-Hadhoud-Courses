@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\22-Asynchronous\Example To Async\Task Class With Call back Event Example\bin\Debug\Task Class Example 1.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\22-Asynchronous\Example To Async\Task Class With Call back Event Example\bin\Debug\Task Class Example 1.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\22-Asynchronous\Example To Async\Task Class With Call back Event Example\bin\Debug\Task Class Example 1.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\22-Asynchronous\Example To Async\Task Class With Call back Event Example\obj\Debug\Task Class With Call back Event Example.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\22-Asynchronous\Example To Async\Task Class With Call back Event Example\obj\Debug\Task Class With Call back Event Example.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\22-Asynchronous\Example To Async\Task Class With Call back Event Example\obj\Debug\Task Class Example 1.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\22-Asynchronous\Example To Async\Task Class With Call back Event Example\obj\Debug\Task Class Example 1.pdb

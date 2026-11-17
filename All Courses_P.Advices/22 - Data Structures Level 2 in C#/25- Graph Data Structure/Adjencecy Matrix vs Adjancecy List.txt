@@ -1,0 +1,24 @@
+Adjacency Matrix : 
+Pros: Fast Look-up
+Cons: Requires To Much Space
+---
+Adjacency List : 
+Pros: Lower Space
+Cons: Slower Look-up
+
+3 / 5
+In which case is an adjacency matrix preferred over an adjacency list?
+correct When the graph is dense.
+
+
+
+
+4 / 5
+What is an advantage of using an adjacency matrix when the graph is dense?
+correct Fast edge existence checking
+
+
+5 / 5
+What is a major disadvantage of using an adjacency list when you frequently need to check if an edge exists?
+Difficult to traverse the graph
+correct Edge existence checks are slower than in an adjacency matrix

@@ -1,0 +1,59 @@
+Problem: Longest Consecutive Sequence
+You are given an unsorted array of integers nums. Write a function to find the length of the longest consecutive elements sequence. The sequence must be made up of consecutive integers, and the elements in the sequence do not need to be contiguous in the array.
+
+For example:
+
+Input: nums = [100, 4, 200, 1, 3, 2]
+
+Output: 4
+
+Explanation: The longest sequence is [1, 2, 3, 4].
+
+Solution Using HashSet:
+csharp
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static int LongestConsecutiveSequence(int[] nums)
+    {
+        if (nums == null || nums.Length == 0)
+        {
+            return 0;
+        }
+
+        // Add all numbers to a HashSet for fast lookups
+        HashSet<int> numSet = new HashSet<int>(nums);
+        int longestStreak = 0;
+
+        foreach (int num in numSet)
+        {
+            // Check if this number is the start of a sequence
+            if (!numSet.Contains(num - 1))
+            {
+                int currentNum = num;
+                int currentStreak = 1;
+
+                // Continue checking consecutive numbers
+                while (numSet.Contains(currentNum + 1))
+                {
+                    currentNum++;
+                    currentStreak++;
+                }
+
+                // Update the longest streak
+                longestStreak = Math.Max(longestStreak, currentStreak);
+            }
+        }
+
+        return longestStreak;
+    }
+
+    static void Main(string[] args)
+    {
+        int[] nums = { 100, 4, 200, 1, 3, 2 };
+
+        Console.WriteLine($"The length of the longest consecutive sequence is: {LongestConsecutiveSequence(nums)}");
+    }
+}

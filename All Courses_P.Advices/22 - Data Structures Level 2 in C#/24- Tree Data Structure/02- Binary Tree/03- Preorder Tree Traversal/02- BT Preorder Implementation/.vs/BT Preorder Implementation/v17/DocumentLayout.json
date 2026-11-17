@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\22 - Data Structures Level 2 in C#\\24- Tree Data Structure\\02- Binary Tree\\03- Preorder Tree Traversal\\BT Preorder Implementation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7CD0E4-E073-40F0-8027-E6268E6C60DD}|BT Preorder Implementation.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\22 - data structures level 2 in c#\\24- tree data structure\\02- binary tree\\03- preorder tree traversal\\bt preorder implementation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7CD0E4-E073-40F0-8027-E6268E6C60DD}|BT Preorder Implementation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\22 - Data Structures Level 2 in C#\\24- Tree Data Structure\\02- Binary Tree\\03- Preorder Tree Traversal\\BT Preorder Implementation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\22 - Data Structures Level 2 in C#\\24- Tree Data Structure\\02- Binary Tree\\03- Preorder Tree Traversal\\BT Preorder Implementation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAHIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T14:14:06.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

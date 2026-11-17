@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Add Bonus To Employees Depend on their Departement\bin\Debug\Add Bonus To Employees Depend on their Departement.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Add Bonus To Employees Depend on their Departement\bin\Debug\Add Bonus To Employees Depend on their Departement.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Add Bonus To Employees Depend on their Departement\bin\Debug\Add Bonus To Employees Depend on their Departement.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Add Bonus To Employees Depend on their Departement\obj\Debug\Add Bonus To Employees Depend on their Departement.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Add Bonus To Employees Depend on their Departement\obj\Debug\Add Bonus To Employees Depend on their Departement.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Add Bonus To Employees Depend on their Departement\obj\Debug\Add Bonus To Employees Depend on their Departement.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\Add Bonus To Employees Depend on their Departement\obj\Debug\Add Bonus To Employees Depend on their Departement.pdb

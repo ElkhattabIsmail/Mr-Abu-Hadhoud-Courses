@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Try Parse Method\obj\Debug\Try Parse Method.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Try Parse Method\obj\Debug\Try Parse Method.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Try Parse Method\bin\Debug\Try Parse Method.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Try Parse Method\bin\Debug\Try Parse Method.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Try Parse Method\bin\Debug\Try Parse Method.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Try Parse Method\obj\Debug\Try Parse Method.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Try Parse Method\obj\Debug\Try Parse Method.pdb

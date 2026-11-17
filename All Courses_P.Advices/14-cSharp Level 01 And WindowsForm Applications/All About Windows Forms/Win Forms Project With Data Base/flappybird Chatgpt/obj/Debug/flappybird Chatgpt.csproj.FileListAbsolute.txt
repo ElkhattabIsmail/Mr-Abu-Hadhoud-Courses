@@ -1,0 +1,10 @@
+P:\Windows Form Desk apps\flappybird Chatgpt\obj\Debug\flappybird Chatgpt.csproj.AssemblyReference.cache
+P:\Windows Form Desk apps\flappybird Chatgpt\obj\Debug\FlappyBird.FlappyBirdGame.resources
+P:\Windows Form Desk apps\flappybird Chatgpt\obj\Debug\flappybird_Chatgpt.Properties.Resources.resources
+P:\Windows Form Desk apps\flappybird Chatgpt\obj\Debug\flappybird Chatgpt.csproj.GenerateResource.cache
+P:\Windows Form Desk apps\flappybird Chatgpt\obj\Debug\flappybird Chatgpt.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\flappybird Chatgpt\obj\Debug\flappybird Chatgpt.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\flappybird Chatgpt\obj\Debug\FlappyBird.FlappyBirdGame.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\flappybird Chatgpt\obj\Debug\flappybird_Chatgpt.Properties.Resources.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\flappybird Chatgpt\obj\Debug\flappybird Chatgpt.csproj.GenerateResource.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\flappybird Chatgpt\obj\Debug\flappybird Chatgpt.csproj.CoreCompileInputs.cache

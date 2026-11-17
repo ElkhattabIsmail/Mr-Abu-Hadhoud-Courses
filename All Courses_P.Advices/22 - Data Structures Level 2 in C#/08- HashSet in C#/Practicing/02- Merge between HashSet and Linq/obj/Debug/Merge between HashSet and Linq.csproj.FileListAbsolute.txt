@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Merge between HashSet and Linq\bin\Debug\Merge between HashSet and Linq.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Merge between HashSet and Linq\bin\Debug\Merge between HashSet and Linq.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Merge between HashSet and Linq\bin\Debug\Merge between HashSet and Linq.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Merge between HashSet and Linq\obj\Debug\Merge between HashSet and Linq.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Merge between HashSet and Linq\obj\Debug\Merge between HashSet and Linq.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Merge between HashSet and Linq\obj\Debug\Merge between HashSet and Linq.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\Merge between HashSet and Linq\obj\Debug\Merge between HashSet and Linq.pdb

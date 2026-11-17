@@ -1,0 +1,4 @@
+﻿  Bank ATM system project.cpp
+P:\Algorithm Level 4\Bank ATM system project\Bank ATM system project\Bank ATM system project.cpp(42,26): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+P:\Algorithm Level 4\Bank ATM system project\Bank ATM system project\Bank ATM system project.cpp(203,1): warning C4715: 'DepositBalanceToClientByAccountNumber': not all control paths return a value
+  Bank ATM system project.vcxproj -> P:\Algorithm Level 4\Bank ATM system project\x64\Debug\Bank ATM system project.exe

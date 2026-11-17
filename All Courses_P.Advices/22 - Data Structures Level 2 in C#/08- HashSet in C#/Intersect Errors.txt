@@ -1,0 +1,22 @@
+عند استخدام                                                                                                        unionwith,intersectionwith                                                                            يجب مراعاة انها ستعمل على الاوبجكت الاصلي لذلك في حال اردت التعديل على البيانات او الحذف منها في هذا الوضع يفضل انك تستخدم                                  union,intersec                                                                                            لانها ستعمل كوبي من الاوبجكت الاصلي وفي حال استخدمت الاولى فقد تواجه مشكلة عند الحفظ لانها ستحفظ فقط العناصر المشتركة وتحذف البقية
+
+
+
+
+
+
+To compute the intersection or Union of two sets without modifying set1 or set2,
+ you can use the Intersect method and Union method (via LINQ) instead of IntersectWith and UnionWith.
+
+      HashSet<int> set1 = new HashSet<int> { 1, 2, 3 };
+      HashSet<int> set2 = new HashSet<int> { 3, 4, 5 };
+
+      // Get the intersection without modifying set1
+      HashSet<int> set3 = new HashSet<int>(set1.Intersect(set2));
+      HashSet<int> set4 = new HashSet<int>(set1.Union(set2));
+
+      Console.WriteLine("Intersection of sets:");
+      foreach (int item in set4)
+      {
+          Console.WriteLine(item);
+      }

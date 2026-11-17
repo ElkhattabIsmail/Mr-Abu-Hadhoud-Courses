@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\03- IList - Collection Interface\ilist Interface Using Arrays\bin\Debug\ilist Interface Using Arrays.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\03- IList - Collection Interface\ilist Interface Using Arrays\bin\Debug\ilist Interface Using Arrays.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\03- IList - Collection Interface\ilist Interface Using Arrays\bin\Debug\ilist Interface Using Arrays.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\03- IList - Collection Interface\ilist Interface Using Arrays\obj\Debug\ilist Interface Using Arrays.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\03- IList - Collection Interface\ilist Interface Using Arrays\obj\Debug\ilist Interface Using Arrays.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\03- IList - Collection Interface\ilist Interface Using Arrays\obj\Debug\ilist Interface Using Arrays.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\03- IList - Collection Interface\ilist Interface Using Arrays\obj\Debug\ilist Interface Using Arrays.pdb

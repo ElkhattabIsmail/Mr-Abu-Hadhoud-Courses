@@ -1,0 +1,7 @@
+P:\C# Syntax\Structures in c#\Structures in c#\bin\Debug\Structures in c#.exe.config
+P:\C# Syntax\Structures in c#\Structures in c#\bin\Debug\Structures in c#.exe
+P:\C# Syntax\Structures in c#\Structures in c#\bin\Debug\Structures in c#.pdb
+P:\C# Syntax\Structures in c#\Structures in c#\obj\Debug\Structures in c#.csproj.AssemblyReference.cache
+P:\C# Syntax\Structures in c#\Structures in c#\obj\Debug\Structures in c#.csproj.CoreCompileInputs.cache
+P:\C# Syntax\Structures in c#\Structures in c#\obj\Debug\Structures in c#.exe
+P:\C# Syntax\Structures in c#\Structures in c#\obj\Debug\Structures in c#.pdb

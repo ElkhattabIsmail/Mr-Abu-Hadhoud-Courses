@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "algorithm level 2 #32  reversed array prof solution", "algorithm level 2 #32  reversed array prof solution\algorithm level 2 #32  reversed array prof solution.vcxproj", "{313EFDEE-2ADC-4968-9164-A8F3CD04A32F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{313EFDEE-2ADC-4968-9164-A8F3CD04A32F}.Debug|x64.ActiveCfg = Debug|x64
+		{313EFDEE-2ADC-4968-9164-A8F3CD04A32F}.Debug|x64.Build.0 = Debug|x64
+		{313EFDEE-2ADC-4968-9164-A8F3CD04A32F}.Debug|x86.ActiveCfg = Debug|Win32
+		{313EFDEE-2ADC-4968-9164-A8F3CD04A32F}.Debug|x86.Build.0 = Debug|Win32
+		{313EFDEE-2ADC-4968-9164-A8F3CD04A32F}.Release|x64.ActiveCfg = Release|x64
+		{313EFDEE-2ADC-4968-9164-A8F3CD04A32F}.Release|x64.Build.0 = Release|x64
+		{313EFDEE-2ADC-4968-9164-A8F3CD04A32F}.Release|x86.ActiveCfg = Release|Win32
+		{313EFDEE-2ADC-4968-9164-A8F3CD04A32F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7511F89C-2BD9-4956-A1AD-7306393D1EBF}
+	EndGlobalSection
+EndGlobal

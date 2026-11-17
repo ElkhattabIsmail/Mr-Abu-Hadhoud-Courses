@@ -1,0 +1,4 @@
+﻿  #22 triangle incribed a isosceles triangle.cpp
+C:\Users\ULTRAPC\source\repos\(4,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ULTRAPC\source\repos\(23,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  #22 triangle incribed a isosceles triangle.vcxproj -> C:\Users\ULTRAPC\source\repos\#22 triangle incribed a isosceles triangle\x64\Debug\#22 triangle incribed a isosceles triangle.exe

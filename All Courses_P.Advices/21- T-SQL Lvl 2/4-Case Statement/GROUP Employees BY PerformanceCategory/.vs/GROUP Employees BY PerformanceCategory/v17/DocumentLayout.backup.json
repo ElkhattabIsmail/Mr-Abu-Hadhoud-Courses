@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course21- Database Level2 - Concepts \u0026 T-SQL\\4-Case Statement\\GROUP Employees BY PerformanceCategory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{223BA22F-D1E1-49E7-BE42-9BF57716C557}|GROUP Employees BY PerformanceCategory.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\course21- database level2 - concepts \u0026 t-sql\\4-case statement\\group employees by performancecategory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223BA22F-D1E1-49E7-BE42-9BF57716C557}|GROUP Employees BY PerformanceCategory.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 39,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course21- Database Level2 - Concepts \u0026 T-SQL\\4-Case Statement\\GROUP Employees BY PerformanceCategory\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course21- Database Level2 - Concepts \u0026 T-SQL\\4-Case Statement\\GROUP Employees BY PerformanceCategory\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAE0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T13:55:19.512Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+In T-SQL (used by SQL Server), window functions are powerful tools for performing calculations across a set of rows related to the current row, without collapsing the result set like GROUP BY does. They're used with the OVER() clause, which can include PARTITION BY, ORDER BY, and frame specifications like ROWS BETWEEN or RANGE BETWEEN.
+
+🔹 Common Window Functions in T-SQL
+Here’s a breakdown by category, including their use with PARTITION BY, ORDER BY, and frame definitions like ROWS BETWEEN:
+
+🧮 1. Aggregate Window Functions
+These compute aggregate values over a window (partition of rows).
+
+Examples:
+
+sql
+Copier
+Modifier
+SUM(num) OVER (PARTITION BY num ORDER BY id)
+AVG(num) OVER (ORDER BY id ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING)
+COUNT(*) OVER (PARTITION BY num)
+MIN(num) OVER (ORDER BY id ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)
+MAX(num) OVER (PARTITION BY num ORDER BY id)
+🔢 2. Ranking Functions
+These assign a rank or row number to each row in the result set.
+
+sql
+Copier
+Modifier
+ROW_NUMBER() OVER (PARTITION BY num ORDER BY id)
+RANK() OVER (ORDER BY id)
+DENSE_RANK() OVER (PARTITION BY num ORDER BY id)
+NTILE(4) OVER (ORDER BY id)  -- Divides rows into 4 buckets
+👁 3. Offset Functions
+Access data from a row at a specific offset (before or after current row):
+
+sql
+Copier
+Modifier
+LAG(num, 1, 0) OVER (PARTITION BY num ORDER BY id)   -- previous value
+LEAD(num, 1, 0) OVER (ORDER BY id)                   -- next value
+FIRST_VALUE(num) OVER (PARTITION BY num ORDER BY id)
+LAST_VALUE(num) OVER (PARTITION BY num ORDER BY id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING)
+Note: LAST_VALUE requires ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING to avoid returning the current row’s value.
+
+📐 4. Frame Clauses in Detail
+When using ORDER BY in a window function, you can define a frame with:
+
+sql
+Copier
+Modifier
+ROWS BETWEEN <start> AND <end>
+Frame Types:
+UNBOUNDED PRECEDING — from the first row of the partition
+
+n PRECEDING — n rows before the current
+
+CURRENT ROW — the current row
+
+n FOLLOWING — n rows after the current
+
+UNBOUNDED FOLLOWING — through the last row of the partition
+
+Examples:
+sql
+Copier
+Modifier
+-- Rolling sum of 3 rows (previous, current, next)
+SUM(num) OVER (
+    ORDER BY id
+    ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING
+)
+
+-- Cumulative sum from start to current
+SUM(num) OVER (
+    ORDER BY id
+    ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+)
+
+-- Moving average of 5 rows centered on current
+AVG(num) OVER (
+    ORDER BY id
+    ROWS BETWEEN 2 PRECEDING AND 2 FOLLOWING
+)
+🧰 Full Example
+Using your Logs table:
+
+sql
+Copier
+Modifier
+SELECT 
+    id,
+    num,
+    SUM(num) OVER (ORDER BY id ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING) AS MovingSum,
+    ROW_NUMBER() OVER (PARTITION BY num ORDER BY id) AS RowNum,
+    LAG(num, 1, 0) OVER (ORDER BY id) AS PrevNum,
+    LEAD(num, 1, 0) OVER (ORDER BY id) AS NextNum,
+    FIRST_VALUE(num) OVER (PARTITION BY num ORDER BY id) AS FirstInGroup,
+    LAST_VALUE(num) OVER (
+        PARTITION BY num ORDER BY id 
+        ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING
+    ) AS LastInGroup
+FROM Logs;
+✅ Tips
+Always pair PARTITION BY with ORDER BY for predictable row-based functions.
+
+ROWS BETWEEN is precise (row position), whereas RANGE is more abstract (value-based, less commonly used in T-SQL).
+
+Use ROWS UNBOUNDED PRECEDING for cumulative results.
+
+LAG/LEAD are ideal for comparing adjacent rows.
+
+
+
+
+### :
+🔍 Other Frame Options for Comparison:
+Frame Clause						Meaning
+✔️ ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW	From the first row to the current row (default for aggregates)
+
+✔️ ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING	From the row before to the row after the current one
+
+✔️ ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING	From current row to the last row
+
+
+
+
+### Other Clauses in w.f :
+
+✅ 🔍 Frame Clause Basics
+A frame clause defines the subset of rows in the window that a function operates on, relative to the current row.
+
+The syntax generally looks like this:
+
+sql
+Copier
+Modifier
+<function>() OVER (
+    [PARTITION BY ...]
+    ORDER BY ...
+    ROWS | RANGE BETWEEN <frame_start> AND <frame_end>
+)
+🧱 Frame Units: ROWS vs. RANGE vs. GROUPS
+Frame Unit	Meaning
+ROWS	Row-based offsets (most precise and common)
+RANGE	Value-based offsets (less predictable in T-SQL; rarely used)
+GROUPS	Operates on peer groups (SQL:2012+, not in SQL Server yet)
+
+T-SQL primarily supports ROWS and RANGE. ROWS is preferred due to its clarity and precision.
+
+🔢 Full List of Frame Clause Options (for ROWS and RANGE)
+You can mix and match the following start and end points:
+
+Frame Start / End Options:
+Clause	Meaning
+UNBOUNDED PRECEDING	First row of the partition
+<n> PRECEDING	N rows before the current row
+CURRENT ROW	The current row
+<n> FOLLOWING	N rows after the current row
+UNBOUNDED FOLLOWING	Last row of the partition
+
+Combined Examples:
+Frame Clause	Meaning
+ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW	Running total up to current row (most common)
+ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING	From current row to end (cumulative forward)
+ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING	Sliding window over 3 rows centered on current
+ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING	Whole partition (entire dataset if no partitioning)
+ROWS BETWEEN 2 PRECEDING AND CURRENT ROW	Rolling window over last 3 rows
+ROWS BETWEEN CURRENT ROW AND 2 FOLLOWING	Rolling window over current + next 2 rows
+
+🧠 Notes on RANGE
+In SQL Server, RANGE is limited.
+
+If used with ORDER BY num, then:
+
+sql
+Copier
+Modifier
+RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+includes all rows with the same num value as the current row and everything before it — it’s value-based, not row-position-based.
+
+Not very precise or commonly used in T-SQL due to limitations.
+
+✅ TL;DR Summary
+What You Want	Use This Frame Clause
+Cumulative sum (from start)	ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+Forward-looking total	ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING
+3-row moving average	ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING
+Entire partition	ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING

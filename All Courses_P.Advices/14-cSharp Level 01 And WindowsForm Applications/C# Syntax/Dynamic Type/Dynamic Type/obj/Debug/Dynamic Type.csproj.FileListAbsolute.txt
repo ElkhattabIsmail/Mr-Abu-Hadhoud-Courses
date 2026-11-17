@@ -1,0 +1,7 @@
+P:\C# Syntax\Dynamic Type\Dynamic Type\bin\Debug\Dynamic Type.exe.config
+P:\C# Syntax\Dynamic Type\Dynamic Type\bin\Debug\Dynamic Type.exe
+P:\C# Syntax\Dynamic Type\Dynamic Type\bin\Debug\Dynamic Type.pdb
+P:\C# Syntax\Dynamic Type\Dynamic Type\obj\Debug\Dynamic Type.csproj.AssemblyReference.cache
+P:\C# Syntax\Dynamic Type\Dynamic Type\obj\Debug\Dynamic Type.csproj.CoreCompileInputs.cache
+P:\C# Syntax\Dynamic Type\Dynamic Type\obj\Debug\Dynamic Type.exe
+P:\C# Syntax\Dynamic Type\Dynamic Type\obj\Debug\Dynamic Type.pdb

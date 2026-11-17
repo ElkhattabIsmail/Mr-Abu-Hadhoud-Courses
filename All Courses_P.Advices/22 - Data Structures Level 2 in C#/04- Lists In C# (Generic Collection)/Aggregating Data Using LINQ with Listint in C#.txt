@@ -1,0 +1,107 @@
+What is LINQ?
+LINQ stands for Language Integrated Query. It’s a feature in C# that allows you to write queries directly in your code to retrieve and manipulate data from different sources like databases, collections, XML, and more.
+
+Today Only Study 
+"
+|-- Aggregation
+|   |-- Count
+|   |-- Sum
+|   |-- Min
+|   |-- Max
+|   |-- Average
+"
+
+LINQ Operations in C#
+|
+|-- Filtering
+|   |-- Where
+|   |-- OfType
+|
+|-- Projection
+|   |-- Select
+|   |-- SelectMany
+|
+|-- Sorting
+|   |-- OrderBy
+|   |-- OrderByDescending
+|   |-- ThenBy
+|   |-- ThenByDescending
+|
+|-- Grouping
+|   |-- GroupBy
+|
+|-- Joining
+|   |-- Join
+|   |-- GroupJoin
+|
+|-- Quantifiers
+|   |-- All
+|   |-- Any
+|   |-- Contains
+|
+|-- Aggregation
+|   |-- Count
+|   |-- Sum
+|   |-- Min
+|   |-- Max
+|   |-- Average
+|
+|-- Element Operations
+|   |-- First
+|   |-- FirstOrDefault
+|   |-- Last
+|   |-- LastOrDefault
+|   |-- Single
+|   |-- SingleOrDefault
+|   |-- ElementAt
+|   |-- ElementAtOrDefault
+|
+|-- Set Operations
+|   |-- Distinct
+|   |-- Union
+|   |-- Intersect
+|   |-- Except
+|
+|-- Conversion
+|   |-- ToList
+|   |-- ToArray
+|   |-- ToDictionary
+|   |-- ToLookup
+|
+|-- Generation
+|   |-- Range
+|   |-- Repeat
+|   |-- Empty
+|
+|-- Partitioning
+|   |-- Take
+|   |-- Skip
+|   |-- TakeWhile
+|   |-- SkipWhile
+
+
+
+
+
+In List, "Find" method should be used instead of the "FirstOrDefault" extension method,
+
+Both the List.Find method and IEnumerable.FirstOrDefault method can be used to find the first element that satisfies a given condition in a collection. However, List.Find can be faster than IEnumerable.FirstOrDefault for List objects. For small collections, the performance difference may be minor, but for large collections, it can make a noticeable difference. The same applies for ImmutableList and arrays too.
+
+
+
+
+
+
+
+
+|
+|-- Concatenation
+|   |-- Concat
+|
+|-- Equality
+|   |-- SequenceEqual
+|
+|-- Miscellaneous
+|   |-- DefaultIfEmpty
+|   |-- Zip
+|   |-- Aggregate

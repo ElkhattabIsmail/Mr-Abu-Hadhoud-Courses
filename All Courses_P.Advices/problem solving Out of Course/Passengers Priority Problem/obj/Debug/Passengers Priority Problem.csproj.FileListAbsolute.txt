@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Passengers Priority Problem\bin\Debug\Passengers Priority Problem.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Passengers Priority Problem\bin\Debug\Passengers Priority Problem.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Passengers Priority Problem\bin\Debug\Passengers Priority Problem.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Passengers Priority Problem\obj\Debug\Passengers Priority Problem.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Passengers Priority Problem\obj\Debug\Passengers Priority Problem.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Passengers Priority Problem\obj\Debug\Passengers Priority Problem.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Courses With Programming Advices\problem solving Out of Course\Passengers Priority Problem\obj\Debug\Passengers Priority Problem.pdb

@@ -1,0 +1,9 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_BessinessLayer\obj\Debug\CRUD_Gen_BessinessLayer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_BessinessLayer\obj\Debug\CRUD_Gen_BessinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_BessinessLayer\bin\Debug\CRUD_Gen_BessinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_BessinessLayer\bin\Debug\CRUD_Gen_BessinessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_BessinessLayer\bin\Debug\CRUD_Gen_DataAccess.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_BessinessLayer\bin\Debug\CRUD_Gen_DataAccess.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_BessinessLayer\obj\Debug\CRUD_Gen.C072634C.Up2Date
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_BessinessLayer\obj\Debug\CRUD_Gen_BessinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_BessinessLayer\obj\Debug\CRUD_Gen_BessinessLayer.pdb

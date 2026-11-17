@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\8-MultiCastDelegate\Rectangle Area & Perimeter Example\bin\Debug\Rectangle Area & Perimeter Example.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\8-MultiCastDelegate\Rectangle Area & Perimeter Example\bin\Debug\Rectangle Area & Perimeter Example.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\8-MultiCastDelegate\Rectangle Area & Perimeter Example\bin\Debug\Rectangle Area & Perimeter Example.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\8-MultiCastDelegate\Rectangle Area & Perimeter Example\obj\Debug\Rectangle Area & Perimeter Example.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\8-MultiCastDelegate\Rectangle Area & Perimeter Example\obj\Debug\Rectangle Area & Perimeter Example.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\8-MultiCastDelegate\Rectangle Area & Perimeter Example\obj\Debug\Rectangle Area & Perimeter Example.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\8-MultiCastDelegate\Rectangle Area & Perimeter Example\obj\Debug\Rectangle Area & Perimeter Example.pdb

@@ -1,0 +1,8 @@
+I cant find usercontrol in toolbox
+
+
+The solution : 
+From the main window in Visual Studio, go to ... 
+Tools -> Options ->  Windows Forms Designer -> ToolBox
+and then Find the setting: Automatically Populate Toolbox Items
+turn it to true , and finally try to build the project and your user controls will show up in the toolbox

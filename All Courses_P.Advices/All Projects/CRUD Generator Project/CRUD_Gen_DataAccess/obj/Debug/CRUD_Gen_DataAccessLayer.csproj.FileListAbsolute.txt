@@ -1,0 +1,6 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_DataAccess\bin\Debug\CRUD_Gen_DataAccess.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_DataAccess\bin\Debug\CRUD_Gen_DataAccess.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_DataAccess\obj\Debug\CRUD_Gen_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_DataAccess\obj\Debug\CRUD_Gen_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_DataAccess\obj\Debug\CRUD_Gen_DataAccess.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\CRUD_Gen_DataAccess\obj\Debug\CRUD_Gen_DataAccess.pdb

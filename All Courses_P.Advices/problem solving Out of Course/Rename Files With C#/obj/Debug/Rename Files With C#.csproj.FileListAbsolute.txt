@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Rename Files With C#\bin\Debug\Rename Files With C#.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Rename Files With C#\bin\Debug\Rename Files With C#.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Rename Files With C#\bin\Debug\Rename Files With C#.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Rename Files With C#\obj\Debug\Rename Files With C#.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Rename Files With C#\obj\Debug\Rename Files With C#.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Rename Files With C#\obj\Debug\Rename Files With C#.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\All Problem Solving Levels\problem solving Out of Course\Rename Files With C#\obj\Debug\Rename Files With C#.pdb

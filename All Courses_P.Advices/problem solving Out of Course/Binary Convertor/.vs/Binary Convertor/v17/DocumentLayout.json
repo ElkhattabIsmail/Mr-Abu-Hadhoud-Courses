@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\problem solving Out of Course\\Binary Convertor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52E64A92-B7EB-46CE-AD56-308A716357A9}|Binary Convertor.vcxproj|P:\\problem solving Out of Course\\Binary Convertor\\Binary Convertor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{52E64A92-B7EB-46CE-AD56-308A716357A9}|Binary Convertor.vcxproj|solutionrelative:Binary Convertor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 39,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Binary Convertor.cpp",
+              "DocumentMoniker": "P:\\problem solving Out of Course\\Binary Convertor\\Binary Convertor.cpp",
+              "RelativeDocumentMoniker": "Binary Convertor.cpp",
+              "ToolTip": "P:\\problem solving Out of Course\\Binary Convertor\\Binary Convertor.cpp",
+              "RelativeToolTip": "Binary Convertor.cpp",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-18T13:10:43.623Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

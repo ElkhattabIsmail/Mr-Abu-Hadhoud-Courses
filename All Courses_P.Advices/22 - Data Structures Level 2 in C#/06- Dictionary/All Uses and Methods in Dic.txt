@@ -1,0 +1,88 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+class Program
+{
+    static void Main()
+    {
+        // 1. Initialize a dictionary
+        Dictionary<int, string> employees = new Dictionary<int, string>
+        {
+            { 101, "Alice" },
+            { 102, "Bob" },
+            { 103, "Charlie" }
+        };
+
+        // 2. Add elements to the dictionary
+        employees[104] = "Diana";
+        employees.Add(105, "Eve");
+
+        // 3. Access elements by key
+        Console.WriteLine($"Employee 101: {employees[101]}");
+
+        // 4. Check if a key exists
+        if (employees.ContainsKey(106))
+        {
+            Console.WriteLine("Employee 106 exists.");
+        }
+        else
+        {
+            Console.WriteLine("Employee 106 does not exist.");
+        }
+
+        // 5. Check if a value exists
+        if (employees.ContainsValue("Charlie"))
+        {
+            Console.WriteLine("Charlie is in the employees dictionary.");
+        }
+
+        // 6. Update an existing value
+        employees[102] = "Robert";
+        Console.WriteLine($"Updated Employee 102: {employees[102]}");
+
+        // 7. Remove an element
+        employees.Remove(103);
+        Console.WriteLine("Removed Employee 103.");
+
+        // 8. Iterate through the dictionary
+        Console.WriteLine("\nAll Employees:");
+        foreach (var kvp in employees)
+        {
+            Console.WriteLine($"ID: {kvp.Key}, Name: {kvp.Value}");
+        }
+
+        // 9. Filter dictionary entries (LINQ)
+        Console.WriteLine("\nFiltered Employees (ID > 102):");
+        var filteredEmployees = employees.Where(e => e.Key > 102);
+        foreach (var kvp in filteredEmployees)
+        {
+            Console.WriteLine($"ID: {kvp.Key}, Name: {kvp.Value}");
+        }
+
+        // 10. Group elements based on a condition
+        Console.WriteLine("\nGrouped Employees by Name Length:");
+        var groupedEmployees = employees.GroupBy(e => e.Value.Length);
+        foreach (var group in groupedEmployees)
+        {
+            Console.WriteLine($"Name Length: {group.Key}");
+            foreach (var kvp in group)
+            {
+                Console.WriteLine($"ID: {kvp.Key}, Name: {kvp.Value}");
+            }
+        }
+
+        // 11. Count elements
+        Console.WriteLine($"\nTotal Employees: {employees.Count}");
+
+        // 12. TryGetValue to safely access elements
+        if (employees.TryGetValue(105, out string name))
+        {
+            Console.WriteLine($"Employee 105: {name}");
+        }
+
+        // 13. Clear the dictionary
+        employees.Clear();
+        Console.WriteLine($"\nDictionary cleared. Total Employees: {employees.Count}");
+    }
+}

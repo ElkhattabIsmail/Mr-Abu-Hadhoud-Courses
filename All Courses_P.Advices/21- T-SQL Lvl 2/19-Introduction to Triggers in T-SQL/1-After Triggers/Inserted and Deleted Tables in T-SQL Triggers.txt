@@ -1,0 +1,87 @@
+Understanding the inserted and deleted Tables in T-SQL Triggers
+
+In this lesson, we will delve into two special tables in T-SQL - inserted and deleted - that play a crucial role in the functionality of triggers.
+These tables are automatically created and managed by SQL Server during the execution of triggers associated with Data Manipulation Language (DML) operations like INSERT, UPDATE, and DELETE.
+
+
+By the end of this lesson, you will understand how the inserted and deleted tables are used in T-SQL triggers to capture data changes, 
+and how they can be leveraged in various scenarios, particularly using our example Students table.
+
+What are inserted and deleted Tables ❓
+➡️ inserted Table: In the context of an INSERT or UPDATE operation, the inserted table 👌 contains the new version of each row that has been inserted or updated 👌.
+
+➡️ deleted Table: During DELETE or UPDATE operations, the deleted table 👌 holds the original version of each row that has been deleted or updated.👌
+
+These tables are fundamental in understanding and responding to data changes within triggers.
+
+Key Characteristics:
+They are virtual tables, meaning they are not physically stored in the database but are created temporarily during trigger execution.
+Their structure mirrors the table on which the trigger is defined, containing all columns of the original table.
+They are essential for writing logic inside triggers that respond to data changes.
+Usage in Different DML Operations:
+INSERT:
+✔️ inserted contains the new data being inserted.
+❌ deleted is not used as no data is being removed.
+DELETE:
+✔️ deleted contains the data being removed.
+❌ inserted is not used as no new data is being added.
+UPDATE:
+✔️ inserted holds the updated (new) version of the data.
+✔️ deleted holds the original data before the update.
+
+
+Example Scenario: Trigger on the Students Table
+Consider our Students table:
+
+CREATE TABLE [dbo].[Students](
+    [StudentID] [int] NOT NULL,
+    [Name] [nvarchar](50) NULL,
+    [Subject] [nvarchar](50) NULL,
+    [Grade] [int] NULL,
+    [IsActive] [bit] NULL,
+    PRIMARY KEY CLUSTERED ([StudentID] ASC)
+);
+
+
+Scenario: We want to track changes in the Grade of students. For this, we create a trigger that logs any grade changes to an audit table.
+
+Step 1: Creating an Audit Table
+CREATE TABLE StudentGradeAudit (
+    AuditID INT IDENTITY PRIMARY KEY,
+    StudentID INT,
+    OldGrade INT,
+    NewGrade INT,
+    ChangeDateTime DATETIME DEFAULT GETDATE()
+);
+
+
+Step 2: Creating the Trigger
+CREATE TRIGGER trg_StudentGradeChange 
+ON [dbo].[Students]
+AFTER UPDATE
+AS
+BEGIN
+    IF UPDATE(Grade)
+    BEGIN
+        INSERT INTO StudentGradeAudit (StudentID, OldGrade, NewGrade)
+        SELECT 
+            I.StudentID, 
+            D.Grade AS OldGrade, 
+            I.Grade AS NewGrade
+        FROM inserted I
+        INNER JOIN deleted D ON I.StudentID = D.StudentID;
+    END
+END;
+
+
+Trigger Logic Explained:
+
+The trigger fires after an UPDATE on the Students table.
+It checks if the Grade column was updated (IF UPDATE(Grade)).
+The trigger uses both inserted and deleted to capture the old and new grades, inserting this information into the StudentGradeAudit table.
+
+Conclusion:
+The inserted and deleted tables are powerful tools in T-SQL triggers, providing a means to accurately track and respond to data changes in a database.
+Understanding their functionality and application is crucial for effective database management and maintaining data integrity, especially in dynamic environments like educational institutions managing student records.
+
+

@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Update Statement in C# and Sql\bin\Debug\Update Statement in C# and Sql.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Update Statement in C# and Sql\bin\Debug\Update Statement in C# and Sql.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Update Statement in C# and Sql\bin\Debug\Update Statement in C# and Sql.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Update Statement in C# and Sql\obj\Debug\Update Statement in C# and Sql.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Update Statement in C# and Sql\obj\Debug\Update Statement in C# and Sql.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Update Statement in C# and Sql\obj\Debug\Update Statement in C# and Sql.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\DataBase Connectivity\Update Statement in C# and Sql\obj\Debug\Update Statement in C# and Sql.pdb

@@ -1,0 +1,80 @@
+Parallel.For
+
+
+Parallel.For is a method in C# that allows you to execute a for loop in parallel, making it easier to perform parallel operations on a collection or for a specific number of iterations.
+
+Example:
+
+Here's an example demonstrating how to use Parallel.For:
+
+using System;
+using System.Threading.Tasks;
+
+
+class Program
+{
+    static void Main()
+    {
+        // Define the number of iterations
+        int numberOfIterations = 10;
+
+
+        // Use Parallel.For to execute the loop in parallel
+        Parallel.For(0, numberOfIterations, i =>
+        {
+            Console.WriteLine($"Executing iteration {i} on thread {Task.CurrentId}");
+            // Simulate some work
+            Task.Delay(1000).Wait();
+        });
+
+
+        Console.WriteLine("All iterations completed.");
+    }
+}
+
+In this example:
+
+Parallel.For is used to execute iterations in parallel from 0 to numberOfIterations - 1.
+Inside the Parallel.For, a lambda expression is defined to perform the work for each iteration. In this case, it's printing the iteration number and the current task ID to the console, followed by a simulated work delay.
+Parallel.For will handle the distribution of these iterations across multiple threads.
+After Parallel.For completes, a message is printed to indicate that all iterations are done.
+Note: The actual order of execution of the iterations may vary each time you run the program, as Parallel.For will execute them concurrently on different threads.
+
+Same Example using separate function:
+
+o use Parallel.For with separate functions instead of a lambda expression, you can define a method that encapsulates the work you want to perform in each iteration. Here's how you can modify the example:
+
+using System;
+using System.Threading.Tasks;
+
+
+class Program
+{
+    static void Main()
+    {
+        // Define the number of iterations
+        int numberOfIterations = 10;
+
+
+        // Use Parallel.For to execute the loop in parallel
+        Parallel.For(0, numberOfIterations, ProcessIteration);
+
+
+        Console.WriteLine("All iterations completed.");
+    }
+
+
+    static void ProcessIteration(int i)
+    {
+        Console.WriteLine($"Executing iteration {i} on thread {Task.CurrentId}");
+        // Simulate some work
+        Task.Delay(1000).Wait();
+    }
+}
+
+In this revised example:
+
+The ProcessIteration method is defined to handle the work for each iteration. It takes an integer i as a parameter, which represents the current iteration number.
+Parallel.For is used to execute iterations in parallel, calling the ProcessIteration method for each iteration.
+Within ProcessIteration, the iteration number and the current task ID are printed, followed by a simulated delay to represent some work.
+By using this approach, the loop's work is encapsulated in a method, making the code more modular and potentially easier to understand and maintain.

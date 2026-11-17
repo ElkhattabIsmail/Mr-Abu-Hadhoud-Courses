@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\09- Comparing Sets with HashSet in C#\All hashSet Comarison Methods\bin\Debug\All hashSet Comarison Methods.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\09- Comparing Sets with HashSet in C#\All hashSet Comarison Methods\bin\Debug\All hashSet Comarison Methods.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\09- Comparing Sets with HashSet in C#\All hashSet Comarison Methods\bin\Debug\All hashSet Comarison Methods.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\09- Comparing Sets with HashSet in C#\All hashSet Comarison Methods\obj\Debug\All hashSet Comarison Methods.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\09- Comparing Sets with HashSet in C#\All hashSet Comarison Methods\obj\Debug\All hashSet Comarison Methods.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\09- Comparing Sets with HashSet in C#\All hashSet Comarison Methods\obj\Debug\All hashSet Comarison Methods.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\09- Comparing Sets with HashSet in C#\All hashSet Comarison Methods\obj\Debug\All hashSet Comarison Methods.pdb

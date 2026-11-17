@@ -1,0 +1,7 @@
+P:\C# Syntax\Anonymous Type\Anonymous Type\bin\Debug\Anonymous Type.exe.config
+P:\C# Syntax\Anonymous Type\Anonymous Type\bin\Debug\Anonymous Type.exe
+P:\C# Syntax\Anonymous Type\Anonymous Type\bin\Debug\Anonymous Type.pdb
+P:\C# Syntax\Anonymous Type\Anonymous Type\obj\Debug\Anonymous Type.csproj.AssemblyReference.cache
+P:\C# Syntax\Anonymous Type\Anonymous Type\obj\Debug\Anonymous Type.csproj.CoreCompileInputs.cache
+P:\C# Syntax\Anonymous Type\Anonymous Type\obj\Debug\Anonymous Type.exe
+P:\C# Syntax\Anonymous Type\Anonymous Type\obj\Debug\Anonymous Type.pdb

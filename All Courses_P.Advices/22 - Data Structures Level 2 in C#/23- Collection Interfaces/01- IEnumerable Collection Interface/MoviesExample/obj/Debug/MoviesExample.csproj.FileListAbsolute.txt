@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\01- IEnumerable Collection Interface\MoviesExample\bin\Debug\MoviesExample.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\01- IEnumerable Collection Interface\MoviesExample\bin\Debug\MoviesExample.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\01- IEnumerable Collection Interface\MoviesExample\bin\Debug\MoviesExample.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\01- IEnumerable Collection Interface\MoviesExample\obj\Debug\MoviesExample.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\01- IEnumerable Collection Interface\MoviesExample\obj\Debug\MoviesExample.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\01- IEnumerable Collection Interface\MoviesExample\obj\Debug\MoviesExample.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\23- Collection Interfaces\01- IEnumerable Collection Interface\MoviesExample\obj\Debug\MoviesExample.pdb

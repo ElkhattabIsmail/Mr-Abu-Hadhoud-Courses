@@ -1,0 +1,4 @@
+﻿  #20 circle area inscribed in a square.cpp
+C:\Users\ULTRAPC\source\repos\(4,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ULTRAPC\source\repos\(14,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  #20 circle area inscribed in a square.vcxproj -> C:\Users\ULTRAPC\source\repos\#20 circle area inscribed in a square\x64\Debug\#20 circle area inscribed in a square.exe

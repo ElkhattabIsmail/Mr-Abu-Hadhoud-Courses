@@ -1,0 +1,419 @@
+Foreign Key :
+https://programmingadvices.com/courses/database-level-1--concepts-and-practice/lectures/46843728
+
+SQL FOREIGN KEY on CREATE TABLE
+The following SQL creates a FOREIGN KEY on the "PersonID" column when the "Orders" table is created:
+
+CREATE TABLE Orders (
+   OrderID int NOT NULL PRIMARY KEY,
+   OrderNumber int NOT NULL,
+   PersonID int FOREIGN KEY REFERENCES Persons(PersonID)
+);
+
+To allow naming of a FOREIGN KEY constraint, and for defining a FOREIGN KEY constraint on multiple columns, use the following SQL syntax:
+
+CREATE TABLE Orders (
+   OrderID int NOT NULL,
+   OrderNumber int NOT NULL,
+   PersonID int,
+    PRIMARY KEY (OrderID),
+    CONSTRAINT FK_PersonOrder FOREIGN KEY (PersonID)
+    REFERENCES Persons(PersonID)
+);
+
+SQL FOREIGN KEY on ALTER TABLE
+To create a FOREIGN KEY constraint on the "PersonID" column when the "Orders" table is already created, use the following SQL:
+
+ALTER TABLE Orders
+ADD FOREIGN KEY (PersonID) REFERENCES Persons(PersonID);
+
+To allow naming of a FOREIGN KEY constraint, and for defining a FOREIGN KEY constraint on multiple columns, use the following SQL syntax:
+
+ALTER TABLE Orders
+ADD CONSTRAINT FK_PersonOrder
+FOREIGN KEY (PersonID) REFERENCES Persons(PersonID);
+
+DROP a FOREIGN KEY Constraint
+To drop a FOREIGN KEY constraint, use the following SQL:
+
+ALTER TABLE Orders
+DROP CONSTRAINT FK_PersonOrder;
+
+1. Basic Queries
+SELECT
+Retrieve data from a table.
+
+
+
+SELECT column1, column2
+FROM table_name;
+SELECT ALL
+Retrieve all columns from a table.
+
+
+
+SELECT *
+FROM table_name;
+SELECT DISTINCT
+Retrieve unique values from a column.
+
+
+
+SELECT DISTINCT column_name
+FROM table_name;
+2. Filtering Data
+WHERE
+Filter rows based on a condition.
+
+
+
+SELECT column1, column2
+FROM table_name
+WHERE condition;
+AND, OR, NOT
+Combine multiple conditions.
+
+
+
+SELECT column1, column2
+FROM table_name
+WHERE condition1 AND condition2;
+
+SELECT column1, column2
+FROM table_name
+WHERE condition1 OR condition2;
+
+SELECT column1, column2
+FROM table_name
+WHERE NOT condition;
+IN
+Filter rows where a column matches any value in a list.
+
+
+
+SELECT column1, column2
+FROM table_name
+WHERE column_name IN (value1, value2, ...);
+BETWEEN
+Filter rows where a column value is between two values.
+
+
+
+SELECT column1, column2
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;
+LIKE
+Filter rows using wildcard characters (% for multiple characters, _ for a single character).
+
+
+
+SELECT column1, column2
+FROM table_name
+WHERE column_name LIKE 'pattern';
+IS NULL
+Filter rows where a column value is NULL.
+
+
+
+SELECT column1, column2
+FROM table_name
+WHERE column_name IS NULL;
+3. Sorting Data
+ORDER BY
+Sort the result set in ascending or descending order.
+
+
+
+SELECT column1, column2
+FROM table_name
+ORDER BY column1 ASC; -- Ascending (default)
+
+SELECT column1, column2
+FROM table_name
+ORDER BY column1 DESC; -- Descending
+4. Aggregating Data
+COUNT
+Count the number of rows.
+
+
+
+SELECT COUNT(column_name)
+FROM table_name;
+SUM
+Calculate the sum of a numeric column.
+
+
+
+SELECT SUM(column_name)
+FROM table_name;
+AVG
+Calculate the average of a numeric column.
+
+
+
+SELECT AVG(column_name)
+FROM table_name;
+MIN
+Find the minimum value in a column.
+
+
+
+SELECT MIN(column_name)
+FROM table_name;
+MAX
+Find the maximum value in a column.
+
+
+
+SELECT MAX(column_name)
+FROM table_name;
+GROUP BY
+Group rows by a column and apply aggregate functions.
+
+
+
+SELECT column1, COUNT(column2)
+FROM table_name
+GROUP BY column1;
+HAVING
+Filter groups based on a condition.
+
+
+
+SELECT column1, COUNT(column2)
+FROM table_name
+GROUP BY column1
+HAVING COUNT(column2) > 10;
+5. Joining Tables
+INNER JOIN
+Retrieve rows that have matching values in both tables.
+
+
+
+SELECT column1, column2
+FROM table1
+INNER JOIN table2 ON table1.column_name = table2.column_name;
+LEFT JOIN
+Retrieve all rows from the left table and matching rows from the right table.
+
+
+
+SELECT column1, column2
+FROM table1
+LEFT JOIN table2 ON table1.column_name = table2.column_name;
+RIGHT JOIN
+Retrieve all rows from the right table and matching rows from the left table.
+
+
+
+SELECT column1, column2
+FROM table1
+RIGHT JOIN table2 ON table1.column_name = table2.column_name;
+FULL OUTER JOIN
+Retrieve all rows when there is a match in either table.
+
+
+
+SELECT column1, column2
+FROM table1
+FULL OUTER JOIN table2 ON table1.column_name = table2.column_name;
+CROSS JOIN
+Retrieve the Cartesian product of two tables.
+
+
+
+SELECT column1, column2
+FROM table1
+CROSS JOIN table2;
+6. Modifying Data
+INSERT
+Add new rows to a table.
+
+
+
+INSERT INTO table_name (column1, column2)
+VALUES (value1, value2);
+UPDATE
+Modify existing rows in a table.
+
+
+
+UPDATE table_name
+SET column1 = value1, column2 = value2
+WHERE condition;
+DELETE
+Remove rows from a table.
+
+
+
+DELETE FROM table_name
+WHERE condition;
+TRUNCATE
+Remove all rows from a table (faster than DELETE).
+
+
+
+TRUNCATE TABLE table_name;
+7. Table Operations
+CREATE TABLE
+Create a new table.
+
+
+
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    ...
+);
+ALTER TABLE
+Modify an existing table (e.g., add, drop, or modify columns).
+
+
+
+ALTER TABLE table_name
+ADD column_name datatype;
+
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+ALTER TABLE table_name
+MODIFY COLUMN column_name datatype;
+DROP TABLE
+Delete a table.
+
+
+
+DROP TABLE table_name;
+8. Advanced Queries
+UNION
+Combine the result sets of two or more SELECT statements.
+
+
+
+SELECT column1 FROM table1
+UNION
+SELECT column1 FROM table2;
+SUBQUERY
+Use a query inside another query.
+
+
+
+SELECT column1
+FROM table_name
+WHERE column2 IN (SELECT column2 FROM another_table);
+EXISTS
+Check if a subquery returns any rows.
+
+
+
+SELECT column1
+FROM table_name
+WHERE EXISTS (SELECT 1 FROM another_table WHERE condition);
+CASE
+Perform conditional logic in a query.
+
+
+
+SELECT column1,
+       CASE
+           WHEN condition1 THEN result1
+           WHEN condition2 THEN result2
+           ELSE result3
+       END AS new_column
+FROM table_name;
+9. Indexes
+CREATE INDEX
+Create an index on a column (improves query performance).
+
+
+
+CREATE INDEX index_name
+ON table_name (column_name);
+DROP INDEX
+Remove an index.
+
+
+
+DROP INDEX index_name
+ON table_name;
+10. Transactions
+BEGIN TRANSACTION
+Start a transaction.
+
+
+
+BEGIN TRANSACTION;
+COMMIT
+Save changes made during a transaction.
+
+
+
+COMMIT;
+ROLLBACK
+Undo changes made during a transaction.
+
+
+
+ROLLBACK;
+11. Constraints
+PRIMARY KEY
+Define a primary key.
+
+
+
+CREATE TABLE table_name (
+    column1 datatype PRIMARY KEY,
+    column2 datatype
+);
+FOREIGN KEY
+Define a foreign key.
+
+
+
+CREATE TABLE table1 (
+    column1 datatype PRIMARY KEY,
+    column2 datatype
+);
+
+CREATE TABLE table2 (
+    column3 datatype,
+    column4 datatype,
+    FOREIGN KEY (column3) REFERENCES table1(column1)
+);
+UNIQUE
+Ensure all values in a column are unique.
+
+
+
+CREATE TABLE table_name (
+    column1 datatype UNIQUE,
+    column2 datatype
+);
+CHECK
+Ensure values in a column satisfy a condition.
+
+
+
+CREATE TABLE table_name (
+    column1 datatype CHECK (column1 > 0),
+    column2 datatype
+);
+12. Views
+CREATE VIEW
+Create a virtual table based on a query.
+
+
+
+CREATE VIEW view_name AS
+SELECT column1, column2
+FROM table_name
+WHERE condition;
+DROP VIEW
+Delete a view.
+
+
+
+DROP VIEW view_name;
+This list covers the most commonly used  syntax. Let me know if you need further clarification or
+
+

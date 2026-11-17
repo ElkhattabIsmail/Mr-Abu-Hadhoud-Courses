@@ -1,0 +1,12 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\MyDataBase\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\My_Pure_ DataBase Tree  Tier Architucture\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

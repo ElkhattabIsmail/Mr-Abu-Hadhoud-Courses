@@ -1,0 +1,61 @@
+Understanding and Implementing After Delete Triggers in T-SQL
+
+This lesson covers the creation and implementation of an After Delete Trigger in T-SQL, using the 'Students' table as a practical example. We aim to demonstrate how to use such triggers for logging and auditing purposes when records are deleted from a table.
+
+What is an After Delete Trigger?
+An After Delete Trigger in T-SQL is a special kind of stored procedure that automatically executes after a DELETE operation is performed on a table. This trigger is commonly used for tasks like logging deletions, enforcing business rules, or maintaining referential integrity.
+
+Preparing the Logging Table
+Before creating the trigger, we need a table to log the deletions. Here, we create a StudentDeleteLog table to store information about each deleted student record.
+
+CREATE TABLE StudentDeleteLog (
+    LogID INT IDENTITY PRIMARY KEY,
+    StudentID INT,
+    Name NVARCHAR(50),
+    Subject NVARCHAR(50),
+    Grade INT,
+    DeletedDateTime DATETIME DEFAULT GETDATE()
+);
+
+
+This table includes columns to store the student's details and the time of deletion.
+
+Creating the After Delete Trigger
+Now, we'll create the trigger that logs every deletion from the Students table.
+
+CREATE TRIGGER trg_AfterDeleteStudent ON Students
+AFTER DELETE
+AS
+BEGIN
+    INSERT INTO StudentDeleteLog(StudentID, Name, Subject, Grade)
+    SELECT StudentID, Name, Subject, Grade FROM deleted;
+END;
+
+
+Key Components Explained:
+
+CREATE TRIGGER trg_AfterDeleteStudent ON Students: This statement creates a new trigger named trg_AfterDeleteStudent on the Students table.
+AFTER DELETE: Specifies that the trigger responds to DELETE operations.
+The trigger's action: Inserts a record into the StudentDeleteLog table, selecting data from the deleted table, which is a special table containing the affected rows during the DELETE operation.
+Testing the Trigger
+To see our trigger in action, we'll delete a student record and then check the StudentDeleteLog table.
+
+-- Assuming there is a student with StudentID = 1 in the Students table
+
+
+-- Deleting a student
+DELETE FROM Students WHERE StudentID = 1;
+
+
+-- Checking the delete log table
+SELECT * FROM StudentDeleteLog;
+
+
+
+
+Expected Result:
+
+The StudentDeleteLog table should have an entry corresponding to the deleted student, capturing their details at the time of deletion.
+
+Conclusion:
+After Delete Triggers are crucial in scenarios where tracking deletions is important, such as for auditing, maintaining historical data, or ensuring data integrity post-deletion. Through this lesson, you've learned how to effectively implement and test an After Delete Trigger in T-SQL, a skill that enhances data management and security in your SQL Server databases.

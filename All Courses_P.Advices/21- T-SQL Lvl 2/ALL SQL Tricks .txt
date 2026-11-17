@@ -1,0 +1,270 @@
+### 01
+The GROUP BY clause in SQL works on multiple columns
+by grouping rows that have the same values in all specified columns. It creates unique combinations based on those columns, and then aggregate functions (like COUNT, SUM, AVG, etc.) are applied to each group.
+
+Syntax Example:
+
+
+
+SELECT column1, column2, COUNT(*)
+FROM your_table
+GROUP BY column1, column2;
+How It Works:
+Suppose you have a table like this:
+
+department	role	employee
+HR	Manager	Alice
+HR	Staff	Bob
+IT	Manager	Charlie
+IT	Manager	Dave
+HR	Staff	Eve
+
+And you run:
+
+
+
+
+SELECT department, role, COUNT(*) as num_employees
+FROM employees
+GROUP BY department, role;
+The result will be:
+
+department	role	num_employees
+HR	Manager	1
+HR	Staff	2
+IT	Manager	2
+
+Each unique pair of (department, role) forms a group, and COUNT(*) returns the number of rows in that group.
+
+Would you like to see an example using GROUP BY with HAVING or ORDER BY too?
+
+2.
+Yes, an error will occur if you try to group only by department but still select columns like role or employee that are not aggregated or included in the GROUP BY clause, unless your SQL engine supports certain relaxations (like MySQL with ONLY_FULL_GROUP_BY disabled).
+
+Example That Causes an Error (in most databases):
+
+
+
+SELECT department, role, COUNT(*)
+FROM employees
+GROUP BY department;
+Why This Errors:
+You're grouping by department, so the result will be one row per department.
+
+But you're also selecting role, which can have multiple values per department.
+
+SQL doesn't know which role to show — that's ambiguous.
+
+Correct Ways to Fix It:
+Option 1: Group by all selected non-aggregated columns:
+
+
+
+SELECT department, role, COUNT(*)
+FROM employees
+GROUP BY department, role;
+Option 2: Use an aggregate function on the other column:
+
+
+
+SELECT department, MAX(role) as example_role, COUNT(*)
+FROM employees
+GROUP BY department;
+This picks one role (e.g. the lexicographically greatest) per department.
+
+Do you want to group by department and also pick, say, the most common role in each department?
+
+### 02
+
+✔️ You must use the Group by with aggregate functions.
+✔️ inside the aggregate functions Parameters U can use a custom logic like CASES Or Simple, Complex Calculations.
+✔️ the aggregate functions depends on the Group by column(s).
+
+
+### 03: ⚠️ Cases Where You Cannot Use Aggregate Functions Directly:
+
+1. In a WHERE Clause
+You cannot use aggregate functions directly in a WHERE clause.
+
+❌ Invalid:
+
+
+
+SELECT *
+FROM Delivery
+WHERE MIN(order_date) > '2019-08-01'; -- ❌ Not allowed
+✅ Correct (Use HAVING or subquery):
+
+
+
+SELECT customer_id, MIN(order_date) AS First_Order_Date
+FROM Delivery
+GROUP BY customer_id
+HAVING MIN(order_date) > '2019-08-01';
+2. Without GROUP BY in a SELECT with non-aggregated columns
+If you use an aggregate in the SELECT clause, all other columns must be either aggregated or in a GROUP BY.
+
+❌ Invalid:
+
+
+
+SELECT customer_id, MIN(order_date)
+FROM Delivery; -- ❌ Error in SQL Server: customer_id must be aggregated or grouped
+✅ Correct:
+
+
+
+SELECT customer_id, MIN(order_date)
+FROM Delivery
+GROUP BY customer_id;
+3. In a JOIN ON condition
+You can't use an aggregate function directly in a JOIN condition.
+
+❌ Invalid:
+
+
+
+SELECT *
+FROM Delivery D
+JOIN Customer C
+ON D.customer_id = C.customer_id
+AND MAX(D.order_date) = '2019-08-01'; -- ❌ Invalid use of aggregate
+✅ Correct:
+Use a subquery to first calculate the aggregate:
+
+
+
+
+SELECT *
+FROM Delivery D
+JOIN (
+    SELECT customer_id, MAX(order_date) AS MaxDate
+    FROM Delivery
+    GROUP BY customer_id
+) AS MaxOrders
+ON D.customer_id = MaxOrders.customer_id
+AND D.order_date = MaxOrders.MaxDate;
+4. In CHECK constraints or DEFAULT values
+Aggregate functions are not allowed in table-level CHECK constraints or DEFAULT definitions.
+
+❌ Invalid:
+
+
+
+ALTER TABLE Delivery
+ADD CONSTRAINT chk_order_limit CHECK (order_date > MIN(order_date)); -- ❌ Not allowed
+5. In window/analytic functions without proper OVER clause
+In SQL Server, SUM() OVER() is allowed, but if you omit the OVER() clause, it becomes a plain aggregate and may cause issues depending on the context.
+
+❌ Invalid (in SELECT without GROUP BY):
+
+
+
+SELECT customer_id, SUM(order_total) -- ❌ Error if no GROUP BY and multiple rows
+FROM Orders;
+Summary Table
+Context	Can Use Aggregate?	Fix
+WHERE clause			❌ No	Use HAVING or subquery
+JOIN ON clause			❌ No	Pre-aggregate in subquery
+SELECT with non-aggregated cols	❌ No	Add GROUP BY
+CHECK constraint / DEFAULT	❌ No	Not allowed at all
+WINDOW function with no OVER()	❌ No	Add OVER()
+
+### 04 :
+✅ Why this query works without a GROUP BY:
+
+SELECT ROUND(
+    SUM(CASE WHEN D.order_date = D.customer_pref_delivery_date THEN 1 ELSE 0 END) * 1.00
+    / COUNT(*) * 100, 2
+) AS immediate_percentage
+FROM Delivery D
+INNER JOIN (
+    SELECT customer_id, MIN(order_date) AS First_Order_Date
+    FROM Delivery
+    GROUP BY customer_id
+) AS FirstOrders
+ON D.customer_id = FirstOrders.customer_id 
+AND D.order_date = FirstOrders.First_Order_Date;
+
+query computes a single percentage value over a filtered set of rows, so no GROUP BY is needed — the entire result set is treated as one group.
+
+
+
+### 04 : 🔍 What does OUTER APPLY do in SQL Server?
+OUTER APPLY is similar to a LEFT JOIN, but it's used with table-valued expressions or subqueries that depend on each row from the left-hand side.
+
+✅ How it works:
+OUTER APPLY evaluates the right-hand subquery for each row from the left-hand table.
+
+If the subquery returns rows, they are included in the result.
+
+If the subquery returns nothing, SQL Server fills in the columns from the subquery with NULL — just like a LEFT JOIN.
+
+📌 Example:
+sql
+Copier
+Modifier
+SELECT result.num
+FROM (SELECT 1 AS dummy) AS d
+OUTER APPLY (
+    SELECT TOP 1 num
+    FROM MyNumbers
+    GROUP BY num
+    HAVING COUNT(num) = 1
+    ORDER BY num DESC
+) AS result;
+(SELECT 1 AS dummy) is just a single dummy row to drive the OUTER APPLY.
+
+The subquery finds the top unique number (COUNT(num) = 1).
+
+If none exists, the OUTER APPLY still returns one row, but with NULL for result.num.
+
+🔄 Analogy:
+CROSS APPLY = like INNER JOIN → returns rows only when the subquery returns something.
+
+OUTER APPLY = like LEFT JOIN → returns all rows from the left side, and NULLs when the subquery returns nothing.
+
+Let me know if you'd like a visual or step-by-step breakdown of how it behaves on real data.
+
+Ex 22 for 50 sql Problem :
+
+SELECT result.num
+FROM (SELECT 1 AS dummy) AS d
+OUTER APPLY (
+    SELECT num
+    FROM (
+        SELECT num
+        FROM MyNumbers2
+        GROUP BY num
+        HAVING COUNT(num) = 1
+    ) AS unique_nums
+    ORDER BY num DESC
+    OFFSET 0 ROWS FETCH NEXT 1 ROWS ONLY
+) AS result;
+
+
+
+### 05 :  Round Function Trick :
+🔍 Explanation:
+
+ROUND(AVG(e2.age), 0) → rounds the average age to 0 decimal places = nearest integer.
+
+No syntax error in SQL Server this way.
+
+
+### 06 : 
+select product_id,max(change_date) as Maxdate  from Products
+where change_date <= '2019-08-16'
+group by product_id
+
+this example give us the max date grouped by the product_id without dates with less than or equal '2019-08-16'.
+
+
+### Trick 07:  
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+After Creating A Control Library Project If You Want To Add It To Another Project And That Project Is Not Under The Same Solution Of The Control Library Follow These Steps 
+1- Go To The Project References And Press Right Click Choose Add Reference Then Go To Browse Then Browse For The Dll File Of Your Control Library You Will Find It In 
+MyFirstContorlLibrary -> bin -> debug -> MyFirstContorlLibrary.dll
+Then Press Add
+2- Go To The ToolBox Of Your Project And Press Right Click Anywhere In the ToolBox And Choose Add Tab And Name The Tab MyContorls Or Whatever You Prefer.
+3- After Creating The Tab Press Right Click On It And Press On Choose Items Then Click On Browse Then Choose The  MyFirstContorlLibrary.dll file Then Press Ok, You Will Find The Contorls Of The Contol Library Project Added To The Tab

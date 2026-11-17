@@ -1,0 +1,10 @@
+What is the purpose of Inorder Traversal in binary trees?
+correct To visit all nodes in their ascending order
+
+
+
+What sequence does Inorder Traversal follow to visit nodes in a binary tree?
+Traverse the left subtree, Visit the root node, Traverse the right subtree.
+
+Which trees are particularly suited for Inorder Traversal?
+correct Binary trees

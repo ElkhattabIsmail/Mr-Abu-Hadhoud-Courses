@@ -1,0 +1,20 @@
+What can CTEs be referenced in?
+SELECT statements
+INSERT statements
+UPDATE statements
+All of the above
+
+
+
+
+How are CTEs different from subqueries?
+CTEs offer better readability
+CTEs can be referenced multiple times in the same query
+
+
+
+
+
+How are CTEs different from temporary tables?
+CTEs exist only during the execution of the query
+CTEs can be used for simpler operations

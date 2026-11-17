@@ -1,0 +1,477 @@
+1. ASCII
+Purpose: Returns the ASCII code value of the leftmost character of a string.
+
+Arguments: ASCII(character_expression)
+
+character_expression: A string or character.
+
+Returns: An integer representing the ASCII code.
+
+Example:
+
+
+SELECT ASCII('A'); -- Returns 65
+
+2. CHAR
+Purpose: Converts an ASCII code to a character.
+
+Arguments: CHAR(integer_expression)
+
+integer_expression: An integer between 0 and 255.
+
+Returns: A single character.
+
+Example:
+
+
+SELECT CHAR(65); -- Returns 'A'
+
+3. CHARINDEX
+Purpose: Returns the starting position of a substring within a string.
+
+Arguments: CHARINDEX(substring, string [, start_location])
+
+substring: The substring to search for.
+
+string: The string to search within.
+
+start_location (optional): The position to start searching.
+
+Returns: An integer representing the position of the substring (0 if not found).
+
+Example:
+
+
+SELECT CHARINDEX('world', 'Hello world'); -- Returns 7
+
+4. CONCAT
+Purpose: Concatenates two or more strings.
+
+Arguments: CONCAT(string1, string2 [, string3, ...])
+
+string1, string2, ...: Strings to concatenate.
+
+Returns: A concatenated string.
+
+Example:
+
+
+SELECT CONCAT('Hello', ' ', 'world'); -- Returns 'Hello world'
+
+
+5. CONCAT_WS
+Purpose: Concatenates strings with a separator.
+
+Arguments: CONCAT_WS(separator, string1, string2 [, string3, ...])
+
+separator: The separator to use between strings.
+
+string1, string2, ...: Strings to concatenate.
+
+Returns: A concatenated string with separators.
+
+Example:
+
+
+SELECT CONCAT_WS('-', '2023', '10', '05'); -- Returns '2023-10-05'
+
+
+6. DIFFERENCE
+Purpose: Compares the similarity of two strings using the SOUNDEX algorithm.
+
+Arguments: DIFFERENCE(string1, string2)
+
+string1, string2: Strings to compare.
+
+Returns: An integer between 0 (no similarity) and 4 (high similarity).
+
+Example:
+
+
+SELECT DIFFERENCE('Smith', 'Smyth'); -- Returns 4
+
+
+7. FORMAT
+Purpose: Formats a value with the specified format.
+
+Arguments: FORMAT(value, format [, culture])
+
+value: The value to format.
+
+format: The format string.
+
+culture (optional): The culture to use for formatting.
+
+Returns: A formatted string.
+
+Example:
+
+
+SELECT FORMAT(123456789, '##-##-#####'); -- Returns '12-34-56789'
+
+
+8. LEFT
+Purpose: Returns the left part of a string with the specified number of characters.
+
+Arguments: LEFT(string, length)
+
+string: The input string.
+
+length: The number of characters to return.
+
+Returns: A substring.
+
+Example:
+
+
+SELECT LEFT('Hello world', 5); -- Returns 'Hello'
+
+
+
+9. LEN
+
+Purpose: Returns the number of characters in a string.
+
+Arguments: LEN(string)
+
+string: The input string.
+
+Returns: An integer representing the length.
+
+Example:
+
+
+SELECT LEN('Hello world'); -- Returns 11
+
+
+
+10. LOWER
+Purpose: Converts a string to lowercase.
+
+Arguments: LOWER(string)
+
+string: The input string.
+
+Returns: A lowercase string.
+
+Example:
+
+
+SELECT LOWER('Hello World'); -- Returns 'hello world'
+
+
+
+11. LTRIM
+Purpose: Removes leading spaces from a string.
+
+Arguments: LTRIM(string)
+
+string: The input string.
+
+Returns: A string with leading spaces removed.
+
+Example:
+
+
+SELECT LTRIM('   Hello'); -- Returns 'Hello'
+
+
+
+
+12. PATINDEX
+Purpose: Returns the starting position of the first occurrence of a pattern in a string.
+
+Arguments: PATINDEX(pattern, string)
+
+pattern: The pattern to search for (can include wildcards).
+
+string: The string to search within.
+
+Returns: An integer representing the position of the pattern (0 if not found).
+
+Example:
+
+
+SELECT PATINDEX('%world%', 'Hello world'); -- Returns 7
+
+
+
+13. REPLACE
+Purpose: Replaces all occurrences of a substring with another substring.
+
+Arguments: REPLACE(string, old_substring, new_substring)
+
+string: The input string.
+
+old_substring: The substring to replace.
+
+new_substring: The substring to replace with.
+
+Returns: A modified string.
+
+Example:
+
+
+SELECT REPLACE('Hello world', 'world', ''); -- Returns 'Hello '
+
+
+
+14. RIGHT
+Purpose: Returns the right part of a string with the specified number of characters.
+
+Arguments: RIGHT(string, length)
+
+string: The input string.
+
+length: The number of characters to return.
+
+Returns: A substring.
+
+Example:
+
+
+SELECT RIGHT('Hello world', 5); -- Returns 'world'
+
+
+
+
+15. RTRIM
+Purpose: Removes trailing spaces from a string.
+
+Arguments: RTRIM(string)
+
+string: The input string.
+
+Returns: A string with trailing spaces removed.
+
+Example:
+
+
+SELECT RTRIM('Hello   '); -- Returns 'Hello'
+
+
+
+16. SOUNDEX
+Purpose: Returns a four-character SOUNDEX code for a string.
+
+Arguments: SOUNDEX(string)
+
+string: The input string.
+
+Returns: A four-character code.
+
+Example:
+
+
+SELECT SOUNDEX('Smith'); -- Returns 'S530'
+
+
+
+
+
+17. SPACE
+Purpose: Returns a string of repeated spaces.
+
+Arguments: SPACE(number)
+
+number: The number of spaces.
+
+Returns: A string of spaces.
+
+Example:
+
+
+SELECT 'Hello' + SPACE(2) + 'world'; -- Returns 'Hello  world'
+
+
+
+18. STR
+Purpose: Converts a numeric value to a string.
+
+Arguments: STR(number [, length [, decimal]])
+
+number: The numeric value.
+
+length (optional): The total length of the string.
+
+decimal (optional): The number of decimal places.
+
+Returns: A string representation of the number.
+
+Example:
+
+
+SELECT STR(123.456, 6, 2); -- Returns '123.46'
+
+
+-- Very Useful
+
+19. STRING_AGG
+Purpose: Concatenates values from a group into a single string with a separator.
+
+Arguments: STRING_AGG(expression, separator)
+
+expression: The value to concatenate.
+
+separator: The separator to use.
+
+Returns: A concatenated string.
+
+Example:
+
+
+SELECT STRING_AGG(Name, ', ') FROM Employees; -- Returns 'John, Jane, Alice'
+
+
+
+20. STRING_SPLIT
+Purpose: Splits a string into a table of substrings based on a separator.
+
+Arguments: STRING_SPLIT(string, separator)
+
+string: The input string.
+
+separator: The separator to split by.
+
+Returns: A table of substrings.
+
+Example:
+
+
+SELECT value FROM STRING_SPLIT('apple,banana,orange', ',');
+-- Returns:
+-- apple
+-- banana
+-- orange
+
+
+
+21. STUFF Useful
+Purpose: Deletes a part of a string and inserts another substring.
+
+Arguments: STUFF(string, start, length, new_substring)
+
+string: The input string.
+
+start: The position to start deleting/inserting.
+
+length: The number of characters to delete.
+
+new_substring: The substring to insert.
+
+Returns: A modified string.
+
+Example:
+
+
+SELECT STUFF('Hello world', 7, 5, ''); -- Returns 'Hello '
+
+
+
+22. SUBSTRING
+Purpose: Returns a part of a string.
+
+Arguments: SUBSTRING(string, start, length)
+
+string: The input string.
+
+start: The starting position.
+
+length: The number of characters to return.
+
+Returns: A substring.
+
+Example:
+
+
+SELECT SUBSTRING('Hello world', 7, 5); -- Returns 'world'
+
+
+
+23. TRANSLATE
+Purpose: Replaces characters in a string based on a translation map.
+
+Arguments: TRANSLATE(string, characters_to_replace, replacement_characters)
+
+string: The input string.
+
+characters_to_replace: The characters to replace.
+
+replacement_characters: The replacement characters.
+
+Returns: A modified string.
+
+Example:
+
+
+SELECT TRANSLATE('2*[3+4]/{7-2}', '[]{}', '()()'); -- Returns '2*(3+4)/(7-2)'
+
+
+
+
+
+24. TRIM
+Purpose: Removes leading and trailing spaces (or specified characters) from a string.
+
+Arguments: TRIM([characters FROM] string)
+
+characters (optional): The characters to remove.
+
+string: The input string.
+
+Returns: A trimmed string.
+
+Example:
+
+
+
+SELECT TRIM('   Hello   '); -- Returns 'Hello'
+
+
+
+25. UPPER
+
+Purpose: Converts a string to uppercase.
+
+Arguments: UPPER(string)
+
+string: The input string.
+
+Returns: An uppercase string.
+
+Example:
+
+
+SELECT UPPER('Hello world'); -- Returns 'HELLO WORLD'
+This covers all the built-in string functions in  Server. Let me know if you need further clarification!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

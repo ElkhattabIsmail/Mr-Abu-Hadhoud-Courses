@@ -1,0 +1,6 @@
+﻿  The Stack Library.cpp
+P:\OOP Application\Date Structures\The Stack Library\The Stack Library\The Stack Library.cpp(29,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+P:\OOP Application\Date Structures\The Stack Library\The Stack Library\The Stack Library.cpp(33,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+P:\OOP Application\Date Structures\The Stack Library\The Stack Library\The Stack Library.cpp(34,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+P:\OOP Application\Date Structures\The Stack Library\The Stack Library\The Stack Library.cpp(20,1): warning C4715: 'LetterPosition': not all control paths return a value
+  The Stack Library.vcxproj -> P:\OOP Application\Date Structures\The Stack Library\x64\Debug\The Stack Library.exe

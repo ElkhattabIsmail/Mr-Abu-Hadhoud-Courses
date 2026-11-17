@@ -1,0 +1,331 @@
+Counting the time complexity of a method involves analyzing how the execution time of the method grows as the size of the input grows. Time complexity is expressed using Big O notation (e.g., 
+O
+(
+n
+)
+O(n), 
+O
+(
+n
+2
+)
+O(n 
+2
+ ), 
+O
+(
+log
+⁡
+n
+)
+O(logn), etc.), which describes the upper bound of the growth rate of the algorithm.
+
+Here’s a step-by-step guide to counting the time complexity of any method:
+
+1. Identify the Input Size (
+n
+n)
+Determine what represents the input size (
+n
+n). For example:
+
+If the input is an array or list, 
+n
+n is the number of elements.
+
+If the input is a string, 
+n
+n is the length of the string.
+
+If the input is a matrix, 
+n
+n could be the number of rows or columns.
+
+2. Break Down the Method
+Analyze the method line by line or block by block.
+
+Identify loops, recursive calls, and any operations that depend on the input size.
+
+3. Count the Operations
+For each operation, determine how many times it executes in terms of 
+n
+n.
+
+Focus on the dominant term (the term that grows the fastest as 
+n
+n increases).
+
+4. Use Big O Rules
+Ignore Constants: If an operation takes 
+5
+n
+5n steps, it’s still 
+O
+(
+n
+)
+O(n).
+
+Focus on the Worst Case: Big O notation describes the upper bound (worst-case scenario).
+
+Additive Rule: If there are multiple steps, add their complexities.
+
+Example: 
+O
+(
+n
+)
++
+O
+(
+n
+)
+=
+O
+(
+n
+)
+O(n)+O(n)=O(n).
+
+Multiplicative Rule: If a step is nested inside another, multiply their complexities.
+
+Example: A loop inside another loop is 
+O
+(
+n
+×
+m
+)
+O(n×m), where 
+n
+n and 
+m
+m are the sizes of the loops.
+
+5. Simplify the Expression
+Drop lower-order terms and constants.
+
+Example: 
+O
+(
+3
+n
+2
++
+2
+n
++
+1
+)
+O(3n 
+2
+ +2n+1) simplifies to 
+O
+(
+n
+2
+)
+O(n 
+2
+ ).
+
+Examples of Time Complexity Analysis
+Example 1: Simple Loop
+csharp
+Copy
+void PrintNumbers(int[] numbers) {
+    for (int i = 0; i < numbers.Length; i++) {
+        Console.WriteLine(numbers[i]);
+    }
+}
+Input Size (
+n
+n): Length of the numbers array.
+
+Operations: The loop runs 
+n
+n times.
+
+Time Complexity: 
+O
+(
+n
+)
+O(n).
+
+Example 2: Nested Loops
+csharp
+Copy
+void PrintPairs(int[] numbers) {
+    for (int i = 0; i < numbers.Length; i++) {
+        for (int j = 0; j < numbers.Length; j++) {
+            Console.WriteLine(numbers[i] + ", " + numbers[j]);
+        }
+    }
+}
+Input Size (
+n
+n): Length of the numbers array.
+
+Operations: The outer loop runs 
+n
+n times, and the inner loop runs 
+n
+n times for each iteration of the outer loop.
+
+Time Complexity: 
+O
+(
+n
+×
+n
+)
+=
+O
+(
+n
+2
+)
+O(n×n)=O(n 
+2
+ ).
+
+Example 3: Recursive Method
+csharp
+Copy
+int Fibonacci(int n) {
+    if (n <= 1) return n;
+    return Fibonacci(n - 1) + Fibonacci(n - 2);
+}
+Input Size (
+n
+n): The value of 
+n
+n.
+
+Operations: Each call to Fibonacci makes two additional recursive calls, leading to exponential growth.
+
+Time Complexity: 
+O
+(
+2
+n
+)
+O(2 
+n
+ ).
+
+Example 4: Logarithmic Complexity
+csharp
+Copy
+void BinarySearch(int[] numbers, int target) {
+    int left = 0, right = numbers.Length - 1;
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (numbers[mid] == target) return;
+        if (numbers[mid] < target) left = mid + 1;
+        else right = mid - 1;
+    }
+}
+Input Size (
+n
+n): Length of the numbers array.
+
+Operations: The search space is halved in each iteration.
+
+Time Complexity: 
+O
+(
+log
+⁡
+n
+)
+O(logn).
+
+Common Time Complexities
+Complexity	Description	Example
+O
+(
+1
+)
+O(1)	Constant time	Accessing an array element
+O
+(
+log
+⁡
+n
+)
+O(logn)	Logarithmic time	Binary search
+O
+(
+n
+)
+O(n)	Linear time	Iterating through an array
+O
+(
+n
+log
+⁡
+n
+)
+O(nlogn)	Linearithmic time	Efficient sorting (e.g., QuickSort)
+O
+(
+n
+2
+)
+O(n 
+2
+ )	Quadratic time	Nested loops
+O
+(
+2
+n
+)
+O(2 
+n
+ )	Exponential time	Recursive Fibonacci
+O
+(
+n
+!
+)
+O(n!)	Factorial time	Generating all permutations
+Key Tips
+Look for Loops: Loops are a major contributor to time complexity.
+
+Recursion: Recursive methods often have exponential or logarithmic complexity.
+
+Built-in Methods: Understand the time complexity of built-in methods (e.g., Sort() is 
+O
+(
+n
+log
+⁡
+n
+)
+O(nlogn)).
+
+Worst Case: Always consider the worst-case scenario.
+
+Practice Problem
+Analyze the time complexity of the following method:
+
+csharp
+Copy
+void Example(int[] numbers) {
+    for (int i = 0; i < numbers.Length; i++) {
+        for (int j = i + 1; j < numbers.Length; j++) {
+            Console.WriteLine(numbers[i] + ", " + numbers[j]);
+        }
+    }
+}
+Answer: 
+O
+(
+n
+2
+)
+O(n 
+2
+ ).

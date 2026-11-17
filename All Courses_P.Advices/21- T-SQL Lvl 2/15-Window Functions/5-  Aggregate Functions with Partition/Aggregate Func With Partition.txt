@@ -1,0 +1,40 @@
+Aggregate Functions with Partition
+Introduction
+Window functions in SQL provide a way to perform calculations across sets of rows related to the current row. This lesson focuses on the AVG() and SUM() window functions used with the PARTITION BY clause. We will explore how these functions can calculate average and total values within each partition of the data.
+
+Scenario
+Using the Students table, which includes columns StudentID, Name, Subject, and Grade, we will demonstrate how to calculate the average and total grade for each subject.
+
+SQL Concepts: AVG and SUM with PARTITION BY
+AVG():
+Computes the average of a set of values.
+In combination with OVER (PARTITION BY), it calculates the average within each partition.
+SUM():
+Calculates the total sum of a numeric column.
+Used with OVER (PARTITION BY), it sums up values within each partition.
+Using AVG and SUM with PARTITION BY
+Example Query:
+
+SELECT 
+    StudentID, 
+    Name, 
+    Subject, 
+    Grade,
+    AVG(Grade) OVER (PARTITION BY Subject) AS SubjectAvgGrade,
+    SUM(Grade) OVER (PARTITION BY Subject) AS SubjectTotalGrade
+FROM 
+    Students
+ORDER BY Subject;
+
+
+This query calculates the average (SubjectAvgGrade) and total (SubjectTotalGrade) grade for each subject.
+PARTITION BY Subject groups the data by subject, so each subject is considered a separate partition for the calculations.
+Understanding the Output
+SubjectAvgGrade shows the average grade for each subject.
+SubjectTotalGrade shows the total sum of grades for each subject.
+Each row will display these calculated values alongside individual student data.
+The result is ordered by Subject, grouping students by their subject.
+Conclusion
+Using AVG() and SUM() with PARTITION BY in window functions allows for complex calculations within specific subsets of data. These are essential for analyzing grouped data, like calculating averages and totals within categories.
+
+This lesson illustrates the power and flexibility of window functions in SQL, particularly useful for data analysis tasks requiring aggregated calculations within distinct partitions of a dataset.

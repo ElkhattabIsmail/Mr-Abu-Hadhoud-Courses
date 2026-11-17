@@ -1,0 +1,4 @@
+﻿  #23 circle area inscriberd an arbitrary triange.cpp
+C:\Users\ULTRAPC\source\repos\(4,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ULTRAPC\source\repos\(29,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  #23 circle area inscriberd an arbitrary triange.vcxproj -> C:\Users\ULTRAPC\source\repos\#23 circle area inscriberd an arbitrary triange\x64\Debug\#23 circle area inscriberd an arbitrary triange.exe

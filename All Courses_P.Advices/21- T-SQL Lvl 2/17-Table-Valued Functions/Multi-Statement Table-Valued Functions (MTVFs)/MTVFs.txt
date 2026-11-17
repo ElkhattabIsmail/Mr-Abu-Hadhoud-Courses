@@ -1,0 +1,133 @@
+Multi-Statement Table-Valued Functions (MTVFs) in T-SQL
+
+Understand how to create and use Multi-Statement Table-Valued Functions (MTVFs) in T-SQL to encapsulate complex logic and return tabular data.
+
+Introduction:
+In T-SQL, Multi-Statement Table-Valued Functions (MTVFs) offer a powerful way to encapsulate complex logic and return tabular data. 
+MTVFs can be used to perform multiple SQL statements, manipulate data, and return the result as a table.
+This lesson will guide you through the process of creating and using MTVFs based on the previously provided table scripts.
+
+Recap of Previously Created Objects:
+Before we proceed, let's recap the previously created objects:
+
+Table Scripts:
+
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    Name NVARCHAR(50),
+    Subject NVARCHAR(50),
+    Grade INT
+);
+
+
+CREATE TABLE Teachers (
+    TeacherID INT PRIMARY KEY,
+    Name NVARCHAR(50),
+    Subject NVARCHAR(50)
+);
+Explanation:
+
+We have two tables: Students and Teachers, which store information about students and teachers, respectively.
+Creating a Multi-Statement Table-Valued Function:
+Now, let's create a Multi-Statement Table-Valued Function named "GetTopPerformingStudents".
+
+CREATE FUNCTION dbo.GetTopPerformingStudents()
+RETURNS @Result TABLE (
+    StudentID INT,
+    Name NVARCHAR(50),
+    Subject NVARCHAR(50),
+    Grade INT
+)
+AS
+BEGIN
+    INSERT INTO @Result (StudentID, Name, Subject, Grade)
+    SELECT TOP 3 StudentID, Name, Subject, Grade
+    FROM Students
+    ORDER BY Grade DESC;
+
+    RETURN;
+END;
+Explanation:
+
+In the above script, we create a Multi-Statement Table-Valued Function named "GetTopPerformingStudents".
+The function returns a table with the columns StudentID, Name, Subject, and Grade.
+Inside the function, we declare a table variable called @Result to hold the result set.
+We use the INSERT INTO statement to populate the @Result table variable with the top 5 performing students from the Students table, ordered by Grade in descending order.
+Finally, we return the @Result table variable.
+Using the Multi-Statement Table-Valued Function:
+Now that we have created the Multi-Statement Table-Valued Function, let's use it in a query.
+
+SELECT *
+FROM dbo.GetTopPerformingStudents();
+
+
+Explanation:
+
+We use the SELECT statement to retrieve data from the Multi-Statement Table-Valued Function dbo.GetTopPerformingStudents().
+The function is invoked like a table, so we can select all columns (*) from it.
+The result set will contain the top 3 performing students based on their grades.
+Further Explorations:
+Now that you understand how to create and use Multi-Statement Table-Valued Functions, you can further explore the possibilities:
+
+-- Example: Join Teachers with the result of the Multi-Statement Table-Valued Function
+SELECT t.Name AS TeacherName, s.Name AS StudentName, s.Grade
+FROM Teachers t
+JOIN dbo.GetTopPerformingStudents() s ON t.Subject = s.Subject
+
+
+Explanation:
+
+In this example, we join the result of the Multi-Statement Table-Valued Function dbo.GetTopPerformingStudents() with the Teachers table.
+We join the tables based on the shared Subject column.
+The result set will contain the names of the teachers, the names of the top performing students, and their grades.
+Conclusion:
+Multi-Statement Table-Valued Functions (MTVFs) are a powerful tool for encapsulating complex logic and returning tabular data. In this lesson, we learned how to create and use MTVFs based on the previously provided table scripts. By incorporating MTVFs into your T-SQL code, you can modularize and reuse complex logic, making your queries more efficient and maintainable.
+
+Next Steps:
+Now that you have a good understanding of Multi-Statement Table-Valued Functions, continue practicing by creating your own MTVFs. Explore different scenarios, such as filtering data, performing calculations, or combining multiple tables. Keep experimenting and expanding your knowledge of T-SQL!
+
+
+
+
+
+
+
+
+
+
+What DIfferences Between View And MTVFs
+
+Reply
+
+view
+اى عملية modify فيها
+بيأثر على ال table الاصلى مثل 
+insert-update
+بينما فى
+mtvfs 
+التأثير بيكون على ال 
+variable table
+فقط
+
+Reply
+بالاضافة الى ذلك ال
+view 
+لا تاخذ بارامترات بينما ال
+MTVFs
+تاخذ بارامترات
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

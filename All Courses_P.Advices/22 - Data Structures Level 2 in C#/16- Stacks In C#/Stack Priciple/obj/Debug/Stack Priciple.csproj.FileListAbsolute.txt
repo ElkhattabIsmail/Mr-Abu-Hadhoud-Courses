@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Stack Priciple\bin\Debug\Stack Priciple.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Stack Priciple\bin\Debug\Stack Priciple.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Stack Priciple\bin\Debug\Stack Priciple.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Stack Priciple\obj\Debug\Stack Priciple.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Stack Priciple\obj\Debug\Stack Priciple.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Stack Priciple\obj\Debug\Stack Priciple.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\16- Stacks In C#\Stack Priciple\obj\Debug\Stack Priciple.pdb

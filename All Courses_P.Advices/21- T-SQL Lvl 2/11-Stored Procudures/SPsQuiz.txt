@@ -1,0 +1,236 @@
+What is a stored procedure in T-SQL?
+A precompiled collection of SQL statements and optional control-of-flow statements.
+
+
+Which of the following is a benefit of using stored procedures?
+correctReduced network traffic
+
+
+In SQL Server, are stored procedure names case-sensitive?
+It depends on the collation setting of the database or server. If the collation is case-sensitive (e.g., SQL_Latin1_General_CP1_CS_AS), stored procedure names are case-sensitive. If the collation is case-insensitive (e.g., SQL_Latin1_General_CP1_CI_AS), they are not case-sensitive.
+
+
+What does the SCOPE_IDENTITY() function return?
+correct The last used identity value in the current scope
+
+
+Which statement is true about the OUTPUT parameters in a stored procedure?
+They are read-only.
+They cannot be used in a SELECT statement.
+* Correct ans -> They can return a value to the calling procedure.
+They are optional in all stored procedures.
+
+
+
+7 / 41
+Can a stored procedure call another stored procedure?
+Yes, even if SP in another database
+
+
+
+Which of the following is a valid reason to use stored procedures?
+correctTo prevent SQL injection attacks
+Not Correct To directly modify the server's operating system
+correctTo encapsulate business logic
+correctTo improve performance
+
+
+
+Can stored procedures be used to generate dynamic SQL?
+Yes, using the EXECUTE statement
+
+
+
+How can you improve the performance of a stored procedure?
+Using indexes effectively
+
+
+ما هو تجسس المعلمات في سياق الإجراءات المخزنة؟
+What is parameter sniffing in the context of stored procedures?
+A process where SQL Server optimizes execution based on parameter values.
+
+
+What is the default value of a parameter if not specified in a T-SQL stored procedure?
+NULL
+
+What should be used to pass a table of data to a stored procedure?
+Table-valued parameter
+
+
+How can you prevent SQL injection in stored procedures?
+No -> By using dynamic SQL
+Correct -> By using parameterized queries
+
+
+
+What is the purpose of the RETURN statement in a stored procedure?
+false To return data to the caller
+false To indicate the successful completion of the procedure
+True To exit the procedure and return an integer status code
+
+
+How can the output of a stored procedure be captured?
+Using the OUTPUT keyword
+
+
+
+What is the main difference between a function and a stored procedure in SQL Server?
+incorrect A function cannot return a result set.
+incorrect A stored procedure can return multiple values, but a function can only return one.
+True -> A function can be used in a SELECT statement, but a stored procedure cannot.
+
+Can a stored procedure in T-SQL have a transaction within it?
+correct Yes, including nested transactions
+
+
+What is the result of nesting too many stored procedures?
+correct Potential stack overflow    احتمالية تجاوز سعة المكدس
+
+
+What is the impact of using the sp_ prefix in the name of a user-defined stored procedure?.
+It may cause name conflict issues with system stored procedures.
+قد يؤدي ذلك إلى حدوث مشكلات تعارض في الأسماء مع الإجراءات المخزنة في النظام.
+
+
+What is a key benefit of encapsulating business logic in stored procedures?
+correct It makes the application layer simpler and more secure
+
+
+
+Can a stored procedure contain dynamic SQL?
+correctYes, and it can be executed using EXEC or sp_executesql.
+
+
+
+Can a stored procedure in T-SQL invoke a web service?
+Yes, but only through CLR integration   (Common Languages Run-Time)
+
+
+
+What is the use of the WITH ENCRYPTION option when creating a stored procedure?
+To encrypt the procedure's source code to protect it from being viewed.
+
+
+What is the role of the sp_executesql stored procedure in SQL Server?
+correct To execute a dynamic SQL statement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

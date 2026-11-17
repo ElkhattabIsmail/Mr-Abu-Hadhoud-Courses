@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dict Using Arrays", "Dict Using Arrays.csproj", "{18B438E2-520C-458B-974F-9E5D75B8DB0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18B438E2-520C-458B-974F-9E5D75B8DB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B438E2-520C-458B-974F-9E5D75B8DB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B438E2-520C-458B-974F-9E5D75B8DB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B438E2-520C-458B-974F-9E5D75B8DB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38015BE0-54DC-4AD7-8F4A-2551C7A7B4FE}
+	EndGlobalSection
+EndGlobal

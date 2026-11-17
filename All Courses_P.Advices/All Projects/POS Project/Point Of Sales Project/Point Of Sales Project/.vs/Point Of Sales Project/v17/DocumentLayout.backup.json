@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\POS Project\\Point Of Sales Project\\Point Of Sales Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AFB9CA3-BE93-443E-9A27-E88E98B1D408}|..\\POS_BusinessLayer\\POS_BusinessLayer.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\pos project\\point of sales project\\pos_businesslayer\\clsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA131C20-C636-46B4-8281-9C69542FFEA9}|Point Of Sales Project.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\pos project\\point of sales project\\point of sales project\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA131C20-C636-46B4-8281-9C69542FFEA9}|Point Of Sales Project.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5FDCB-5D04-4AFD-A32C-46B46D0E2D57}|..\\POS_DataAccessLayer\\POS_DataAccessLayer.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\pos project\\point of sales project\\pos_dataaccesslayer\\clsusersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClsUsersData.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\POS Project\\Point Of Sales Project\\POS_DataAccessLayer\\ClsUsersData.cs",
+              "RelativeDocumentMoniker": "..\\POS_DataAccessLayer\\ClsUsersData.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\POS Project\\Point Of Sales Project\\POS_DataAccessLayer\\ClsUsersData.cs",
+              "RelativeToolTip": "..\\POS_DataAccessLayer\\ClsUsersData.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T13:30:49.206Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\POS Project\\Point Of Sales Project\\Point Of Sales Project\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\POS Project\\Point Of Sales Project\\Point Of Sales Project\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:35:04.842Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClsUser.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\POS Project\\Point Of Sales Project\\POS_BusinessLayer\\ClsUser.cs",
+              "RelativeDocumentMoniker": "..\\POS_BusinessLayer\\ClsUser.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\POS Project\\Point Of Sales Project\\POS_BusinessLayer\\ClsUser.cs",
+              "RelativeToolTip": "..\\POS_BusinessLayer\\ClsUser.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAE0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:59:10.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

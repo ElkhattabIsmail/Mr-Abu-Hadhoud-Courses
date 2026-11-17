@@ -1,0 +1,44 @@
+Triggers in T-SQL 👉 are special types of stored procedures 👈 that are automatically executed in response to specific events occurring in the database. These events can include data modifications, such as INSERT, UPDATE, or DELETE operations, or database-level events like table creations or modifications.
+
+Triggers are defined at the table level and are associated with one or more specific events. When the specified event occurs, the trigger's code is executed, allowing you to perform additional actions or validations.
+
+✔️ Triggers can be useful in various scenarios, such as:
+
+Enforcing business rules: Triggers can enforce complex business rules by validating data before allowing it to be inserted, updated, or deleted.
+Auditing and logging: Triggers can be used to track changes made to database tables, capturing information like who made the change, when it occurred, and what data was modified.
+Data synchronization: Triggers can be used to synchronize data between tables or databases in real-time, ensuring consistency across systems.
+Automatic updates: Triggers can automatically update related tables or fields when a specific event occurs, simplifying data maintenance.
+
+✔️ Triggers in T-SQL are created using the CREATE TRIGGER statement and consist of three main components:
+
+🥇 Trigger Event: Specifies the event or events that will activate the trigger, such as INSERT, UPDATE, DELETE, or table-level events.
+🥈 Trigger Condition: Defines the condition that must be met for the trigger to execute. This condition can be based on specific column values or other criteria.
+🥉 Trigger Action: Contains the code or actions that will be executed when the trigger is activated. This can include SQL statements, stored procedure calls, or other operations.
+
+✔️ Triggers can be classified into two types based on when they are executed:
+
+🥇 After Triggers: These triggers are executed after the triggering event has occurred and the data modifications have been made.
+ They are commonly used for auditing or logging purposes.
+
+🥈 Instead of Triggers: These triggers are executed instead of the triggering event.
+ They allow you to override the default behavior of the event and perform custom actions.
+ Instead of triggers are commonly used for enforcing complex business rules.
+
+
+
+It's important to use triggers judiciously as they can impact performance and introduce additional complexity to database operations. Proper testing and monitoring are essential when working with triggers to ensure they function as intended and do not cause any unintended side effects.
+
+Q1 - What is a trigger in T-SQL?
+A special type of stored procedure
+
+
+Q2 - When should triggers be used?
+Only when enforcing complex business rules
+
+
+Q3 - Instead of Triggers: 
+These triggers are executed instead of the triggering event. They allow you to override the default behavior of the event and perform custom actions.
+correct True
+
+
+

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Update Statement in C# and Sql", "Update Statement in C# and Sql.csproj", "{CBC73126-7304-42D3-8846-D10EA2945733}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBC73126-7304-42D3-8846-D10EA2945733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC73126-7304-42D3-8846-D10EA2945733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC73126-7304-42D3-8846-D10EA2945733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC73126-7304-42D3-8846-D10EA2945733}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22F2242A-2AF9-4A98-AF61-CB75D520718E}
+	EndGlobalSection
+EndGlobal

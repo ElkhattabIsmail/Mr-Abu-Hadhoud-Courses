@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\The Indexer\bin\Debug\The Indexer.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\The Indexer\bin\Debug\The Indexer.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\The Indexer\bin\Debug\The Indexer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\The Indexer\obj\Debug\The Indexer.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\The Indexer\obj\Debug\The Indexer.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\The Indexer\obj\Debug\The Indexer.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course20\19-Operator OverLeading\The Indexer\obj\Debug\The Indexer.pdb

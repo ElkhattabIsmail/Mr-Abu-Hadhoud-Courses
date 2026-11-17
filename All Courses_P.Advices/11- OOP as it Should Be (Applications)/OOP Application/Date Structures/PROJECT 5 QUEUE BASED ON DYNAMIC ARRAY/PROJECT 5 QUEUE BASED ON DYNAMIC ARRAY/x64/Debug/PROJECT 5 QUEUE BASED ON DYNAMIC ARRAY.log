@@ -1,0 +1,9 @@
+﻿  PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY.cpp
+P:\OOP Application\Date Structures\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\clsString.h(45,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+P:\OOP Application\Date Structures\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\clsString.h(50,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+P:\OOP Application\Date Structures\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\clsString.h(62,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+P:\OOP Application\Date Structures\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\clsString.h(199,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+P:\OOP Application\Date Structures\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\clsString.h(333,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+P:\OOP Application\Date Structures\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\clsString.h(381,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+P:\OOP Application\Date Structures\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\clsQueueLine.h(108,30): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY.vcxproj -> P:\OOP Application\Date Structures\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY\x64\Debug\PROJECT 5 QUEUE BASED ON DYNAMIC ARRAY.exe

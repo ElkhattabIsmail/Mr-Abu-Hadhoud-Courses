@@ -1,0 +1,12 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly\bin\Debug\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly\bin\Debug\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly\bin\Debug\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly\obj\Debug\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly\obj\Debug\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly\obj\Debug\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly\obj\Debug\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly\bin\Debug\EmployeesBussinessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly\bin\Debug\EmployeesDataAccessLayer.dll
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly\bin\Debug\EmployeesBussinessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly\bin\Debug\EmployeesDataAccessLayer.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Course21- Database Level2 - Concepts & T-SQL\4-Case Statement\UpdatingRecords_Using_T-SQL_Or_Using_C#_Directly\obj\Debug\Updating.463672FC.Up2Date

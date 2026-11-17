@@ -1,0 +1,23 @@
+P:\Windows Form Desk apps\Guna Ui Project\bin\Debug\Guna Ui Project.exe.config
+P:\Windows Form Desk apps\Guna Ui Project\bin\Debug\Guna Ui Project.exe
+P:\Windows Form Desk apps\Guna Ui Project\bin\Debug\Guna Ui Project.pdb
+P:\Windows Form Desk apps\Guna Ui Project\bin\Debug\Guna.UI2.dll
+P:\Windows Form Desk apps\Guna Ui Project\obj\Debug\Guna Ui Project.csproj.AssemblyReference.cache
+P:\Windows Form Desk apps\Guna Ui Project\obj\Debug\Guna_Ui_Project.Form1.resources
+P:\Windows Form Desk apps\Guna Ui Project\obj\Debug\Guna_Ui_Project.Properties.Resources.resources
+P:\Windows Form Desk apps\Guna Ui Project\obj\Debug\Guna Ui Project.csproj.GenerateResource.cache
+P:\Windows Form Desk apps\Guna Ui Project\obj\Debug\Guna Ui Project.csproj.CoreCompileInputs.cache
+P:\Windows Form Desk apps\Guna Ui Project\obj\Debug\Guna Ui .6DC41C7D.Up2Date
+P:\Windows Form Desk apps\Guna Ui Project\obj\Debug\Guna Ui Project.exe
+P:\Windows Form Desk apps\Guna Ui Project\obj\Debug\Guna Ui Project.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Guna Ui Project\bin\Debug\Guna Ui Project.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Guna Ui Project\bin\Debug\Guna Ui Project.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Guna Ui Project\bin\Debug\Guna Ui Project.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Guna Ui Project\obj\Debug\Guna Ui Project.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Guna Ui Project\obj\Debug\Guna_Ui_Project.Form1.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Guna Ui Project\obj\Debug\Guna_Ui_Project.Properties.Resources.resources
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Guna Ui Project\obj\Debug\Guna Ui Project.csproj.GenerateResource.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Guna Ui Project\obj\Debug\Guna Ui Project.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Guna Ui Project\obj\Debug\Guna Ui .6DC41C7D.Up2Date
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Guna Ui Project\obj\Debug\Guna Ui Project.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\Win Forms Project With Data Base\Guna Ui Project\obj\Debug\Guna Ui Project.pdb

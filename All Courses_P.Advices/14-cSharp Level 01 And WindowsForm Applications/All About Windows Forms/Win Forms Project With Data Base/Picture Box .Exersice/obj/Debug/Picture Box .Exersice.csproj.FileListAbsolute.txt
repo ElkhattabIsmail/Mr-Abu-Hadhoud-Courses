@@ -1,0 +1,10 @@
+P:\Windows Form Desk apps\Picture Box .Exersice\bin\Debug\Picture_Box.Exersice.exe.config
+P:\Windows Form Desk apps\Picture Box .Exersice\bin\Debug\Picture_Box.Exersice.exe
+P:\Windows Form Desk apps\Picture Box .Exersice\bin\Debug\Picture_Box.Exersice.pdb
+P:\Windows Form Desk apps\Picture Box .Exersice\obj\Debug\Picture Box .Exersice.csproj.AssemblyReference.cache
+P:\Windows Form Desk apps\Picture Box .Exersice\obj\Debug\Picture_Box.Exersice.Form1.resources
+P:\Windows Form Desk apps\Picture Box .Exersice\obj\Debug\Picture_Box.Exersice.Properties.Resources.resources
+P:\Windows Form Desk apps\Picture Box .Exersice\obj\Debug\Picture Box .Exersice.csproj.GenerateResource.cache
+P:\Windows Form Desk apps\Picture Box .Exersice\obj\Debug\Picture Box .Exersice.csproj.CoreCompileInputs.cache
+P:\Windows Form Desk apps\Picture Box .Exersice\obj\Debug\Picture_Box.Exersice.exe
+P:\Windows Form Desk apps\Picture Box .Exersice\obj\Debug\Picture_Box.Exersice.pdb

@@ -1,0 +1,5 @@
+﻿  Give the Index of the Non-repeating character.cpp
+P:\problem solving Out of Course\Give the Index of the Non-repeating character\Give the Index of the Non-repeating character.cpp(54,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+P:\problem solving Out of Course\Give the Index of the Non-repeating character\Give the Index of the Non-repeating character.cpp(100,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+P:\problem solving Out of Course\Give the Index of the Non-repeating character\Give the Index of the Non-repeating character.cpp(100,17): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  Give the Index of the Non-repeating character.vcxproj -> P:\problem solving Out of Course\Give the Index of the Non-repeating character\x64\Debug\Give the Index of the Non-repeating character.exe

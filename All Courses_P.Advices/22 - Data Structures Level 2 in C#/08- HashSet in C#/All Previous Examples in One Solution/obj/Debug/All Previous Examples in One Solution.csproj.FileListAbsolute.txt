@@ -1,0 +1,7 @@
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\All Previous Examples in One Solution\bin\Debug\All Previous Examples in One Solution.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\All Previous Examples in One Solution\bin\Debug\All Previous Examples in One Solution.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\All Previous Examples in One Solution\bin\Debug\All Previous Examples in One Solution.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\All Previous Examples in One Solution\obj\Debug\All Previous Examples in One Solution.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\All Previous Examples in One Solution\obj\Debug\All Previous Examples in One Solution.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\All Previous Examples in One Solution\obj\Debug\All Previous Examples in One Solution.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\All Previous Examples in One Solution\obj\Debug\All Previous Examples in One Solution.pdb

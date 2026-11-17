@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\bin\Debug\IntersectionExample.exe.config
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\bin\Debug\IntersectionExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\bin\Debug\IntersectionExample.pdb
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\obj\Debug\IntersectionExample.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\obj\Debug\IntersectionExample.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\obj\Debug\IntersectionExample.exe
+D:\Dropbox\Personal\Advices\2021\22 DataStructures Level 2\06 HashSet\08 Operations in Hashset\02 Intersection Operation with HashSet\IntersectionExample\IntersectionExample\obj\Debug\IntersectionExample.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\08- IntersectionExample\IntersectionExample\bin\Debug\IntersectionExample.exe.config
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\08- IntersectionExample\IntersectionExample\bin\Debug\IntersectionExample.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\08- IntersectionExample\IntersectionExample\bin\Debug\IntersectionExample.pdb
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\08- IntersectionExample\IntersectionExample\obj\Debug\IntersectionExample.csproj.AssemblyReference.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\08- IntersectionExample\IntersectionExample\obj\Debug\IntersectionExample.csproj.CoreCompileInputs.cache
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\08- IntersectionExample\IntersectionExample\obj\Debug\IntersectionExample.exe
+C:\Users\ULTRAPC\OneDrive\Bureau\22 - Data Structures Level 2 in C#\08- HashSet in C#\08- IntersectionExample\IntersectionExample\obj\Debug\IntersectionExample.pdb

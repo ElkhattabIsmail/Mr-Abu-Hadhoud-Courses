@@ -1,0 +1,6 @@
+C:\Users\HUSSAIN\source\repos\Code Generator\Global Classes\bin\Release\Global Classes.dll
+C:\Users\HUSSAIN\source\repos\Code Generator\Global Classes\bin\Release\Global Classes.pdb
+C:\Users\HUSSAIN\source\repos\Code Generator\Global Classes\obj\Release\Global Classes.csproj.AssemblyReference.cache
+C:\Users\HUSSAIN\source\repos\Code Generator\Global Classes\obj\Release\Global Classes.csproj.CoreCompileInputs.cache
+C:\Users\HUSSAIN\source\repos\Code Generator\Global Classes\obj\Release\Global Classes.dll
+C:\Users\HUSSAIN\source\repos\Code Generator\Global Classes\obj\Release\Global Classes.pdb

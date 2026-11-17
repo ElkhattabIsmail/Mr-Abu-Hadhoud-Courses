@@ -1,0 +1,23 @@
+الحمدلله تم الإنتهاء من الكورس17بنجاح.
+
+A site of Practicing sql
+
+ https://www.sql-practice.com/
+
+ كالعادة هنا تجدون حل جميع الوظائف لكافة المستويات على ال
+ Github 
+الخاص بي:
+https://github.com/SaleemAdhamKassab/ProblemSolving/tree/main/Algorithms%20And%20Data%20Structures/Programming%20Advices
+
+بالإضافة اني قمت بالبحث وحل العديد من ال
+ queries 
+الإضافية لتقوية المنطق حسب مانصح به الأستاذ باخر الكورس 
+يمكنكم ايجادها من خلال الروابط التالي:
+
+1- Source1:
+https://github.com/SaleemAdhamKassab/ProblemSolving/tree/main/Database/SQL
+
+2- Source2:
+http://mukeshonplsql.blogspot.com/2015/10/hr-schema-queries.html
+
+مشكور جدا أستاذ محمد على جهودك العظيمة ورحم الله والديك وكل التوفيق لكم أخواني الكرام.

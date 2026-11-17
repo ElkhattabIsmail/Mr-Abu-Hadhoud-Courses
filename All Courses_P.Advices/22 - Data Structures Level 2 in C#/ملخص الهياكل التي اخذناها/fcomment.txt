@@ -1,0 +1,48 @@
+List:
+
+Generic
+Dynamic
+Index Access
+Not Unique
+Maintains Insertion Order
+Big O: Addition to the End = O(1), Else = O(n)
+
+
+HashSet:
+
+Generic
+Dynamic
+No Index Access
+Unique
+Order is Not Guaranteed
+Big O: Average O(1)
+
+
+SortedSet:
+
+Generic
+Dynamic
+No Index Access
+Unique
+Sorted Order
+Big O: O(log n)
+
+
+ArrayList:
+
+Non-Generic
+Dynamic
+Index Access
+Not Unique
+Maintains Insertion Order
+Big O: O(n)
+
+
+Arrays:
+
+Generic
+Not Dynamic (Fixed Size)
+Index Access
+Not Unique
+Maintains Insertion Order
+Big O: O(n)

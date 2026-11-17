@@ -1,0 +1,11 @@
+select distinct
+S.student_id, S.student_name, sub.subject_name,
+COALESCE((select count(*)  from Examinations where student_id = S.student_id and subject_name = sub.subject_name group by student_id),0)
+as attended_exams
+from Students S
+left join Examinations Exam
+ON S.student_id = Exam.student_id
+right join Subjects sub
+On sub.subject_name  in (select * from Subjects)
+where S.student_id is not null
+ORDER BY student_id,subject_name

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\Algorithm Level 4\\STATIC METHODS AND VARIABLES\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB66F9F-F2B8-4007-ACB9-EDC2AED37030}|STATIC METHODS AND VARIABLES\\STATIC METHODS AND VARIABLES.vcxproj|P:\\Algorithm Level 4\\STATIC METHODS AND VARIABLES\\STATIC METHODS AND VARIABLES\\STATIC METHODS AND VARIABLES.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ECB66F9F-F2B8-4007-ACB9-EDC2AED37030}|STATIC METHODS AND VARIABLES\\STATIC METHODS AND VARIABLES.vcxproj|solutionrelative:STATIC METHODS AND VARIABLES\\STATIC METHODS AND VARIABLES.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "STATIC METHODS AND VARIABLES.cpp",
+              "DocumentMoniker": "P:\\Algorithm Level 4\\STATIC METHODS AND VARIABLES\\STATIC METHODS AND VARIABLES\\STATIC METHODS AND VARIABLES.cpp",
+              "RelativeDocumentMoniker": "STATIC METHODS AND VARIABLES\\STATIC METHODS AND VARIABLES.cpp",
+              "ToolTip": "P:\\Algorithm Level 4\\STATIC METHODS AND VARIABLES\\STATIC METHODS AND VARIABLES\\STATIC METHODS AND VARIABLES.cpp",
+              "RelativeToolTip": "STATIC METHODS AND VARIABLES\\STATIC METHODS AND VARIABLES.cpp",
+              "ViewState": "AQIAACAAAAAAAAAAAAAowDMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-10T15:25:58.337Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course20\\24-Trafic Light Project\\Traffic Light Project C20\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8593B7E6-6EFB-4BE7-ADED-4842B5E8D631}|Traffic Light Project C20.csproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course20\\24-Trafic Light Project\\Traffic Light Project C20\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8593B7E6-6EFB-4BE7-ADED-4842B5E8D631}|Traffic Light Project C20.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8593B7E6-6EFB-4BE7-ADED-4842B5E8D631}|Traffic Light Project C20.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\course20\\24-trafic light project\\traffic light project c20\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8593B7E6-6EFB-4BE7-ADED-4842B5E8D631}|Traffic Light Project C20.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8593B7E6-6EFB-4BE7-ADED-4842B5E8D631}|Traffic Light Project C20.csproj|c:\\users\\ultrapc\\onedrive\\bureau\\course20\\24-trafic light project\\traffic light project c20\\ctrltraficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8593B7E6-6EFB-4BE7-ADED-4842B5E8D631}|Traffic Light Project C20.csproj|solutionrelative:ctrltraficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8593B7E6-6EFB-4BE7-ADED-4842B5E8D631}|Traffic Light Project C20.csproj|C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course20\\24-Trafic Light Project\\Traffic Light Project C20\\ctrltraficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8593B7E6-6EFB-4BE7-ADED-4842B5E8D631}|Traffic Light Project C20.csproj|solutionrelative:ctrltraficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CtrlTraficLight.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course20\\24-Trafic Light Project\\Traffic Light Project C20\\CtrlTraficLight.cs",
+              "RelativeDocumentMoniker": "CtrlTraficLight.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course20\\24-Trafic Light Project\\Traffic Light Project C20\\CtrlTraficLight.cs [Design]",
+              "RelativeToolTip": "CtrlTraficLight.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T15:25:21.753Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CtrlTraficLight.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course20\\24-Trafic Light Project\\Traffic Light Project C20\\CtrlTraficLight.cs",
+              "RelativeDocumentMoniker": "CtrlTraficLight.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course20\\24-Trafic Light Project\\Traffic Light Project C20\\CtrlTraficLight.cs",
+              "RelativeToolTip": "CtrlTraficLight.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAApwIIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T15:28:14.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course20\\24-Trafic Light Project\\Traffic Light Project C20\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course20\\24-Trafic Light Project\\Traffic Light Project C20\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T15:24:50.217Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course20\\24-Trafic Light Project\\Traffic Light Project C20\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ULTRAPC\\OneDrive\\Bureau\\Course20\\24-Trafic Light Project\\Traffic Light Project C20\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T16:50:06.017Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
